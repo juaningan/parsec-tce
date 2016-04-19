@@ -1,0 +1,12 @@
+#
+# Fichero que guarda los nombres y codigos de los FS del Alumbrado de Estacion
+#
+#
+# Codigo del FS		Texto
+#
+
+TOTAL_NOMBRES	3
+
+1	dummy	"Falta Alimentacion Alumbrado NORMAL"
+2	dummy	"Falta Alimentacion Alumbrado EMERGENCIA"
+3	dummy	"Falta Alimentacion Alumbrado AUTONOMO"

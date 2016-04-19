@@ -1,0 +1,18 @@
+#
+# Fichero que guarda los nombres y codigos de los estados de ventilacion 
+#
+#
+# Codigo del estado 			Nombre del estado
+# 		
+#
+
+TOTAL_NOMBRES	7
+
+
+912	6	10	dummy	"Disyuntor CON DEFECTO"
+913	6	10	dummy	"Disyuntor DESCONECYADO"
+914	6	10	dummy	"Disyuntor MAL"
+915	6	10	dummy	"Interruptor ABIERTO"
+916	6	10	dummy	"Disparo Termico"
+917	6	10	dummy	"Sin tension"
+918	6	10	dummy	"Disyuntor OFF"

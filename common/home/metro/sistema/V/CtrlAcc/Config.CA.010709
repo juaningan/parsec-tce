@@ -1,0 +1,54 @@
+# FICHERO DE CONFIGURACION DEL UI CONTROL DE ACCESOS
+
+CONTROL DE ACCESOS
+
+
+
+# Fichero de alarmas seleccionadas por el usuario
+
+B./AlarmasSel.CA
+
+# Numero de dias que se consideran alarmas
+
+C3
+
+# Numero maximo de alarmas
+
+D100
+
+# Cada cuantos segundos se envia un mensaje de 'sigo vivo'
+
+#E60
+
+# Tipos de alarma para seleccionar
+# Gtexto_del_menu 	clave_buscar 
+
+GCONCENTRADOR		74 75
+GALARMAS		52 53 56 57 65 70 72
+GPUERTA			41 4D 4E 4F 66 6D
+GFALLO_PUERTA		46 47 50 51 54 59 60
+GFALLO_HARDWARE		49 50
+GLINEA			5C 5D 5E
+GTELEMANDO		6D 6E 6F 70 71 72 73
+GMODEM			5F 60 61 62 63 6B 6C
+GREHEN			58
+GTARJETA		43 44 45 4B 4D 55 66 6A
+GRESETS			4C
+GANTIINTRUSION		56 57 71 73
+GNOCTURNO		66
+GFUERA_HORA		5B 67 6A 42
+#GENTRADA		ENTRADA
+#GEMPLEADO		EMPLEA
+#GFICHAR			FICHA
+#GCADUCADA		CADUCAD
+#GCENTRALITA		CENTRAL
+#GTERMINAL		TERMINA
+#G276			276
+#GFALLO			FALLO
+
+# Ficheros historicos de alarmas
+
+HAlarH
+
+
+FIN

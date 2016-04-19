@@ -1,0 +1,27 @@
+#
+# Fichero que guarda los nombres y codigos de los FS de los pozos 
+#
+#
+# Codigo del FS		Texto
+#
+
+TOTAL_NOMBRES	18
+
+1	dummy	"Falta Alimentacion Bomba Normal"
+2	dummy	"Falta Alimentacion Bomba Emergencia"
+3	dummy	"Defecto Termico Bomba 1 Pozo 1"
+5	dummy	"Defecto Termico Bomba 2 Pozo 1"
+6	dummy	"Defecto Termico Bomba 1 Pozo 2"
+7	dummy	"Defecto Termico Bomba 2 Pozo 2"
+8	dummy	"Falta Alimentacion Bombas Alt. Pozo 2"
+9	dummy	"Falta Alimentacion Bomba Emerg. Pozo 2"
+10	dummy	"Bomba A con Defecto"
+11	dummy	"Bomba B con Defecto"
+12	dummy	"Bomba C con Defecto"
+13	dummy	"Defecto Termico Bomba 1 Pozo 3"
+14	dummy	"Defecto Alimentacion Bomba Pozo 3"
+15	dummy	"Cuadro Principal no existe tension de maniobra"
+16	dummy	"Cuadro Principal Averia General"
+17	dummy	"Cuadro Emergencia no existe tension de maniobra"
+18	dummy	"Cuadro Emergencia Averia General"
+

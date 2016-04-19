@@ -1,0 +1,17 @@
+#
+# Fichero que guarda los nombres y codigos de los FS de las zonas CI 
+#
+#
+# Codigo del FS		Texto
+#
+
+TOTAL_NOMBRES	8
+
+1	4	10	"AVERIA Contra-Incendios en Escalera"
+2	4	10	"AVERIA Contra-Incendios en Cuarto de Transformacion"
+3	4	10	"AVERIA Contra-Incendios en Cuarto de Baja Tension"
+4	4	10	"AVERIA Contra-Incendios en Cuarto de Comunicaciones"
+5	4	10	"AVERIA Contra-Incendios en Cuarto de Enclavamientos"
+6	4	10	"AVERIA Contra-Incendios en Ascensor"
+7	4	10	"AVERIA Contra-Incendios en Cuarto de Alta y Baja"
+8	4	10	"AVERIA Contra-Incendios en Cuarto de Telefonia Movil"

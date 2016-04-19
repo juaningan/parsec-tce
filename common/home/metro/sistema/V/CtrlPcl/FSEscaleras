@@ -1,0 +1,16 @@
+#
+# Fichero que guarda los nombres y codigos de los FS de las escaleras 
+#
+#
+# Codigo del FS		Texto
+#
+
+TOTAL_NOMBRES	7
+
+1	dummy	"Fallo Electrico"
+2	dummy	"Defecto Alimentacion"
+3	dummy	"Defecto Pisadera"
+4	dummy	"Fallo Seguridades"
+5	dummy	"Averia Electrica"
+6	dummy	"Averia Mecanica"
+7	dummy	"Defecto General"

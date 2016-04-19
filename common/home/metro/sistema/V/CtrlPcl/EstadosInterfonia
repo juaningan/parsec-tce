@@ -1,0 +1,14 @@
+#
+# Fichero que guarda los nombres y codigos de los estados de la interfonia
+#
+#
+# Codigo del estado 			Nombre del estado
+# 		
+#
+
+TOTAL_NOMBRES	4
+
+0	"NORMAL"
+16	"SI_SELECCIONADO"
+17	"NO_SELECCIONADO"
+24	"LLAMADA_OFF"

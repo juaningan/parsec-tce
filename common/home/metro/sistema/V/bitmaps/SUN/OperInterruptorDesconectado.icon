@@ -1,0 +1,30 @@
+/* XPM */
+static char * OperInterruptorDesconectado_icon[] = {
+/* width height ncolors cpp [x_hot y_hot] */
+"119 20 4 1 0 0",
+/* colors */
+" 	s iconGray1	m white	c #dededededede",
+".	s iconGray7	m black	c #424242424242",
+"X	s iconGray4	m white	c #949494949494",
+"o	s iconGray8	m black	c #212121212121",
+/* pixels */
+"                                                                                                                      .",
+"                                                                                                                     ..",
+"  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX..",
+"  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX..",
+"  XXoooooXXXXoooooooXXXoooooXXXXooooooXXXooooooXXXooXXXXooXXoooooooXXXooooooXXooooooooXXXooooooXXXoooooXXXXXooooooXXX..",
+"  XXooooooXXXoooooooXXoooooooXXoooooooXXooooooooXXooXXXXooXXoooooooXXoooooooXXooooooooXXooooooooXXooooooXXXooooooooXX..",
+"  XXooXXXooXXooXXXXXXXooXXXooXXooXXXXXXXooXXXXooXXoooXXXooXXooXXXXXXXooXXXXXXXXXXooXXXXXooXXXXooXXooXXXooXXooXXXXooXX..",
+"  XXooXXXooXXooXXXXXXXooXXXXXXXooXXXXXXXooXXXXooXXoooXXXooXXooXXXXXXXooXXXXXXXXXXooXXXXXooXXXXooXXooXXXooXXooXXXXooXX..",
+"  XXooXXXooXXooXXXXXXXoooXXXXXXooXXXXXXXooXXXXooXXooXoXXooXXooXXXXXXXooXXXXXXXXXXooXXXXXooXXXXooXXooXXXooXXooXXXXooXX..",
+"  XXooXXXooXXoooooXXXXXooooXXXXooXXXXXXXooXXXXooXXooXoXXooXXoooooXXXXooXXXXXXXXXXooXXXXXooooooooXXooXXXooXXooXXXXooXX..",
+"  XXooXXXooXXoooooXXXXXXXoooXXXooXXXXXXXooXXXXooXXooXXoXooXXoooooXXXXooXXXXXXXXXXooXXXXXooooooooXXooXXXooXXooXXXXooXX..",
+"  XXooXXXooXXooXXXXXXXXXXXXooXXooXXXXXXXooXXXXooXXooXXoXooXXooXXXXXXXooXXXXXXXXXXooXXXXXooXXXXooXXooXXXooXXooXXXXooXX..",
+"  XXooXXXooXXooXXXXXXXXXXXXooXXooXXXXXXXooXXXXooXXooXXXoooXXooXXXXXXXooXXXXXXXXXXooXXXXXooXXXXooXXooXXXooXXooXXXXooXX..",
+"  XXooXXXooXXooXXXXXXXooXXXooXXooXXXXXXXooXXXXooXXooXXXoooXXooXXXXXXXooXXXXXXXXXXooXXXXXooXXXXooXXooXXXooXXooXXXXooXX..",
+"  XXooooooXXXoooooooXXoooooooXXoooooooXXooooooooXXooXXXXooXXoooooooXXoooooooXXXXXooXXXXXooXXXXooXXooooooXXXooooooooXX..",
+"  XXoooooXXXXoooooooXXXoooooXXXXooooooXXXooooooXXXooXXXXooXXoooooooXXXooooooXXXXXooXXXXXooXXXXooXXoooooXXXXXooooooXXX..",
+"  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX..",
+"  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX..",
+" ......................................................................................................................",
+"......................................................................................................................."};

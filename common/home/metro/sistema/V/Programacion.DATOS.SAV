@@ -1,0 +1,6 @@
+# Fichero de programacion de ordenes de control
+#
+# La estructura de cada linea es:
+# ANNO/MES/DIA HH:MM:SS	SUBSISTEMA INSTANCIA NOMBRE_DE_ORDEN_CONTROL "PARAMETROS ENTRE COMILLAS"
+
+* 10 28 3 30 0  * * CAMBIAR_HORA "/usr/bin/mv Programacion.DATOS Programacion.DATOS.SAV"

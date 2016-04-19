@@ -1,0 +1,13 @@
+#!/bin/csh
+#Comprobaciones para el ControlId
+#distsh2 "/etc/init.d/nfs.server stop"
+mkdir -p ControlId/Eventos/Salida
+chmod 777 ControlId/Eventos
+touch ControlId/Eventos/DirMontado
+chmod 755 ControlId/Eventos/DirMontado
+/home/metro/ControlId/scripts/RunMandaEventos
+/home/metro/ControlId/scripts/RunActualizaListas
+#distsh2 "/etc/init.d/nfs.server start"
+./.autostart &
+/usr/dt/bin/dtwm
+

@@ -1,0 +1,78 @@
+# FICHERO DE CONFIGURACION DE LOS TIPOS DE CAUSAS DE FS PARA METTA 1000
+#            HA DE ESTAR ORDENADO POR CODIGO DE MENOR A MAYOR
+#
+ NRO_DE_TIPOS_DE_CAUSA_FS		71
+#
+# SINTAXIS:  CAUSA_FS  <CodHexadecimal> <Prioridad> <Periodo> <Texto>
+#
+CAUSA_FS 0100 99 30  Fallo Sensores Puertas
+CAUSA_FS 0200 99 30  Apertura Puertas
+CAUSA_FS 0201 99 30  Alarma Disparada
+CAUSA_FS 0211 99 30  Forzamiento Recargador 1
+CAUSA_FS 0212 99 30  Forzamiento Recargador 2
+CAUSA_FS 0213 99 30  Forzamiento Recargador 3
+CAUSA_FS 0214 99 30  Forzamiento Recargador 4
+CAUSA_FS 0221 99 30  Forzamiento Hopper 1
+CAUSA_FS 0222 99 30  Forzamiento Hopper 2
+CAUSA_FS 0223 99 30  Forzamiento Hopper 3
+CAUSA_FS 0224 99 30  Forzamiento Hopper 4
+CAUSA_FS 0225 99 30  Forzamiento Puerta Hoppers
+CAUSA_FS 0231 99 30  Forzamiento Caja 1
+CAUSA_FS 0232 99 30  Forzamiento Caja 2
+CAUSA_FS 0233 99 30  Forzamiento Caja 3
+CAUSA_FS 0234 99 30  Forzamiento Caja Billetero
+CAUSA_FS 0235 99 30  Forzamiento Puerta Cajas
+CAUSA_FS 0240 99 30  Forzamiento Rollo
+CAUSA_FS 0251 99 30  Fallo Hopper 1
+CAUSA_FS 0252 99 30  Fallo Hopper 2
+CAUSA_FS 0253 99 30  Fallo Hopper 3
+CAUSA_FS 0254 99 30  Fallo Hopper 4
+CAUSA_FS 1000 99 30  Fallo Alimentacion
+CAUSA_FS 1200 99 30  Rollos Papel Agotados
+CAUSA_FS 1201 99 30  Cajas Recaudacion Llenas
+CAUSA_FS 2000 99 30  Fallo Comunicacion Lector OMROM
+CAUSA_FS 2002 99 30  Fuera Servicio por Adaptacion Euro
+CAUSA_FS 2003 99 30  Fallo Comunicacion con Procesador
+CAUSA_FS 2100 99 30  Fallo Mensajes Display Usuario
+CAUSA_FS 2102 99 30  Fallo Teclado Usuario
+CAUSA_FS 2200 99 30  Fuera Servicio Manual
+CAUSA_FS 3000 99 30  Ausencia Hopper
+CAUSA_FS 3100 99 30  Fallo Sensor Presencia Hoppers
+CAUSA_FS 3101 99 30  Fallo Devolucion Monedas
+CAUSA_FS 3200 99 30  Fallo Devolucion Operacion
+CAUSA_FS 3300 99 30  Fallo Selector. Posiblemente Agua
+CAUSA_FS 4000 99 30  Ausencia Cajas
+CAUSA_FS 4100 99 30  Fallo Sistema Desbloqueo Cajas
+CAUSA_FS 4101 99 30  Fallo Sensor Presencia Cajas
+CAUSA_FS 5100 99 30  Fallo sistema Desbloqueo Recargadores
+CAUSA_FS 5101 99 30  Fallo Apertura Automatica Recargadores
+CAUSA_FS 5102 99 30  Fallo Sensor Presencia Recargadores
+CAUSA_FS 6000 99 30  Fallo Fotocelula Entrada Monedas
+CAUSA_FS 6100 99 30  Fallo Aceptacion Monedas
+CAUSA_FS 6101 99 30  Fallo Rechazo Monedas
+CAUSA_FS 6102 99 30  Fallo Enrutado Monedas
+CAUSA_FS 6103 99 30  Fallo Motor Desatasco
+CAUSA_FS 6104 99 30  Atasco en Selector de Monedas
+CAUSA_FS 6105 99 30  Fallo en Alguna Uve
+CAUSA_FS 7104 99 30  Fallo Sensor Presencia Caja Billetero
+CAUSA_FS 8000 99 30  Fallo Checksum ROM Procesador
+CAUSA_FS 8001 99 30  Fallo R/W RAM Dinamica Procesador
+CAUSA_FS 9000 99 30  Fallo Fotocelulas Procesador
+CAUSA_FS 9001 99 30  Fallo Servomotor Procesador
+CAUSA_FS 9002 99 30  Fallo Sistema Carro Móvil
+CAUSA_FS 9003 99 30  Fallo Medicion Rollos
+CAUSA_FS 9004 99 30  Fallo Sistema Corte
+CAUSA_FS 9005 99 30  Tapa Procesador Abierta
+CAUSA_FS 9100 99 30  Fallo Funcional Fotocelulas Procesador
+CAUSA_FS 9101 99 30  Fallo Servomotor Procesador
+CAUSA_FS 9104 99 30  Fallo Funcional Motores Medicion
+CAUSA_FS 9105 99 30  Fallo Sistema de Corte
+CAUSA_FS 9106 99 30  Fallo Sensor Tapa Cerrada
+CAUSA_FS 9107 99 30  Fallo Sensores Fin de Rollo
+CAUSA_FS 9109 99 30  Fallo Motor Cinta Impresion
+CAUSA_FS 9110 99 30  Fallo Grabacion/Lectura Magnetica
+CAUSA_FS 9111 99 30  Fallo Impresion
+CAUSA_FS 9200 99 30  Atasco Expendedor Billetes
+CAUSA_FS 9300 99 30  Configuracion
+CAUSA_FS 9301 99 30  Maquina Hibernada
+CAUSA_FS 9302 99 30  Peticion Estado Billetero

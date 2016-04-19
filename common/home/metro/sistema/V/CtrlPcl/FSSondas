@@ -1,0 +1,9 @@
+#
+# Fichero que guarda los nombres y codigos de las causas de FS de las sondas tunel linea 8 
+#
+# Codigo del estado 			Nombre del FS
+#
+
+TOTAL_NOMBRES	1
+
+1	dummy	"FUERA_DE_SERVICIO"

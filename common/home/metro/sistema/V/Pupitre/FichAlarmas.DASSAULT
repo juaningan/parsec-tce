@@ -1,0 +1,129 @@
+124 3
+001 4 0 CommTornImp Comunicacion Imposible
+002 4 0 SinCommTorn Fallo de comunicaciones
+003 4 0 LectSinComm Lector Sin Comunicacion
+004 4 0 LectSinComm Lector Sin Comunicacion
+005 4 0 LectSinComm Lector Sin Comunicacion
+006 4 0 ErrPresLect Fallo de Presencia del Lector
+007 4 0 SinComAlNiv Sin Comunicacion a Alto Nivel
+008 4 0 SinComLTsc  Lector SC Sin Comunicacion
+016 4 0 ErrReleTorn Fallo de relecturas seguidas
+017 4 0 MaxErr100Pa Maximo de Errores en 100 pasos
+018 4 0 AtrancoTorn Atranco
+019 4 0 LectorFS    Lector Fuera de Servicio
+020 4 0 SupMaxAtrnc Superado Numero Maximo de Atrancos
+021 4 0 RotTripImpr Rotacion no prevista del Tripode
+022 4 0 NoFinRotTrp No se detecta fin de rotacion del Tripode
+023 4 0 TripDesconn Tripode Desconectado
+024 4 0 TrSinAlimSL Tripode Sin Alimentacion en Salida Libre
+025 4 0 ConmBloqSL  Conmutador Bloqueado en Salida Libre
+026 4 0 CalcSinPar  Calculador sin parametros de Pupitre
+027 4 0 CalcImpSinc Imposible Poner en Hora el Calculador
+028 4 0 ClcRAMSinDt RAM de Calculador Sin Datos
+029 4 0 CalcImpCmEs Imposible cambiar el estado del Calculador
+030 4 0 CalcParNoTr Parametros no transferidos al Calculador
+031 4 0 CalcSinComm Calculador Sin Comunicacion
+032 4 0 CalcDesconn Calculador Desconectado
+033 4 0 TelOperImp  Telecarga de Oper imposible
+034 4 0 TarNoSinc   Tarifa no sincronizada
+035 4 0 PtoEntrTorn Punto de entrada no sincronizado
+036 4 0 FechHorTorn Fecha/Hora no sincronizada
+037 4 0 ErrImprePup Impresora no Conectada o sin papel
+038 4 0 ErrImprePup Impresora: No esta en linea
+039 4 0 ErrImprePup Impresora: No hay papel 
+040 4 0 ErrDiscoPup Disco: No hay disco
+041 4 0 ErrDiscoPup Disco: Espacio insuficiente
+042 4 0 ErrDiscoPup Disco: Protegido
+043 4 0 ErrDiscoPup Disco: Fichero incorrecto
+044 4 0 ErrDiscoPup Disco: Mas informacion esperada
+045 4 0 ErrDiscoPup Disco: Formato Incorrecto
+046 4 0 ErrDiscoPup Disco: Fichero no encontrado
+047 4 0 ErrDiscoPup Disco: Error de lectura / escritura
+050 4 0 FicnNoEnPup Fallo en Fichero
+051 4 0 FalloRemoto Mal disco remoto
+052 4 0 FalloTelec  Fallo en el analisis de telecarga
+053 4 0 FalloTrip   Fallo en el Tripode
+054 4 0 TelecNAct   Telecarga no actualizada
+055 4 0 FSManten    Fuera de Servicio Mantenimiento
+056 4 0 FalloConf   Fallo en la Configuracion
+057 4 0 TapaLect    Tapa del Lector Abierta
+058 4 0 FSTecnico   Fuera de Servicio Tecnico
+059 4 0 FalloServo  Fallo en Servo
+060 4 0 ErrTCE      TCE: Fallo adquisicion
+061 4 0 ErrTCE      TCE: Fichero incorrecto
+062 4 0 ErrTCE      TCE: Fallo envío volcado
+063 4 0 TelecNRel   Telecarga: No realizada
+064 4 0 FalloPoll   Pupitre: Fallo Polling
+065 4 0 FalloCom    Pupitre: Fallo Comunicacion
+066 4 0 BaterFSPup  Nro. Insuficiente de Torniq. en Servicio
+067 4 0 FalloProc   Pupitre: Fallo en Procesos
+068 4 0 BaterFSPup  Nro. Insuficiente de Torniq. de Salida en Servicio
+069 4 0 BaterFSPup  Nro. Insuficiente de Torniq. de Entrada en Servicio
+070 4 0 ErrTCE      TCE Sin Comunicacion
+071 4 0 BaterAnt    Bateria en Antipanico
+072 4 0 BaterSC     Bateria Sin Comunicacion
+077 4 0 DummyPupit  Imposible realizar Volcado Automático
+088 4 0 DummyPupit  Incoherencia de totalizadores en torniquete
+099 4 0 DesconecPup Pupitre desconectado
+404 4 0 ErrCaptTorn Fallo en Captadores
+407 4 0 ErrReleTorn 10 fallos de relecturas en 100 pasos
+408 4 0 ErrBitsTorn Exceso de bits
+409 4 0 ErrBitsTorn 10 relecturas con exceso de bits en 100 pasos
+410 4 0 ErrCabTorn  Cabezas de escritura con corrientes
+411 4 0 ErrRTCTorn  Fallo de reloj en tiempo real
+413 4 0 ErrParmTorn Fallo en parametros
+414 4 0 ErrAlimTorn Falta Alimentacion en Tarjeta
+417 4 0 ErrFotoTorn Fallo Fotodetectores del Lector
+418 4 0 ErrGrabTorn Fallo de Grabacion
+419 4 0 ErrMGrbTorn Nro. Max. Errores de Grabacion
+427 4 0 ErrTarTorn  Fallo de tarifa
+439 4 0 ErrCelula   Fallo en celula de paso
+440 4 0 ErrFoCTorn  Fallo en Fotocelula numero 1
+441 4 0 ErrFoCTorn  Fallo en Fotocelula numero 2
+442 4 0 ErrFoCTorn  Fallo en Fotocelula numero 3
+443 4 0 ErrFoCTorn  Fallo en Fotocelula numero 4
+444 4 0 ErrFoCTorn  Fallo en Fotocelula numero 5
+445 4 0 ErrFoCTorn  Fallo en Fotocelula numero 6
+446 4 0 ErrFoCTorn  Fallo en Fotocelula numero 7
+447 4 0 ErrFoCTorn  Fallo en Fotocelula numero 8
+448 4 0 ErrFoCTorn  Fallo en Fotocelula numero 9
+449 4 0 ErrFoCTorn  Fallo en Fotocelula numero 10
+450 4 0 ErrFoCTorn  Fallo en Fotocelula numero 11
+451 4 0 ErrFoCTorn  Fallo en Fotocelula numero 12
+452 4 0 ErrFoCTorn  Fallo en Fotocelula numero 13
+453 4 0 ErrFoCTorn  Fallo en Fotocelula numero 14
+454 4 0 ErrFoCTorn  Fallo en Fotocelula numero 15
+455 4 0 ErrPuerTorn Fallo en Puertas del Armario de Paso
+456 4 0 ErrVarTorn  Fallo en Variador del armario de Paso
+457 4 0 ErrPlcTorn  Fallo en PLC del Armario de Paso
+458 4 0 ErrComTorn  Fallo comunicaciones Aramrio de Paso
+459 4 0 ErrSAITorn  Activacion de SAI
+460 4 0 FalArrasLec Fallo de arrastre en lector
+461 4 0 MaxArrLect  Maximo fallos de arrastre en lector
+462 4 0 LectConsec  Fallo lecturas consecutivas
+463 4 0 LectTSC     Error Lector TSC
+464 4 0 FalloSAM    Fallo en acceso a SAM
+470 4 0 ErrReloj    Fallo de reloj
+471 4 0 ErrMemoria  Error de memoria
+472 4 0 ErrModo     Modo de torniquete imposible
+473 4 0 ErrPupCom   Pupitre sin comunicacion
+474 4 0 ErrFich     Envio de ficheros imposible
+475 4 0 ErrDisco    Disco remoto no conectado
+476 4 0 ErrStat     Envio de estadisticas imposible
+481 4 0 ErrReset    Reset del PC
+482 4 0 ErrPC       Fallo interno del PC
+483 4 0 ErrAlimPC   Fallo de alimentacion del PC
+484 4 0 ErrConfPC   Error de configuracion en PC
+485 4 0 ErrComsUPS  Fallo de comms. con UPS
+486 4 0 ErrUPS      Fallo interno UPS
+487 4 0 ErrConfig   Error grave de configuracion
+488 4 0 ErrAlimGen  Fallo de alimentacion
+489 4 0 ErrProcesa  Error interno del procesador
+490 4 0 ErrTelec    Telecargando
+491 4 0 ErrConfProc Fallo de configuracion en procesador
+492 4 0 ErrAutEnt   Error senal autorizacion entrada
+493 4 0 ErrAutSal   Error senal autorizacion salida
+494 4 0 ErrConfEnt  Error senal confirmacion entrada
+495 4 0 ErrConfSal  Error senal confirmacion salida
+496 4 0 ErrBoquilla Error boquilla procesador
+497 4 0 ErrRF       Error interfaz radiofrecuencia

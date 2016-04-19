@@ -1,0 +1,78 @@
+#
+# Internet host table
+#
+127.0.0.1         localhost
+17.69.58.229      pueblonuevo       loghost pcl  CRP     
+16.0.62.34	  frontL05
+16.0.63.34	  frontL05-2
+16.2.62.35	  rfrontL05
+16.2.63.35	  rfrontL05-2
+17.69.58.233      UR_pueblonuevo    UR
+17.69.58.230      UIS_pueblonuevo   UIS
+17.69.58.231      UIS2_pueblonuevo   UIS2
+17.69.58.1        router_pueblonuevo
+17.69.14.228      automata_energia	energia
+17.69.14.227	  unidad_maestra	UM	maestra
+
+# Direcciones IP Segundo Vestibulo
+17.69.58.227     vest-pueblonuevo	vest
+17.69.58.232	 UIS_vest-pueblonuevo	UIS_vest
+17.69.58.236	 UR_vest-pueblonuevo	UR_vest
+
+3.0.1.34         prueba-iprb
+
+# Conexion con el PCI
+17.69.70.41	 pcipueblonuevo	pci
+
+# Conexion con el pupitre SIN CONTACTO
+17.69.20.233     psc_pueblonuevo	pupitre_sc
+17.69.20.234	cancelador1	sc1
+17.69.20.235	cancelador2	sc2
+17.69.20.236	cancelador3	sc3
+
+# Conexion con el Porton de Accesos
+17.69.20.10     porton
+
+# Conexion con la MBT
+3.0.3.2 concen-mbt-ppp
+3.0.3.3 mbt-ppp         mbt
+
+# Conexion con las EURO_METTAS
+17.69.21.19 	metta1-eth 	metta1
+17.69.21.231 	metta2-eth 	metta2
+17.69.21.13	metta3-eth	metta3
+17.69.21.16	metta4-eth	metta4
+17.69.21.22	metta5-eth	metta5
+
+# Equipo metrosun2 (para ControlId)
+16.0.62.15	metrosun2
+16.0.62.19	main2
+
+# Equipos ControlId
+17.69.20.237	TeleCancela1	tc1	# Cancela 1 (Hermanos de Pablo - PCL)
+17.69.20.230	TeleCancela4	tc4	# Cancela 2 (Vicente Espinel - VEST)
+
+#
+# Conexion con los CTRL_ACC
+#
+17.69.22.228 CtrlAcc1 ctrl_acc1 # Puesto de Control Local (PCL)
+17.69.20.229 CtrlAcc2 ctrl_acc2 # Taquilla Vestíbulo (TAQ)
+17.69.22.229 CtrlAcc3 ctrl_acc3 # Cuarto de Equipos (CAE)
+17.69.22.43  CtrlAcc4 ctrl_acc4 # Cuarto de Comunicaciones (CAT) L5
+17.69.22.41  CtrlAcc5 ctrl_acc5 # Cuarto de Comunicaciones (CAT) L7
+17.69.22.42  CtrlAcc6 ctrl_acc6 # Cuarto de Enclavamientos (CE) L7
+
+# Conexion con GIR
+17.69.22.225    anti_intrusion_GIR      GIR
+
+17.69.49.41     sivpueblonuevo  siv7
+17.69.49.228    sivpueblonuevo5  siv5
+
+#Conexion con el PCI
+17.69.70.41	pcipueblonuevo	pci
+
+16.0.77.19	bd_controlid
+# Scada de Peaje
+#16.3.127.141	scada_peaje
+16.2.64.12	scada_peaje
+16.2.64.13	scada_peaje2

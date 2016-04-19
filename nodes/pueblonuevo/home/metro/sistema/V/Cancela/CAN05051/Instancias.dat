@@ -1,0 +1,10 @@
+#	Instancias de Puertas:
+#
+#			Id de la Instancia
+#			Nro del Vestibulo
+#			Descripcion de la Instancia 
+INSTANCIA_PUERTA	1	1	"Hnos. de Pablo"
+INSTANCIA_PUERTA	2	1	"Emilio Ferrari"
+INSTANCIA_PUERTA	3	2	"Doctor Vallejo"
+INSTANCIA_PUERTA	4	2	"Vicente Espinel"
+INSTANCIA_PUERTA	5	2	"Campuzano"

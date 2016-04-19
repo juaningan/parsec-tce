@@ -1,0 +1,12 @@
+#
+# Fichero que guarda los nombres y codigos de los estados del alumbrado de tunel
+#
+#
+# Codigo del estado 			Nombre del estado
+# 		
+#
+
+TOTAL_NOMBRES	2
+
+9	"ENCENDIDO"
+10	"APAGADO"

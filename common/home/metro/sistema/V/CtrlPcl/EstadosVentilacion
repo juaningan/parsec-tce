@@ -1,0 +1,18 @@
+#
+# Fichero que guarda los nombres y codigos de los estados de ventilacion 
+#
+#
+# Codigo del estado 			Nombre del estado
+# 		
+#
+
+TOTAL_NOMBRES	9
+
+11	"EXTRACCION"
+12	"IMPULSION"
+13	"PARADO"
+4	"FUERA_DE_SERVICIO"
+14	"VELOCIDAD_LENTA"
+15	"RAPIDA"
+16	"EMERGENCIA"
+99	"SIN_COMUNICACION"

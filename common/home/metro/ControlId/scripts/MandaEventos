@@ -1,0 +1,247 @@
+#!/bin/sh
+#
+# MandaEventos -- Copia todos los ficheros de Eventos en uno solo.
+#                 y lo manda al servidor de base de datos.
+#
+# Autor : Guillermo Gonzalez Paez
+#
+# 04/12/2009: Ya no se mandan eventos a la base de datos SERVIDOR_BD (metrosun2)
+# 14/09/2009: Se borran los ficheros vacios que existan
+# 29/08/2008: Al enviar eventos a la BD, si el fichero esta vacio no se envia
+# 15/11/2007: Corregido problema al buscar estados
+# 24/08/2007: Corregido problema con eventos temporales
+# 30/07/2007: Corregido problema para que no pierda eventos
+# 03/07/2007: Adaptado para funcionar tanto en Linux como Solaris
+# 29/06/2007: Adaptado para bd_controlid
+# 04/12/2006: Adaptado para el envio de eventos de estados.
+# 20/06/2005: Adaptado para el envio de eventos de version.
+# 30/10/2003: Forzamos la compresion y borrado de logs antiguos con -f
+# 30/04/2003: Añadida comprobacion de ping con SERVIDOR_BD
+
+# PC donde se ejecuta este script
+ESTE_PC=`uname -n`
+
+# Tipo de sistema operativo (Linux o SunOS)
+SIST_OP=`uname -s`
+
+if [ "$SIST_OP" = "SunOS" ]
+then
+   CMD_PING="/usr/sbin/ping"
+else
+  if [ "$SIST_OP" = "Linux" ]
+  then
+    CMD_PING="ping -c 1"
+  else
+    CMD_PING="ping"
+  fi
+fi
+
+# Usuario utilizado para hacer rcp y rsh
+USUARIO=metro
+
+# Directorio al que llegan los eventos de los ControlId.
+DIR_EV_ENTRADA=/home/metro/ControlId/Eventos
+
+# Directorio al que se copian los eventos para enviarlos a SERVIDOR_BD
+DIR_EV_SALIDA=/home/metro/ControlId/Eventos/Salida
+
+# Directorio en el que se guardan los logs de este script.
+DIR_LOGS=/home/metro/ControlId/logs
+
+# PC de Base de Datos al que se mandan los eventos
+#SERVIDOR_BD=metrosun2
+BD_CONTROLID1=bd_controlid
+BD_CONTROLID2=bd_controlid-2
+
+# Directorio del servidor al que mandar los eventos.
+DIR_REMOTO_EVENTOS=/captura/metro/ControlId
+DIR_REMOTO_ESTADOS=/captura/metro/sistema/V/Gestor_BD/gestor_bd/EstadosControlId/InfoRecibidaDir
+DIR_BDCONTROLID_EVENTOS=/home/metro/ControlId/Eventos
+DIR_BDCONTROLID_ESTADOS=/home/metro/ControlId/Estados
+
+# Funcion para borrar logs antiguos.
+# Se borran los archivos *.log con 7 dias de antiguedad.
+borrar_log()
+{
+    # Comprimimos los logs con antiguedad mayor a un dia.
+    find $DIR_LOGS -name \*.eventos.log -mtime +0 -exec gzip -f {} \;
+    # Borramos los logs comprimidos de hace una semana.
+    find $DIR_LOGS -name \*.eventos.log.gz -mtime +7 -exec rm -f {} \;
+}
+
+# Funcion para ver si hay eventos de algun tipo.
+# Parametros de entrada de la funcion:
+#   $1 : indica el tipo de evento (eventos o versiones)
+# La funcion devuelve 1 si hay eventos y 0 si no hay
+hay_eventos () {
+   HAY_EV=1
+   for i in $DIR_EV_ENTRADA/*.$1
+   do
+        if [ -f $i ]
+        then
+            HAY_EV=0
+            break
+        fi
+   done
+   return $HAY_EV
+}
+
+# Funcion para concatenar todos los ficheros de eventos en uno.
+# Parametros de entrada de la funcion:
+#   $1 : indica el tipo de evento (eventos o versiones)
+concat_eventos () {
+   for i in $DIR_EV_SALIDA/*.$1
+   do
+        if [ -f $i ]
+        then
+            # Se concatena el fichero al fichero de datos.
+            if [ "$1" = "eventos" ]
+            then
+               #cat $i >> $DIR_EV_SALIDA/$SERVIDOR_BD/$ARCHIVO_EVT
+               cat $i >> $DIR_EV_SALIDA/$BD_CONTROLID1/$ARCHIVO_EVT
+            else
+               #cat $i >> $DIR_EV_SALIDA/$SERVIDOR_BD/$ARCHIVO_VER
+               cat $i >> $DIR_EV_SALIDA/$BD_CONTROLID1/$ARCHIVO_VER
+            fi
+            #NUM_EVENTOS=`wc -l $i | sed "s/^ *//g" | cut -d " " -f 1`
+            #echo $fecha "Bien: Fichero `basename $i` contiene $NUM_EVENTOS eventos."
+            # Se borran el fichero de eventos.
+            rm -f $i
+        fi
+   done
+}
+
+# Funcion para concatenar todos los ficheros de eventos en uno.
+# Parametros de entrada de la funcion:
+#   $1 : indica el tipo de evento (eventos o versiones o estados)
+#   $2 : indica el servidor de base de datos al que enviar los eventos
+#   $3 : indica el directorio remoto donde dejar los eventos
+enviar_eventos () {
+   HAY_EV=0
+   for i in $DIR_EV_SALIDA/$2/*.$1
+   do
+        if [ -f $i ]
+        then
+            HAY_EV=1
+            NUM_EVENTOS=`wc -l $i | sed "s/^ *//g" | cut -d " " -f 1`
+            # Solo enviamos el fichero si contiene algun evento
+            if [ $NUM_EVENTOS -gt 0 ]
+            then
+                # Se manda el archivo de eventos concatenados al servidor remoto.
+                if rcp $i ${USUARIO}@$3
+                then
+                    rm -f $i
+                    echo $fecha "Bien: Se ha enviado `basename $i` a $3 (con $NUM_EVENTOS eventos)"
+                else
+                    echo $fecha "Error: No se puede enviar `basename $i` a $3 (con $NUM_EVENTOS eventos)"
+                    # Salimos de la funcion porque parece que no se pueden mandar los eventos
+                    return 1
+                fi
+            else
+                echo $fecha "Fichero `basename $i` vacio. NO se envia a $3"
+                rm -f $i
+            fi
+        fi
+   done
+   #if [ $HAY_EV -eq 0 ]
+   #then
+   #    echo $fecha "Aviso: No hay eventos a enviar en" $DIR_EV_SALIDA
+   #fi
+}
+
+# Funcion principal para copiar los eventos.
+copia ()
+{
+
+  ENVIAR=0
+
+  # Si existen ficheros de eventos...
+  if hay_eventos eventos
+  then
+    # Se mueven los ficheros al directorio de salida.
+    mv -f $DIR_EV_ENTRADA/*.eventos $DIR_EV_SALIDA
+    # Concatenamos todos los .eventos en un solo .evt
+    concat_eventos eventos
+    ENVIAR=1
+  fi
+
+  # Si existen ficheros de eventos...
+  if hay_eventos versiones
+  then
+    # Se mueven los ficheros al directorio de salida.
+    mv -f $DIR_EV_ENTRADA/*.versiones $DIR_EV_SALIDA
+    # Concatenamos todos los .versiones en un solo .ver
+    concat_eventos versiones
+    ENVIAR=1
+  fi
+
+  # Si existen ficheros de eventos...
+  if hay_eventos estados
+  then
+    # Se mueven los ficheros al directorio de salida.
+    mv -f $DIR_EV_ENTRADA/*.estados $DIR_EV_SALIDA
+    #cp $DIR_EV_SALIDA/*.estados $DIR_EV_SALIDA/$SERVIDOR_BD
+    cp $DIR_EV_SALIDA/*.estados $DIR_EV_SALIDA/$BD_CONTROLID1
+    rm -f $DIR_EV_SALIDA/*.estados
+    ENVIAR=1
+  fi
+
+if [ $ENVIAR -eq 1 ]
+then
+  # Enviamos los ficheros .evt al equipo servidor de BD.
+  # Solo los enviamos si hay ping con el SERVIDOR_BD
+#  if $CMD_PING $SERVIDOR_BD > /dev/null 2>&1
+#  then
+#    echo $fecha "Enviando eventos a $SERVIDOR_BD..."
+#    enviar_eventos evt $SERVIDOR_BD $SERVIDOR_BD:$DIR_REMOTO_EVENTOS
+#    enviar_eventos ver $SERVIDOR_BD $SERVIDOR_BD:$DIR_REMOTO_EVENTOS
+#    enviar_eventos estados $SERVIDOR_BD $SERVIDOR_BD:$DIR_REMOTO_ESTADOS
+#  else
+#    echo $fecha "Error: No hay ping con $SERVIDOR_BD"
+#  fi
+
+  if $CMD_PING $BD_CONTROLID1 > /dev/null 2>&1
+  then
+    echo $fecha "Enviando eventos a $BD_CONTROLID1..."
+    enviar_eventos evt $BD_CONTROLID1 $BD_CONTROLID1:$DIR_BDCONTROLID_EVENTOS
+    enviar_eventos ver $BD_CONTROLID1 $BD_CONTROLID1:$DIR_BDCONTROLID_EVENTOS
+    enviar_eventos estados $BD_CONTROLID1 $BD_CONTROLID1:$DIR_BDCONTROLID_ESTADOS
+  else
+    if $CMD_PING $BD_CONTROLID2 > /dev/null 2>&1
+    then
+      echo $fecha "Enviando eventos a $BD_CONTROLID2..."
+      enviar_eventos evt $BD_CONTROLID1 $BD_CONTROLID2:$DIR_BDCONTROLID_EVENTOS
+      enviar_eventos ver $BD_CONTROLID1 $BD_CONTROLID2:$DIR_BDCONTROLID_EVENTOS
+      enviar_eventos estados $BD_CONTROLID1 $BD_CONTROLID2:$DIR_BDCONTROLID_ESTADOS
+    else
+      echo $fecha "Error: No hay ping con $BD_CONTROLID2"
+    fi
+  fi
+  # Borramos los archivos de log antiguos.
+  borrar_log
+fi
+
+}
+
+if [ ! -d $DIR_EV_SALIDA/$SERVIDOR_BD ]
+then
+  mkdir $DIR_EV_SALIDA/$SERVIDOR_BD
+fi
+
+if [ ! -d $DIR_EV_SALIDA/$BD_CONTROLID1 ]
+then
+  mkdir $DIR_EV_SALIDA/$BD_CONTROLID1
+fi
+
+while true
+do
+    ARCHIVO_EVT=${ESTE_PC}-`date +%y%m%d%H%M%S`.evt
+    ARCHIVO_VER=${ESTE_PC}-`date +%y%m%d%H%M%S`.ver
+    ARCHIVO_LOG=`date +%j`.eventos.log
+    fecha=`date '+%d/%m/%y %H:%M:%S'`
+    copia >> $DIR_LOGS/$ARCHIVO_LOG 2>&1
+    sleep 60
+done
+
+exit 0
+

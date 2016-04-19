@@ -1,0 +1,9 @@
+#
+# Fichero que guarda los nombres y codigos de las alarmas de las camaras 
+#
+#
+# Codigo de la alarma	Nombre de la alarma
+#
+
+TOTAL_NOMBRES	1
+1	6	10	dummy	"Defecto Camara"

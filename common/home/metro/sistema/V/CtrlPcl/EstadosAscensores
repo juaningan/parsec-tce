@@ -1,0 +1,16 @@
+#
+# Fichero que guarda los nombres y codigos de los estados de la interfonia
+#
+#
+# Codigo del estado 			Nombre del estado
+# 		
+#
+
+TOTAL_NOMBRES	6
+
+1	"BAJANDO"
+2	"SUBIENDO"
+3	"PARADO"
+4	"FUERA_DE_SERVICIO"
+5	"FS_ABIERTA"
+6	"ABIERTA"

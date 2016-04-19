@@ -1,0 +1,35 @@
+#!/bin/sh
+#
+# 07/12/2009: Modificado para que no arranque ActualizaListas antiguo
+# 18/11/2009 : Modificado para soportar ActualizaListas.nuevo
+# Este script permite ejecutar un proceso en background
+#  si no se está ejecutando ya. 
+# Este script se debe ejecutar desde el crontab con una linea como
+# 35 * * * * /home/metro/ControlId/scripts/RunActualizaListas [CodigoAdministrativo]
+
+# Tipo de sistema operativo (Linux o SunOS)
+SIST_OP=`uname -s`
+
+if [ "$SIST_OP" = "SunOS" ]
+then
+   CMD_PS="/usr/bin/ps"
+else
+  if [ "$SIST_OP" = "Linux" ]
+  then
+    CMD_PS="ps"
+  else
+    CMD_PS="ps"
+  fi
+fi
+
+PROCESO2=/home/metro/ControlId/scripts/ActualizaListas.nuevo 
+
+# Si el resultado de ejecutar el comando es una cadena vacia,
+# es que el proceso no esta ejecutandose y por tanto se ejecuta.
+
+if [ -z "`$CMD_PS -ef | grep $PROCESO2 | grep -v grep | sed \"s/^ *//g;s/  */ /g\"| cut -d \" \" -f 2`" ]
+then
+   $PROCESO2 $1 &
+fi
+exit 0
+

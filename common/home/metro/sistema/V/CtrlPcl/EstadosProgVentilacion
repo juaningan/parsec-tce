@@ -1,0 +1,19 @@
+#
+# Fichero que guarda los nombres y codigos de los estados de ventilacion
+#
+#
+# Codigo del estado                     Nombre del estado
+#
+#
+
+TOTAL_NOMBRES   9
+
+0       "ACORDE_PROGRAMACION"
+1       "NO_ACORDE_MANUAL"
+2       "AVERIADO_O_NO_ACORDE"
+3       "SIN_PROGRAMACION"
+4       "PROGRAMACION_DESACTIVADA"
+5       "MANDO_LOCAL"
+6       "FUERA_DE_SERVICIO"
+99      "SIN_COMUNICACION"
+7      "DESCONOCIDO"

@@ -1,0 +1,6 @@
+# Fichero de programacion de ordenes de control
+#
+# La estructura de cada linea es:
+# ANNO/MES/DIA HH:MM:SS SUBSISTEMA INSTANCIA NOMBRE_DE_ORDEN_CONTROL "PARAMETROS ENTRE COMILLAS"
+
+101 10 5 3 00 00  SUBS_METTA * ENVIAR_FICHERO "1418 PARAM_SW.DAT"

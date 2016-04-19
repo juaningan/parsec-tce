@@ -1,0 +1,12 @@
+#
+# Fichero que guarda los nombres y codigos de las Alarmas del Alumbrado de Estacion
+#
+#
+# Codigo de la Alarma	 Prioridad  	Texto
+#
+
+TOTAL_NOMBRES	3
+
+45	6	10	dummy	"Falta Alimentacion Alumbrado NORMAL"
+46	6	10	dummy	"Falta Alimentacion Alumbrado EMERGENCIA"
+50	6	10	dummy	"Falta Alimentacion Alumbrado AUTONOMO"

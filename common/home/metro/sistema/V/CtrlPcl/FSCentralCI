@@ -1,0 +1,20 @@
+#
+# Fichero que guarda los nombres y codigos de los FS de las escaleras 
+#
+#
+# Codigo del FS		Texto
+#
+
+TOTAL_NOMBRES	11
+
+1	dummy	"Averia Central Contra-Incendios"
+2	dummy	"Fallo Alimentacion Central Contra-Incendios"
+3	dummy	"Defecto Comunicacion Central Contra-Incendios"
+4	dummy	"AVERIA Contra-Incendios en Escalera"
+5	dummy	"AVERIA Contra-Incendios en Cuarto de Transformacion"
+6	dummy	"AVERIA Contra-Incendios en Cuarto de Baja Tension"
+7	dummy	"AVERIA Contra-Incendios en Cuarto de Comunicaciones"
+8	dummy	"AVERIA Contra-Incendios en Cuarto de Enclavamientos"
+9	dummy	"AVERIA Contra-Incendios en Ascensor"
+10	dummy   "AVERIA Contra-Incendios en Cuarto de Alta y Baja"
+11	dummy   "AVERIA Contra-Incendios en Cuarto de Telefonia Movil"

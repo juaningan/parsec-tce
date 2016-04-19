@@ -1,0 +1,82 @@
+#
+# Fichero de Tipos de Eventos de NEWSAI2
+# --------------------------------------
+#
+# El formato de los registros es el siguiente:
+#
+# Registro 1: NUMERO_TIPOS_EVENTOS y PRIORIDAD_MINIMA_ALARMAS
+# Registros 2 en adelante:
+#     codigo prioridad periodo fichero_sonido descripcion
+#
+71 3
+001 4 0 FichSonido ???
+002 4 0 FichSonido ???
+003 4 0 FichSonido ???
+004 4 0 FichSonido ???
+005 4 0 FichSonido SAI en bypass
+006 4 0 FichSonido ???
+007 4 0 FichSonido ???
+008 4 0 FichSonido ???
+009 4 0 FichSonido ???
+010 4 0 FichSonido ???
+011 4 0 FichSonido ???
+012 4 0 FichSonido ???
+013 4 0 FichSonido ???
+014 4 0 FichSonido ???
+015 4 0 FichSonido ???
+016 4 0 FichSonido ???
+017 4 0 FichSonido SAI en bateria
+018 4 0 FichSonido ???
+019 4 0 FichSonido Bypass disponible
+020 4 0 FichSonido Cargador activado
+021 4 0 FichSonido Parada de emergencia en el SAI
+022 4 0 FichSonido ???
+023 4 0 FichSonido ???
+024 4 0 FichSonido ???
+025 4 0 FichSonido ???
+026 4 0 FichSonido ???
+027 4 0 FichSonido ???
+028 4 0 FichSonido ???
+029 4 0 FichSonido Tension alta en el inversor
+030 4 0 FichSonido SAI parado con tension de salida cero
+031 4 0 FichSonido ???
+032 4 0 FichSonido ???
+033 4 0 FichSonido ???
+034 4 0 FichSonido Sobretemperatura en disipador potencia
+035 4 0 FichSonido ???
+036 4 0 FichSonido ???
+037 4 0 FichSonido Tension baja en el inversor
+038 4 0 FichSonido ???
+039 4 0 FichSonido ???
+040 4 0 FichSonido ???
+041 4 0 FichSonido ???
+042 4 0 FichSonido ???
+043 4 0 FichSonido ???
+044 4 0 FichSonido ???
+045 4 0 FichSonido ???
+046 4 0 FichSonido ???
+047 4 0 FichSonido ???
+048 4 0 FichSonido SAI con VA supera 105 por cien
+049 4 0 FichSonido ???
+050 4 0 FichSonido ???
+051 4 0 FichSonido Bateria no instalada
+052 4 0 FichSonido ???
+053 4 0 FichSonido ???
+054 4 0 FichSonido ???
+055 0 0 FichSonido ???
+056 0 0 FichSonido SAI con VA supera 110 por cien
+057 0 0 FichSonido SAI en baterias
+058 0 0 FichSonido SAI en baterias bajas
+059 0 0 FichSonido SAI en baterias exhaustas
+060 0 0 FichSonido SAI con salida cortocircuitada
+061 0 0 FichSonido SAI cerca tiempo limite baterias
+062 0 0 FichSonido SAI con voltage salida sobrepasado
+063 0 0 FichSonido SAI con tension entrada muy alta
+064 0 0 FichSonido SAI con error de comunicaciones
+065 0 0 FichSonido Bateria cargando
+066 0 0 FichSonido Bateria cargada
+067 0 0 FichSonido Bateria no instalada
+068 0 0 FichSonido Bateria en fallo
+000 0 0 FichSonido Normal
+099 0 0 FichSonido SAI desconectado
+100 0 0 FichSonido No existe el fichero de estado

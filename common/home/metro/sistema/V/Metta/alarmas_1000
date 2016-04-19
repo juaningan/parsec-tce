@@ -1,0 +1,198 @@
+# FICHERO DE CONFIGURACION DE LOS TIPOS DE ALARMAS TECNICAS PARA METTA 1000
+#            HA DE ESTAR ORDENADO POR CODIGO DE MENOR A MAYOR
+#
+ NRO_DE_TIPOS_DE_ALARMA		187
+ PRIORIDAD_MINIMA_PARA_REPORTAR	0
+#
+# SINTAXIS:  ALARMA  <CodHexadecimal> <Prioridad> <Periodo> <FichAudio> <Texto>
+#
+# Codigos (en Hexadecimal) propios del Driver
+ALARMA   4 4 30  FueServMetta	Metta Fuera de Servicio
+ALARMA  4E 4 30  AmenazaMetta	Entrada Bajo Amenaza
+ALARMA  4F 4 30  SonoraMetta	Alarma Sonora Activada
+ALARMA  60 3 30  DummyMetta	Numero de Metta Incorrecto
+ALARMA  61 3 30  DummyMetta	Error Apertura Fichero
+ALARMA  62 3 30  DummyMetta	Error Protocolo SDLC
+ALARMA  63 4 30  DesconecMetta	Metta Sin Comunicacion
+# Codigos propios de las METTA
+ALARMA 101 4 30  DummyMetta  Rollo Papel 1 Terminandose
+ALARMA 102 4 30  DummyMetta  Rollo Papel 2 Terminandose
+ALARMA 103 4 30  DummyMetta  Rollo Papel 3 Terminandose
+ALARMA 104 4 30  DummyMetta  Rollo Papel 4 Terminandose
+ALARMA 105 4 30  DummyMetta  Rollo Papel 5 Terminandose
+ALARMA 106 4 30  DummyMetta  Rollo Papel 6 Terminandose
+ALARMA 201 5 30  RolloMetta  Rollo Papel 1 Agotado
+ALARMA 202 5 30  RolloMetta  Rollo Papel 2 Agotado
+ALARMA 203 5 30  RolloMetta  Rollo Papel 3 Agotado
+ALARMA 204 5 30  RolloMetta  Rollo Papel 4 Agotado
+ALARMA 205 5 30  RolloMetta  Rollo Papel 5 Agotado
+ALARMA 206 5 30  RolloMetta  Rollo Papel 6 Agotado
+ALARMA 207 4 30  DummyMetta  Fin Rollo Papel 1 Prematuro
+ALARMA 208 4 30  DummyMetta  Fin Rollo Papel 2 Prematuro
+ALARMA 209 4 30  DummyMetta  Fin Rollo Papel 3 Prematuro
+ALARMA 20A 4 30  DummyMetta  Fin Rollo Papel 4 Prematuro
+ALARMA 20B 4 30  DummyMetta  Fin Rollo Papel 5 Prematuro
+ALARMA 20C 4 30  DummyMetta  Fin Rollo Papel 6 Prematuro
+ALARMA 301 4 30  DummyMetta  Devolvedor 1 Terminandose
+ALARMA 302 4 30  DummyMetta  Devolvedor 2 Terminandose
+ALARMA 303 4 30  DummyMetta  Devolvedor 3 Terminandose
+ALARMA 401 5 30  DevolMetta  Devolvedor 1 Agotado
+ALARMA 402 5 30  DevolMetta  Devolvedor 2 Agotado
+ALARMA 403 5 30  DevolMetta  Devolvedor 3 Agotado
+ALARMA 404 4 30  DummyMetta  Discrepancia Nivel Llenado Hopper 1
+ALARMA 405 4 30  DummyMetta  Discrepancia Nivel Llenado Hopper 2
+ALARMA 406 4 30  DummyMetta  Discrepancia Nivel Llenado Hopper 3
+ALARMA 501 5 30  RecarMetta  Recargador 1 Vacio
+ALARMA 502 5 30  RecarMetta  Recargador 2 Vacio
+ALARMA 503 5 30  RecarMetta  Recargador 3 Vacio
+ALARMA 504 4 30  DummyMetta  Fallo Apertura Caja Recarga 1
+ALARMA 505 4 30  DummyMetta  Fallo Apertura Caja Recarga 2
+ALARMA 506 4 30  DummyMetta  Fallo Apertura Caja Recarga 3
+ALARMA 601 5 30  RecMoMetta  Cajas Recaud. Mon. Llenándose
+ALARMA 604 5 30  RecBiMetta  Caja Recaud. Bill. Llenándose
+ALARMA 605 4 30  DummyMetta  Fallo R/W RAM Estatica Caja Recaudacion 1
+ALARMA 606 4 30  DummyMetta  Fallo R/W RAM Estatica Caja Recaudacion 2
+ALARMA 607 4 30  DummyMetta  Fallo R/W RAM Estatica Caja Recaudacion 3
+ALARMA 700 4 30  DummyMetta  Fallo Billetero (Generico)
+ALARMA 701 4 30  DummyMetta  Fallo Billetero (Selector)
+ALARMA 702 4 30  DummyMetta  Fallo Billetero (Selector)
+ALARMA 703 4 30  DummyMetta  Fallo Billetero (Selector)
+ALARMA 704 4 30  DummyMetta  Fallo Billetero (Selector)
+ALARMA 705 4 30  DummyMetta  Fallo Billetero (Selector)
+ALARMA 706 4 30  DummyMetta  Fallo Billetero (Selector)
+ALARMA 707 4 30  DummyMetta  Fallo Billetero (Apilador)
+ALARMA 708 4 30  DummyMetta  Fallo Billetero (+5 V)
+ALARMA 709 4 30  DummyMetta  Fallo Billetero (+15 V)
+ALARMA 70A 4 30  DummyMetta  Fallo Billetero (-15 V)
+ALARMA 70B 4 30  DummyMetta  Fallo Billetero (+24 V)
+ALARMA 70C 4 30  DummyMetta  Fallo Billetero (Configuracion)
+ALARMA 70D 4 30  DummyMetta  Fallo Billetero (Configuracion)
+ALARMA 70E 4 30  DummyMetta  Fallo Billetero (Luz)
+ALARMA 70F 4 30  DummyMetta  Fallo Billetero (Software)
+ALARMA 710 4 30  DummyMetta  Fallo Billetero (Software)
+ALARMA 731 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 732 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 733 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 734 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 735 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 736 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 737 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 738 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 739 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 73A 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 73B 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 73C 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 73D 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 751 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 752 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 753 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 754 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 755 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 756 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 757 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 758 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 759 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 75A 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 75B 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 75C 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 75D 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 761 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 762 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 763 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 764 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 765 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 766 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 767 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 768 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 769 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 76A 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 76B 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 76C 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 76D 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 771 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 772 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 773 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 774 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 775 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 776 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 777 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 778 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 779 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 77A 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 77B 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 77C 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 77D 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 787 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 78D 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 797 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 79D 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 7A7 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 7AD 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 7C0 4 30  DummyMetta  Fallo Billetero (Apilador)
+ALARMA 7C1 4 30  DummyMetta  Fallo Billetero (Apilador)
+ALARMA 7C2 4 30  DummyMetta  Fallo Billetero (Apilador)
+ALARMA 7C3 4 30  DummyMetta  Fallo Billetero (Apilador)
+ALARMA 7C4 4 30  DummyMetta  Fallo Billetero (Apilador)
+ALARMA 7D0 4 30  DummyMetta  Fallo Billetero (Apilador)
+ALARMA 7D1 4 30  DummyMetta  Fallo Billetero (Apilador)
+ALARMA 7D2 4 30  DummyMetta  Fallo Billetero (Apilador)
+ALARMA 7D3 4 30  DummyMetta  Fallo Billetero (Apilador)
+ALARMA 7D4 4 30  DummyMetta  Fallo Billetero (Apilador)
+ALARMA 7D5 4 30  DummyMetta  Fallo Billetero (Apilador)
+ALARMA 7D6 4 30  DummyMetta  Fallo Billetero (Apilador)
+ALARMA 7D7 4 30  DummyMetta  Fallo Billetero (Apilador)
+ALARMA 7D8 4 30  DummyMetta  Fallo Billetero (Apilador)
+ALARMA 7E0 4 30  DummyMetta  Fallo Billetero (Apilador Con Papel)
+ALARMA 7E1 4 30  DummyMetta  Fallo Billetero (Apilador Con Papel)
+ALARMA 7E2 4 30  DummyMetta  Fallo Billetero (Apilador Con Papel)
+ALARMA 7E3 4 30  DummyMetta  Fallo Billetero (Apilador Con Papel)
+ALARMA 7E4 4 30  DummyMetta  Fallo Billetero (Apilador Con Papel)
+ALARMA 7E5 4 30  DummyMetta  Fallo Billetero (Apilador Con Papel)
+ALARMA 7E6 4 30  DummyMetta  Fallo Billetero (Apilador Con Papel)
+ALARMA 7E7 4 30  DummyMetta  Fallo Billetero (Apilador Con Papel)
+ALARMA 7E8 4 30  DummyMetta  Fallo Billetero (Apilador Con Papel)
+ALARMA 7F0 4 30  DummyMetta  Fallo Billetero (Selector Con Papel)
+ALARMA 7F2 4 30  DummyMetta  Fallo Billetero (Selector Con Papel)
+ALARMA 7F3 4 30  DummyMetta  Fallo Billetero (Selector Con Papel)
+ALARMA 7F4 4 30  DummyMetta  Fallo Billetero (Selector Con Papel)
+ALARMA 7F5 4 30  DummyMetta  Fallo Billetero (Selector Con Papel)
+ALARMA 7F6 4 30  DummyMetta  Fallo Billetero (Selector Con Papel)
+ALARMA 7F7 4 30  DummyMetta  Fallo Billetero (Selector Con Papel)
+ALARMA 7F8 4 30  DummyMetta  Fallo Billetero (Selector Con Papel)
+ALARMA 7F9 4 30  DummyMetta  Fallo Billetero (Selector Con Papel)
+ALARMA 800 5 30  RolloMetta  Posible Fraude en Billetero
+ALARMA 801 4 30  DummyMetta  Fallos Reiterados Expendedor Billetes
+ALARMA 901 4 30  DummyMetta  Mant. Preven. Billetero Requerido
+ALARMA 902 4 30  DummyMetta  Mant. Preven. Monedero Requerido
+ALARMA 903 4 30  DummyMetta  Mant. Preven. Hopper 1 Requerido
+ALARMA 904 4 30  DummyMetta  Mant. Preven. Hopper 2 Requerido
+ALARMA 905 4 30  DummyMetta  Mant. Preven. Hopper 3 Requerido
+ALARMA 906 4 30  DummyMetta  Mant. Preven. Cab. Grab. Requerido
+ALARMA 907 4 30  DummyMetta  Mant. Preven. Cab. Lect. Requerido
+ALARMA 908 4 30  DummyMetta  Mant. Preven. Impresora Requerido
+ALARMA 909 4 30  DummyMetta  Mant. Preven. Cinta Imp. Requerido
+ALARMA 90A 4 30  DummyMetta  Mant. Preven. Procesador Requerido
+ALARMA 90B 4 30  DummyMetta  Mant. Preven. Limpieza Requerido
+ALARMA 90C 4 30  DummyMetta  Mant. Preven. Bat.Alarma Requerido
+ALARMA 90D 4 30  DummyMetta  Mant. Preven. Bat.Fuente Requerido
+ALARMA 90E 4 30  DummyMetta  Mant. Preven. Tecl.Usua. Requerido
+ALARMA 90F 4 30  DummyMetta  Mant. Preven. Tecl.Mant Requerido
+ALARMA 910 4 30  DummyMetta  Mant. Preven. Monitor Requerido
+ALARMA 911 4 30  DummyMetta  Mant. Preven. Disco Duro Requerido
+ALARMA A01 4 30  DummyMetta  Fallo Comunicacion Display Rotante
+ALARMA A02 4 30  DummyMetta  Fallo Comunicacion Aceptador Billetes
+ALARMA B01 4 30  DummyMetta  Fallo Lector Magnetico Mantenimiento
+ALARMA B02 4 30  DummyMetta  Fallo Alarma Sonora
+ALARMA B03 4 30  DummyMetta  Fallo Alarma Tecnica
+ALARMA C01 4 30  DummyMetta  Fallo Mensajes Display Rotante
+ALARMA C02 4 30  DummyMetta  Fallo Teclado Mantenimiento
+ALARMA D01 4 30  DummyMetta  Fallo Aceptacion Billetes
+ALARMA D02 4 30  DummyMetta  Fallo Rechazo Billetes
+ALARMA D03 4 30  DummyMetta  Fallo Devolucion Billetes
+ALARMA D04 4 30  DummyMetta  Fallo Insercion Caja Billetes
+ALARMA E01 4 30  DummyMetta  Fallo Destructor Banda Magnetica
+ALARMA F01 4 30  DummyMetta  A.T.M. Limpieza
+ALARMA F02 4 30  DummyMetta  A.T.M. Metacrilatos
+ALARMA F03 4 30  DummyMetta  A.T.M. Alumbrado
+ALARMA F04 4 30  DummyMetta  A.T.M. Seguridad
+ALARMA F05 4 30  DummyMetta  A.T.M. Vandalismo

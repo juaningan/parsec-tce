@@ -1,0 +1,101 @@
+# FICHERO DE CONFIGURACION DE LOS TIPOS DE CAUSAS DE FS PARA METTA 1000
+#            HA DE ESTAR ORDENADO POR CODIGO DE MENOR A MAYOR
+#
+ NRO_DE_TIPOS_DE_CAUSA_FS		93
+#
+# SINTAXIS:  CAUSA_FS  <CodHexadecimal> <Prioridad> <Periodo> <Texto>
+#
+CAUSA_FS 0071 99 30  Fallo en Uve 1 Tolva
+CAUSA_FS 0072 99 30  Fallo en Uve 1 Cajas
+CAUSA_FS 0073 99 30  Fallo en Uve 2 Caja 1
+CAUSA_FS 0074 99 30  Fallo en Uve 2 Caja 2
+CAUSA_FS 0080 99 30  Atasco Selector Monedas
+CAUSA_FS 0200 99 30  Apertura Puertas
+CAUSA_FS 0210 99 30  Alarma Disparada
+CAUSA_FS 0225 99 30  Forzamiento Puerta Hoppers
+CAUSA_FS 0234 99 30  Presencia Caja Billetero
+CAUSA_FS 0251 99 30  Fallo Hopper 1
+CAUSA_FS 0252 99 30  Fallo Hopper 2
+CAUSA_FS 0253 99 30  Fallo Hopper 3
+CAUSA_FS 0254 99 30  Fallo Hopper 4
+CAUSA_FS 029A 99 30  Puerta del Billetero
+CAUSA_FS 029B 99 30  Fallo en 24V DC
+CAUSA_FS 029C 99 30  Fallo en 12V DC
+CAUSA_FS 029D 99 30  Fallo en 5V DC
+CAUSA_FS 0B02 99 30  Fallo Alarma Sonora
+CAUSA_FS 1100 99 30  Cajas Recaudacion Llenas
+CAUSA_FS 1200 99 30  Rollos Papel Agotados
+CAUSA_FS 1201 99 30  No hay Rollos Cargados
+CAUSA_FS 1202 99 30  No hay Titulos Validos Cargados
+CAUSA_FS 1204 99 30  No hay Caja Recaudacion 1
+CAUSA_FS 1205 99 30  No hay Caja Recaudacion 2
+CAUSA_FS 1207 99 30  No hay Cajas de Recaudacion
+CAUSA_FS 120A 99 30  No hay Caja Recarga 1
+CAUSA_FS 120B 99 30  No hay Caja Recarga 2
+CAUSA_FS 120C 99 30  No hay Caja Recarga 3
+CAUSA_FS 120D 99 30  No hay Caja Recarga 4
+CAUSA_FS 1500 99 30  Fallo Pantalla Tactil
+CAUSA_FS 2002 99 30  Adaptacion al EURO
+CAUSA_FS 2003 99 30  Fallo Comunicacion con Procesador
+CAUSA_FS 2004 99 30  Detectados Sensores Fin de Rollos
+CAUSA_FS 2200 99 30  Fuera Servicio Manual
+CAUSA_FS 2400 99 30  Fallo Estado Monedero
+CAUSA_FS 2401 99 30  Fallo Operacion Monedero
+CAUSA_FS 2402 99 30  Desconexion 24 Voltios
+CAUSA_FS 2500 99 30  Fallo Distribuidor 1
+CAUSA_FS 2501 99 30  Fallo Distribuidor 2
+CAUSA_FS 2502 99 30  Fallo Distribuidor 3
+CAUSA_FS 3001 99 30  Ausencia Hopper 1
+CAUSA_FS 3002 99 30  Ausencia Hopper 2
+CAUSA_FS 3003 99 30  Ausencia Hopper 3
+CAUSA_FS 3004 99 30  Ausencia Hopper 4
+CAUSA_FS 4000 99 30  Ausencia Cajas
+CAUSA_FS 4001 99 30  Ausencia Caja 1
+CAUSA_FS 4002 99 30  Ausencia Caja 2
+CAUSA_FS 4101 99 30  Fallo Sistema Desbloqueo Caja 1
+CAUSA_FS 4102 99 30  Fallo Sistema Desbloqueo Caja 2
+CAUSA_FS 4111 99 30  Fallo Sistema Desbloqueo Recarga 1
+CAUSA_FS 4112 99 30  Fallo Sistema Desbloqueo Recarga 2
+CAUSA_FS 4113 99 30  Fallo Sistema Desbloqueo Recarga 3
+CAUSA_FS 4114 99 30  Fallo Sistema Desbloqueo Recarga 4
+CAUSA_FS 4201 99 30  Fallo Sensor Presencia Caja 1
+CAUSA_FS 4202 99 30  Fallo Sensor Presencia Caja 2
+CAUSA_FS 4211 99 30  Fallo Sensor Presencia Recargador 1
+CAUSA_FS 4212 99 30  Fallo Sensor Presencia Recargador 2
+CAUSA_FS 4213 99 30  Fallo Sensor Presencia Recargador 3
+CAUSA_FS 4214 99 30  Fallo Sensor Presencia Recargador 4
+CAUSA_FS 6000 99 30  Fallo Test Fotocelula Entrada Monedas
+CAUSA_FS 6103 99 30  Fallo Test Motor Desatasco
+CAUSA_FS 6106 99 30  Fallo Test Foto Salida Tolva
+CAUSA_FS 6110 99 30  Fallo Test Flap Entrada Monedas
+CAUSA_FS 6111 99 30  Fallo Test ROM Monedero
+CAUSA_FS 6112 99 30  Fallo Test RAM Monedero
+CAUSA_FS 6114 99 30  Fallo Test Vaciado Monedero
+CAUSA_FS 6116 99 30  Fallo Test Puerta Hoppers
+CAUSA_FS 6200 99 30  Fallo Test Uve 1 Tolva
+CAUSA_FS 6201 99 30  Fallo Test Uve 1 Cajas
+CAUSA_FS 6202 99 30  Fallo Test Uve 2 Caja 1
+CAUSA_FS 6203 99 30  Fallo Test Uve 2 Caja 2
+CAUSA_FS 6300 99 30  Fallo Test Distribuidor
+CAUSA_FS 8000 99 30  Test Auto. ROM Procesador
+CAUSA_FS 8001 99 30  Test Auto. RAM Dinamica Procesador
+CAUSA_FS 9000 99 30  Test Auto. Fotocelulas Procesador
+CAUSA_FS 9003 99 30  Test Auto. Medicion Rollos
+CAUSA_FS 9005 99 30  Test Auto. Tapa Procesador Abierta
+CAUSA_FS 9007 99 30  Test Auto. Sistema de Corte
+CAUSA_FS 9008 99 30  Test Auto. Servomotor Procesador
+CAUSA_FS 9100 99 30  Test Asis. Fotocelulas Procesador
+CAUSA_FS 9101 99 30  Test Asis. Servomotor Procesador
+CAUSA_FS 9103 99 30  Fallo Test Asis. Embrague Procesador
+CAUSA_FS 9104 99 30  Fallo Test Asis. Motores Rollo
+CAUSA_FS 9105 99 30  Fallo Test Asis. Sistema Corte
+CAUSA_FS 9106 99 30  Test Asis. Sensor Tapa Cerrada
+CAUSA_FS 9107 99 30  Test Asis. Sensores Fin de Rollo
+CAUSA_FS 9120 99 30  Test Asis. Fotos Rollo
+CAUSA_FS 9121 99 30  Fallo Test Asis. Desviador Procesador
+CAUSA_FS 9150 99 30  Fallo Test Impresion
+CAUSA_FS 9151 99 30  Fallo Test Graba/Lect Magnetica
+CAUSA_FS 9200 99 30  Atasco Expendedor Billetes
+CAUSA_FS 9300 99 30  Configuracion
+CAUSA_FS 9301 99 30  Maquina Arrancando aplicacion
+

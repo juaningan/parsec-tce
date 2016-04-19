@@ -1,0 +1,180 @@
+ 101 4 30  DummyMetta  Rollo Papel 1 Terminandose
+ 102 4 30  DummyMetta  Rollo Papel 2 Terminandose
+ 103 4 30  DummyMetta  Rollo Papel 3 Terminandose
+ 104 4 30  DummyMetta  Rollo Papel 4 Terminandose
+ 105 4 30  DummyMetta  Rollo Papel 5 Terminandose
+ 106 4 30  DummyMetta  Rollo Papel 6 Terminandose
+ 201 5 30  RolloMetta  Rollo Papel 1 Agotado
+ 202 5 30  RolloMetta  Rollo Papel 2 Agotado
+ 203 5 30  RolloMetta  Rollo Papel 3 Agotado
+ 204 5 30  RolloMetta  Rollo Papel 4 Agotado
+ 205 5 30  RolloMetta  Rollo Papel 5 Agotado
+ 206 5 30  RolloMetta  Rollo Papel 6 Agotado
+ 207 4 30  DummyMetta  Fin Rollo Papel 1 Prematuro
+ 208 4 30  DummyMetta  Fin Rollo Papel 2 Prematuro
+ 209 4 30  DummyMetta  Fin Rollo Papel 3 Prematuro
+ 20A 4 30  DummyMetta  Fin Rollo Papel 4 Prematuro
+ 20B 4 30  DummyMetta  Fin Rollo Papel 5 Prematuro
+ 20C 4 30  DummyMetta  Fin Rollo Papel 6 Prematuro
+ 301 4 30  DummyMetta  Devolvedor 1 Terminandose
+ 302 4 30  DummyMetta  Devolvedor 2 Terminandose
+ 303 4 30  DummyMetta  Devolvedor 3 Terminandose
+ 401 5 30  DevolMetta  Devolvedor 1 Agotado
+ 402 5 30  DevolMetta  Devolvedor 2 Agotado
+ 403 5 30  DevolMetta  Devolvedor 3 Agotado
+ 404 4 30  DummyMetta  Discrepancia Nivel Llenado Hopper 1
+ 405 4 30  DummyMetta  Discrepancia Nivel Llenado Hopper 2
+ 406 4 30  DummyMetta  Discrepancia Nivel Llenado Hopper 3
+ 501 5 30  RecarMetta  Recargador 1 Vacio
+ 502 5 30  RecarMetta  Recargador 2 Vacio
+ 503 5 30  RecarMetta  Recargador 3 Vacio
+ 504 4 30  DummyMetta  Fallo Apertura Caja Recarga 1
+ 505 4 30  DummyMetta  Fallo Apertura Caja Recarga 2
+ 506 4 30  DummyMetta  Fallo Apertura Caja Recarga 3
+ 601 5 30  RecMoMetta  Cajas Recaud. Mon. Llenándose
+ 604 5 30  RecBiMetta  Caja Recaud. Bill. Llenándose
+ 605 4 30  DummyMetta  Fallo R/W RAM Estatica Caja Recaudacion 1
+ 606 4 30  DummyMetta  Fallo R/W RAM Estatica Caja Recaudacion 2
+ 607 4 30  DummyMetta  Fallo R/W RAM Estatica Caja Recaudacion 3
+ 700 4 30  DummyMetta  Fallo Billetero (Generico)
+ 701 4 30  DummyMetta  Fallo Billetero (Selector)
+ 702 4 30  DummyMetta  Fallo Billetero (Selector)
+ 703 4 30  DummyMetta  Fallo Billetero (Selector)
+ 704 4 30  DummyMetta  Fallo Billetero (Selector)
+ 705 4 30  DummyMetta  Fallo Billetero (Selector)
+ 706 4 30  DummyMetta  Fallo Billetero (Selector)
+ 707 4 30  DummyMetta  Fallo Billetero (Apilador)
+ 708 4 30  DummyMetta  Fallo Billetero (+5 V)
+ 709 4 30  DummyMetta  Fallo Billetero (+15 V)
+ 70A 4 30  DummyMetta  Fallo Billetero (-15 V)
+ 70B 4 30  DummyMetta  Fallo Billetero (+24 V)
+ 70C 4 30  DummyMetta  Fallo Billetero (Configuracion)
+ 70D 4 30  DummyMetta  Fallo Billetero (Configuracion)
+ 70E 4 30  DummyMetta  Fallo Billetero (Luz)
+ 70F 4 30  DummyMetta  Fallo Billetero (Software)
+ 710 4 30  DummyMetta  Fallo Billetero (Software)
+ 731 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 732 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 733 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 734 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 735 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 736 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 737 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 738 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 739 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 73A 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 73B 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 73C 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 73D 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 751 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 752 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 753 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 754 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 755 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 756 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 757 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 758 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 759 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 75A 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 75B 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 75C 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 75D 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 761 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 762 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 763 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 764 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 765 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 766 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 767 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 768 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 769 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 76A 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 76B 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 76C 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 76D 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 771 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 772 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 773 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 774 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 775 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 776 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 777 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 778 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 779 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 77A 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 77B 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 77C 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 77D 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 787 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 78D 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 797 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 79D 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 7A7 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 7AD 4 30  DummyMetta  Fallo Billetero (LEDs)
+ 7C0 4 30  DummyMetta  Fallo Billetero (Apilador)
+ 7C1 4 30  DummyMetta  Fallo Billetero (Apilador)
+ 7C2 4 30  DummyMetta  Fallo Billetero (Apilador)
+ 7C3 4 30  DummyMetta  Fallo Billetero (Apilador)
+ 7C4 4 30  DummyMetta  Fallo Billetero (Apilador)
+ 7D0 4 30  DummyMetta  Fallo Billetero (Apilador)
+ 7D1 4 30  DummyMetta  Fallo Billetero (Apilador)
+ 7D2 4 30  DummyMetta  Fallo Billetero (Apilador)
+ 7D3 4 30  DummyMetta  Fallo Billetero (Apilador)
+ 7D4 4 30  DummyMetta  Fallo Billetero (Apilador)
+ 7D5 4 30  DummyMetta  Fallo Billetero (Apilador)
+ 7D6 4 30  DummyMetta  Fallo Billetero (Apilador)
+ 7D7 4 30  DummyMetta  Fallo Billetero (Apilador)
+ 7D8 4 30  DummyMetta  Fallo Billetero (Apilador)
+ 7E0 4 30  DummyMetta  Fallo Billetero (Apilador Con Papel)
+ 7E1 4 30  DummyMetta  Fallo Billetero (Apilador Con Papel)
+ 7E2 4 30  DummyMetta  Fallo Billetero (Apilador Con Papel)
+ 7E3 4 30  DummyMetta  Fallo Billetero (Apilador Con Papel)
+ 7E4 4 30  DummyMetta  Fallo Billetero (Apilador Con Papel)
+ 7E5 4 30  DummyMetta  Fallo Billetero (Apilador Con Papel)
+ 7E6 4 30  DummyMetta  Fallo Billetero (Apilador Con Papel)
+ 7E7 4 30  DummyMetta  Fallo Billetero (Apilador Con Papel)
+ 7E8 4 30  DummyMetta  Fallo Billetero (Apilador Con Papel)
+ 7F0 4 30  DummyMetta  Fallo Billetero (Selector Con Papel)
+ 7F2 4 30  DummyMetta  Fallo Billetero (Selector Con Papel)
+ 7F3 4 30  DummyMetta  Fallo Billetero (Selector Con Papel)
+ 7F4 4 30  DummyMetta  Fallo Billetero (Selector Con Papel)
+ 7F5 4 30  DummyMetta  Fallo Billetero (Selector Con Papel)
+ 7F6 4 30  DummyMetta  Fallo Billetero (Selector Con Papel)
+ 7F7 4 30  DummyMetta  Fallo Billetero (Selector Con Papel)
+ 7F8 4 30  DummyMetta  Fallo Billetero (Selector Con Papel)
+ 7F9 4 30  DummyMetta  Fallo Billetero (Selector Con Papel)
+ 801 4 30  DummyMetta  Fallos Reiterados Expendedor Billetes
+ 901 4 30  DummyMetta  Mant. Preven. Billetero Requerido
+ 902 4 30  DummyMetta  Mant. Preven. Monedero Requerido
+ 903 4 30  DummyMetta  Mant. Preven. Hopper 1 Requerido
+ 904 4 30  DummyMetta  Mant. Preven. Hopper 2 Requerido
+ 905 4 30  DummyMetta  Mant. Preven. Hopper 3 Requerido
+ 906 4 30  DummyMetta  Mant. Preven. Cab. Grab. Requerido
+ 907 4 30  DummyMetta  Mant. Preven. Cab. Lect. Requerido
+ 908 4 30  DummyMetta  Mant. Preven. Impresora Requerido
+ 909 4 30  DummyMetta  Mant. Preven. Cinta Imp. Requerido
+ 90A 4 30  DummyMetta  Mant. Preven. Procesador Requerido
+ 90B 4 30  DummyMetta  Mant. Preven. Limpieza Requerido
+ 90C 4 30  DummyMetta  Mant. Preven. Bat.Alarma Requerido
+ 90D 4 30  DummyMetta  Mant. Preven. Bat.Fuente Requerido
+ 90E 4 30  DummyMetta  Mant. Preven. Tecl.Usua. Requerido
+ 90F 4 30  DummyMetta  Mant. Preven. Tecl.Mant Requerido
+ 910 4 30  DummyMetta  Mant. Preven. Monitor Requerido
+ 911 4 30  DummyMetta  Mant. Preven. Disco Duro Requerido
+ A01 4 30  DummyMetta  Fallo Comunicacion Display Rotante
+ A02 4 30  DummyMetta  Fallo Comunicacion Aceptador Billetes
+ B01 4 30  DummyMetta  Fallo Lector Magnetico Mantenimiento
+ B02 4 30  DummyMetta  Fallo Alarma Sonora
+ B03 4 30  DummyMetta  Fallo Alarma Tecnica
+ C01 4 30  DummyMetta  Fallo Mensajes Display Rotante
+ C02 4 30  DummyMetta  Fallo Teclado Mantenimiento
+ D01 4 30  DummyMetta  Fallo Aceptacion Billetes
+ D02 4 30  DummyMetta  Fallo Rechazo Billetes
+ D03 4 30  DummyMetta  Fallo Devolucion Billetes
+ D04 4 30  DummyMetta  Fallo Insercion Caja Billetes
+ E01 4 30  DummyMetta  Fallo Destructor Banda Magnetica
+ F01 4 30  DummyMetta  A.T.M. Limpieza
+ F02 4 30  DummyMetta  A.T.M. Metacrilatos
+ F03 4 30  DummyMetta  A.T.M. Alumbrado
+ F04 4 30  DummyMetta  A.T.M. Seguridad
+ F05 4 30  DummyMetta  A.T.M. Vandalismo

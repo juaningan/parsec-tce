@@ -1,0 +1,39 @@
+# FICHERO DE CONFIGURACION DE LOS TIPOS DE CAUSAS DE FS PARA METTA 1000
+#            HA DE ESTAR ORDENADO POR CODIGO DE MENOR A MAYOR
+#
+ NRO_DE_TIPOS_DE_CAUSA_FS               31
+#
+# SINTAXIS:  CAUSA_FS  <CodHexadecimal> <Prioridad> <Periodo> <Texto>
+#
+CAUSA_FS 120E 99 30  Billetero: Falta caja
+CAUSA_FS 5000 99 30  Emisor: Comunicaciones
+CAUSA_FS 5001 99 30  Emisor: Atasco
+CAUSA_FS 5002 99 30  Emisor: Tapa 
+CAUSA_FS 5003 99 30  Emisor: Sin papel
+CAUSA_FS 5004 99 30  Emisor: No hay rollos cargados
+CAUSA_FS 5031 99 30  Hoppers: Puerta forzada
+CAUSA_FS 5080 99 30  Alarma acustica disparada
+CAUSA_FS 5090 99 30  Alimentacion: Fallo tension
+CAUSA_FS 5095 99 30  Controlador de monetica: Comunicaciones
+CAUSA_FS 50B0 99 30  Puerta: Abierta
+CAUSA_FS 50B1 99 30  Puerta cerradura: Abierta
+CAUSA_FS 50C2 99 30  Caja de recaudacion: Cajas llenas
+CAUSA_FS 50C3 99 30  Caja de recaudacion: Sin cajas
+CAUSA_FS 50F0 99 30  Pantalla tactil: Fallo
+CAUSA_FS 5103 99 30  Cola no sincronizada
+CAUSA_FS 5104 99 30  Cola llena
+CAUSA_FS 5105 99 30  Instalando programa principal
+CAUSA_FS 5106 99 30  Instalando automata de venta
+CAUSA_FS 5107 99 30  Instalando definicion de titulos
+CAUSA_FS 5108 99 30  Enviando programa controlador de monetica
+CAUSA_FS 5109 99 30  Enviando firmware del emisor
+CAUSA_FS 510A 99 30  Reiniciando navegador
+CAUSA_FS 5200 99 30  Telecargas: Faltan telecargas
+CAUSA_FS 5201 99 30  Telecargas: Faltan tarifas
+CAUSA_FS 5202 99 30  Telecargas: Faltan parametros de la maquina
+CAUSA_FS 5203 99 30  Telecargas: Faltan parametros de pago off-line
+CAUSA_FS 5204 99 30  Telecargas: Falta definicion de titulos
+CAUSA_FS 5300 99 30  Fuera de servicio forzado
+CAUSA_FS 5301 99 30  Maquina apagada
+CAUSA_FS 5302 99 30  Modo mantenimiento
+

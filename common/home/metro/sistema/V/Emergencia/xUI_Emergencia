@@ -1,0 +1,6 @@
+ESTADO_EMERGENCIA	3 ESTADO_CERRADO 1035821477
+ALARMA			1 1035821031 "Nivel bajo de aceite"
+ALARMA			2 1035821038 "Baja presion de nitrogeno"
+ALARMA			3 1035821044 "Presion aceite del acumulador incorrecta"
+ALARMA			4 1035821049 "Presion de maniobra incorrecta"
+EVENTO			18 1035821477 "Cierre finalizado"

@@ -1,0 +1,9 @@
+#
+# Fichero que guarda los nombres y codigos de las alrmas de interfonia 
+#
+#
+# Codigo de la alarma	Nombre de la alarma
+#
+
+TOTAL_NOMBRES	1
+3	6	10	dummy	"Llamada Interfono"

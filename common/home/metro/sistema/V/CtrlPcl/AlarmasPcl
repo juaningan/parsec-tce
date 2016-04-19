@@ -1,0 +1,15 @@
+#
+# Fichero que guarda los nombres y codigos de las Alarmas del Control de Instalaciones
+#
+#
+# Codigo de la Alarma	 Prioridad  	Texto
+#
+
+TOTAL_NOMBRES	6
+
+1	6	10	dummy	"Imposible Escribir Codigo Operador en UM"
+99	6	10	dummy	"PCL SIN COMUNICACION"
+2	6	10	dummy	"Defecto Comunicacion T.M.I"
+3	6	10	dummy	"Defecto Comunicacion TVCC"
+4	6	10	dummy	"Defecto Comunicacion Megafonia"
+5	6	10	dummy	"Defecto Comunicacion Interfonia"

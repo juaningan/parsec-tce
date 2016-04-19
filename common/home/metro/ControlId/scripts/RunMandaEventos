@@ -1,0 +1,18 @@
+#!/bin/sh
+#
+# Este script permite ejecutar un proceso en background
+#  si no se está ejecutando ya. Para Solaris 2.6
+# Este script se debe ejecutar desde el crontab con una linea como
+# 35 * * * * /home/metro/ControlId/scripts/RunMandaEventos
+
+PROCESO=/home/metro/ControlId/scripts/MandaEventos
+
+# Si el resultado de ejecutar el comando es una cadena vacia,
+# es que el proceso no esta ejecutandose y por tanto se ejecuta.
+
+if [ -z "`/usr/bin/ps -ef | grep $PROCESO | grep -v grep | sed \"s/^ *//g;s/  */ /g\"| cut -d \" \" -f 2`" ]
+then
+   $PROCESO &
+fi
+exit 0
+

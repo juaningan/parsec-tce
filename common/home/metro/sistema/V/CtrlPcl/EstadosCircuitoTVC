@@ -1,0 +1,13 @@
+#
+# Fichero que guarda los nombres y codigos de los estados del Circuito TVC 
+#
+#
+# Codigo del estado 			Nombre del estado
+# 		
+#
+
+TOTAL_NOMBRES	3
+
+0	"NORMAL"
+14	"SI_FIJADA"
+19	"NO_FIJADA"

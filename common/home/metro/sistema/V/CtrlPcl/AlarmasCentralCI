@@ -1,0 +1,14 @@
+#
+# Fichero que guarda los nombres y codigos de las alrmas de la central CI 
+#
+#
+# Codigo de la alarma	prioridad  periodo  Nombre de la alarma
+#
+
+TOTAL_NOMBRES	6
+1	6	10	dummy	"Alarma Contra-Incendios en Escalera"
+2	6	10	dummy	"Alarma Contra-Incendios en Cuarto de Transformacion"
+3	6	10	dummy	"Alarma Contra-Incendios en Cuarto de Baja Tension"
+4	6	10	dummy	"Alarma Contra-Incendios en Cuarto de Comunicaciones"
+5	6	10	dummy	"Alarma Contra-Incendios en Cuarto de Enclavamientos"
+6	6	10	dummy	"Alarma Contra-Incendios en Zona No Prevista"

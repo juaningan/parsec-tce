@@ -1,0 +1,12 @@
+#
+# Fichero que guarda los nombres y codigos de los estados de la megafonia
+#
+#
+# Codigo del estado 			Nombre del estado
+# 		
+#
+
+TOTAL_NOMBRES	2
+
+15	"SI_ACTIVADA"
+21	"NO_ACTIVADA"

@@ -1,0 +1,17 @@
+#
+# Fichero que guarda los nombres y codigos de las Alarmas de los ventiladores de Tunel y Anden
+#
+#
+# Codigo de la ALARMAS		Texto
+#
+
+TOTAL_NOMBRES	8
+
+1	6	10	dummy	"Fallo Alimentacion"
+2	6	10	dummy	"Disparo Termico"
+3	6	10	dummy	"Defecto o Local"
+4	6	10	dummy	"Disparo Disyuntores"
+5	6	10	dummy	"Defecto de Compuertas"
+6	6	10	dummy	"Defecto de Presion Diferencial"
+7	6	10	dummy	"Seta de Emergencia Pulsada"
+8	6	10	dummy	"Sin Comunicacion"

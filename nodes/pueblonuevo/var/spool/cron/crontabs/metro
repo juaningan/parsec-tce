@@ -1,0 +1,12 @@
+0 * * * * /home/metro/sun/freehome.sh
+0 * * * * /usr/local/bin/MandaEnvio.ksh -l /home/metro/MandaEnvio_diferido.log /home/metro/MandaEnvio_f
+0,15,30,45 2-5 * * * /home/metro/sun/MandaVolcados.ksh
+50 4 * * * /home/metro/sun/mbt.csh MBT00066 mbt >> /home/metro/sistema/V/Mbt/xEventosMbt
+13,28,43,58 2-5 * * * /home/metro/sun/SubirDatosRepositorio.csh
+18,33 2 * * * /home/metro/sun/SubirDatosRepositorioPupitre.csh
+0 * * * * /home/metro/sun/MandaAbajo.ksh
+
+35 * * * * /home/metro/sun/RunActualizaPupitreSC
+0,5,10,15,20,25,30,35,40,45,50,55 * * * * /home/metro/sun/comprueba_router.sh
+0,5,10,15,20,25,30,35,40,45,50,55 * * * * /home/metro/ControlId/scripts/RunMandaEventos
+0,5,10,15,20,25,30,35,40,45,50,55 * * * * /home/metro/ControlId/scripts/RunActualizaListas 05051

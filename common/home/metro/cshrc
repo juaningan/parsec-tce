@@ -1,0 +1,35 @@
+# @(#)Cshrc 1.1 86/07/09 SMI
+##################################################################
+#
+#         .cshrc file
+#
+#         initial setups for both interactive and noninteractive
+#         C-Shells
+#
+##################################################################
+
+alias ll 'ls -aFl'
+alias ls 'ls -aF'
+
+alias v 'cd $HOME/sistema/V;pwd'
+alias v1 'cd /home/metro/sistema/V1;pwd'
+alias v2 'cd /home/metro/sistema/V2;pwd'
+alias v3 'cd /home/metro/sistema/V3;pwd'
+alias v4 'cd /home/metro/sistema/V4;pwd'
+alias fe 'cd $HOME/sistema/V;pwd'
+alias sun 'cd /home/metro/sun;pwd'
+alias acc 'cd /home/metro/sistema/V/CtrlAcc;pwd'
+alias can 'cd /home/metro/sistema/V/Cancela;pwd'
+alias pcl 'cd /home/metro/sistema/V/CtrlPcl;pwd'
+alias plano 'cd /home/metro/sistema/V/UI_Plano/ui_concentrador;pwd'
+alias ppt 'cd /home/metro/sistema/V/Pupitre;pwd'
+alias tes 'cd /home/metro/sistema/V/Interfonia;pwd'
+
+alias cn 'cat /home/metro/sistema/V/Control.Now'
+alias rn 'cat /home/metro/sistema/V/Router.Now'
+alias Com 'cat /home/metro/sistema/V/Router.Now'
+
+alias mata 'kill -9 \!*' 
+alias proc 'ps -aux | grep metro'
+alias purgeall 'rm */*~'
+alias purge 'rm *~'

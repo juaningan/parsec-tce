@@ -1,0 +1,17 @@
+#
+# Fichero que guarda los nombres y codigos de las alarmas de los pozos fecales 
+#
+#
+# Codigo de la alarma	prioridad  periodo  Nombre de la alarma
+#
+
+TOTAL_NOMBRES	8
+
+1	6	10	dummy	"Fallo alimentacion"
+2	6	10	dummy	"Defecto General"
+3	6	10	dummy	"Nivel alto"
+4	6	10	dummy	"Fallo COM Controlador-Automata"
+5	6	10	dummy	"Defecto Bomba A"
+6	6	10	dummy	"Defecto Bomba B"
+7	6	10	dummy	"Modo Bomba A NO AUTO"
+8	6	10	dummy	"Modo Bomba B NO AUTO"

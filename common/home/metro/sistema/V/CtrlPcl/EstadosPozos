@@ -1,0 +1,14 @@
+#
+# Fichero que guarda los nombres y codigos de los estados de los pozos 
+#
+#
+# Codigo del estado 			Nombre del estado
+# 		
+#
+
+TOTAL_NOMBRES	4
+
+0	"NORMAL"
+1	"Nivel Alto de Agua"
+4	"FUERA DE SERVICIO"
+99	"DESCONECTADO"

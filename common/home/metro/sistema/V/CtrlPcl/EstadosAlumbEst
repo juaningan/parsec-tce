@@ -1,0 +1,14 @@
+#
+# Fichero que guarda los nombres y codigos de los estados del alumbrado de estacion
+#
+#
+# Codigo del estado 			Nombre del estado
+# 		
+#
+
+TOTAL_NOMBRES	4
+
+0	"NORMAL"
+4	"FUERA DE SERVICIO"
+9	"ENCENDIDO"
+10	"APAGADO"

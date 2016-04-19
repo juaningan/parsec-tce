@@ -1,0 +1,11 @@
+# FICHERO DE CONFIGURACION DE LOS TIPOS DE OPERACIONES MAL PARA METTA 1000
+#            HA DE ESTAR ORDENADO POR CODIGO DE MENOR A MAYOR
+#
+ NRO_DE_TIPOS_DE_OPERACION_MAL		4
+#
+# SINTAXIS:  OPERACION_MAL  <CodDecimal> <Prioridad> <Periodo> <Texto>
+#
+OPERACION_MAL  00  99 30        Fallo Devolucion
+OPERACION_MAL  01  99 30        Atranco Monedas
+OPERACION_MAL  02  99 30        Averia Billetero
+OPERACION_MAL  04  99 30        Fallo Procesador

@@ -1,0 +1,49 @@
+     FICHERO DE TARIFAS (TARIFAS.DAT) de METTA 2014 10/01/02 11:50
+     ====================================================================
+
+
+               FECHA ENTRADA EN VIGOR TARIFA ACTUAL   01/01/02
+
+
+                        TARIFA VIGENTE    0
+
+
+                         DIVISA   EUROS
+
+
+               TARIFA  Metro-@Sencillo Metro
+               Precio 95
+ 
+
+               TARIFA  METROBUS-@METROBUS 10 viajes
+               Precio 500
+ 
+
+               TARIFA  TFM-Sencillo
+               Zona A-B1     Precio 115
+               Zona A-B2     Precio 125
+               Zona B1-B2    Precio 60
+               Zona A-B3     Precio 190
+               Zona B1-B3    Precio 75
+               Zona B2-B3    Precio 65
+               Zona B3-B3    Precio 60
+ 
+
+               TARIFA  TFM-10 Viajes
+               Zona A-B1     Precio 805
+               Zona A-B2     Precio 910
+               Zona A-B3     Precio 1400
+ 
+
+               TARIFA  Combinado ARGANDA-Sencillo
+               Zona A-B1     Precio 210
+               Zona A-B2     Precio 220
+               Zona A-B3     Precio 285
+ 
+
+               TARIFA  Combinado ARGANDA-10 Viajes
+               Zona A-B1     Precio 1305
+               Zona A-B2     Precio 1410
+               Zona A-B3     Precio 1900
+ 
+

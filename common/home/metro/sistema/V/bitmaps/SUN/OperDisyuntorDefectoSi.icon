@@ -1,0 +1,30 @@
+/* XPM */
+static char * OperDisyuntorDefectoSi_icon[] = {
+/* width height ncolors cpp [x_hot y_hot] */
+"40 20 4 1 0 0",
+/* colors */
+" 	s iconGray6	m black	c #636363636363",
+".	s iconColor7	m white	c cyan",
+"X	s iconGray8	m black	c #212121212121",
+"o	s iconGray1	m white	c #dededededede",
+/* pixels */
+"                                        ",
+"                                        ",
+"  ......................................",
+"  ...........XXXXX.....XXXXXX...........",
+"  ..........XXXXXXX....XXXXXX...........",
+"  ..........XX...........XX.............",
+"  ..........XX...........XX.............",
+"  ..........XX...........XX.............",
+"  ..........XXXXXX.......XX.............",
+"  ...........XXXXXX......XX.............",
+"  ...............XX......XX.............",
+"  ...............XX......XX.............",
+"  ...............XX......XX.............",
+"  ..........X....XX......XX.............",
+"  ..........XXXXXXX....XXXXXX...........",
+"  ...........XXXXX.....XXXXXX...........",
+"  ......................................",
+"  ......................................",
+"  oooooooooooooooooooooooooooooooooooooo",
+" ooooooooooooooooooooooooooooooooooooooo"};

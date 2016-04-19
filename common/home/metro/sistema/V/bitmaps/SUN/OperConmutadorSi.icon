@@ -1,0 +1,33 @@
+/* XPM */
+static char * OperConmutadorSi_icon[] = {
+/* width height ncolors cpp [x_hot y_hot] */
+"60 20 7 1 0 0",
+/* colors */
+" 	c #646464646464",
+".	c #C8C8C8C8C8C8",
+"X	c #76768c8ca1a1",
+"o	c #38388b8be3e3",
+"O	s iconGray4	m white	c #969696969696",
+"+	c #C8C8C8C8C8C8",
+"@	c black",
+/* pixels */
+"                             .X............................ ",
+"                            ..X...........................  ",
+"  oooooooooooooooooooooooooo..X..OOOOOOOOOOOOOOOOOOOOOOOOO  ",
+"  oooooooooooooooooooooooooo..X..OOOOOOOOOOOOOOOOOOOOOOOOO  ",
+"  oooooooooooooooooooooooooo..X..OOOOOOOOOOOOOOOOOOOOOOOOO  ",
+"  ooooooooo@@@ooo@@@oooooooo..X..OOOOOOO+OOO+OO+++OOOOOOOO  ",
+"  oooooooo@ooo@ooo@ooooooooo..X..OOOOOOO++OO+O+OOO+OOOOOOO  ",
+"  oooooooo@ooooooo@ooooooooo..X..OOOOOOO++OO+O+OOO+OOOOOOO  ",
+"  oooooooo@ooooooo@ooooooooo..X..OOOOOOO+O+O+O+OOO+OOOOOOO  ",
+"  ooooooooo@@@oooo@ooooooooo..X..OOOOOOO+O+O+O+OOO+OOOOOOO  ",
+"  oooooooooooo@ooo@ooooooooo..X..OOOOOOO+OO++O+OOO+OOOOOOO  ",
+"  oooooooooooo@ooo@ooooooooo..X..OOOOOOO+OO++O+OOO+OOOOOOO  ",
+"  oooooooo@ooo@ooo@ooooooooo..X..OOOOOOO+OOO+O+OOO+OOOOOOO  ",
+"  ooooooooo@@@ooo@@@oooooooo..X..OOOOOOO+OOO+OO+++OOOOOOOO  ",
+"  oooooooooooooooooooooooooo..X..OOOOOOOOOOOOOOOOOOOOOOOOO  ",
+"  oooooooooooooooooooooooooo..X..OOOOOOOOOOOOOOOOOOOOOOOOO  ",
+"  oooooooooooooooooooooooooo..X..OOOOOOOOOOOOOOOOOOOOOOOOO  ",
+"  oooooooooooooooooooooooooo..X..OOOOOOOOOOOOOOOOOOOOOOOOO  ",
+" .............................X.                            ",
+"..............................X                             "};

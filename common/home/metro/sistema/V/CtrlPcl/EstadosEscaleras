@@ -1,0 +1,22 @@
+#
+# Fichero que guarda los nombres y codigos de los estados de las escaleras 
+#
+#
+# Codigo del estado 			Nombre del estado
+# 		
+#
+
+TOTAL_NOMBRES	12
+
+1	"SUBIENDO"
+2	"BAJANDO"
+3	"PARADA"
+11	"SUBIENDO_TCE"
+12	"BAJANDO_TCE"
+13	"PARADA_TCE"
+21	"SUBIENDO_OTRO"
+22	"BAJANDO_OTRO"
+23	"PARADA_OTRO"
+31	"SUBIENDO_INICIAL"
+32	"BAJANDO_INICIAL"
+33	"PARADA_INICIAL"

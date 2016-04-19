@@ -1,0 +1,26 @@
+# FICHERO DE CONFIGURACION DE LOS TIPOS DE ALARMAS DE ANTIINTRUSION
+#
+NRO_DE_TIPOS_DE_ALARMA          19
+#
+# SINTAXIS:  ALARMA  <Codecimal> <Prioridad> <Texto>
+#
+ALARMA 0 4 Recaudacion Imprevista en Metta
+ALARMA 1 4 Forzado Billetero en Metta
+ALARMA 2 4 Detector Magnetico Activo en Metta
+ALARMA 3 4 Detector Sismico Activo en Metta
+ALARMA 4 4 Apertura Fuera de Hora en Cancela
+ALARMA 5 4 Pulsada Seta Emergencia en Cancela
+ALARMA 6 4 Deteccion Intrusion en Pozo de Ventilacion
+ALARMA 7 4 Abierto Tamper Centralita
+ALARMA 8 4 VideoSensor Detecta Movimiento
+ALARMA 9 4 Pulsada seta Antiatraco
+ALARMA 10 4 Detector Magnetico Activo en Cuarto Equipos
+ALARMA 11 4 Detector Volumetrico Activo en Cuarto Equipos
+ALARMA 12 4 Entrada en Modo Rehen en Cuarto de Equipos
+ALARMA 13 4 Detector Microfonico Activo en Cuarto Equipos
+ALARMA 99 4 Sin Comunicacion con sistema GIR
+ALARMA 98 4 Sin Comunicacion con Metta
+ALARMA 97 4 Sin Comunicacion con Cancela
+ALARMA 96 4 Sin Comunicacion con Caja Dotacion
+ALARMA 95 4 Sin Comunicacion con Salida Emergencia
+

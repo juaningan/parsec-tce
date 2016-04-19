@@ -1,0 +1,36 @@
+# Fichero de definicion del Report de Alarmas (03/01/96)
+#
+# Las lineas de comentario son las que comienzan con '#'.
+# En este fichero solo puede haber comentarios antes de comenzar
+# los parametros y no entre ellos.
+#
+#Lineas         60      Nro de Lineas por pagina (incluidos cabecera y footer)
+#LineaFooter    57      Linea a partir de la cual comenzar a imprimir el footer
+#AnchoLinea     70      Anchura efectiva de la linea (ancho papel - margen izqdo)
+#MargenIzqdo    10      Margen a dejar en blanco
+#PermitirWidows 1       1 => TRUE, 0 => FALSE
+#InterLineas    1       Paso entre Lineas
+#InterRegistros 2       Paso entre Registros
+#Cabecera               Se considera Cabecera todo lo incluido entre los $ $
+#
+Lineas          60
+LineaFooter     62
+AnchoLinea      80
+MargenIzqdo     0
+PermitirWidows  0
+InterLineas     1
+InterRegistros  2
+Cabecera
+$
+\x1B\x45\x1B\x50       METRO DE MADRID - DIVISION de MOVIMIENTO - SERVICIO de ESTACIONES
+
+
+\x1B\x4D\x0E                ALARMAS
+
+    컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴�
+\x1B\x46
+$
+Footer
+$
+    컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+$

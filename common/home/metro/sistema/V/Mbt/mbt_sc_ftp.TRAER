@@ -1,0 +1,7 @@
+open mbt_sc
+user sico sico
+bin
+prompt
+mget data*.zip
+bye
+

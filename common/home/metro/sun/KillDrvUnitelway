@@ -1,0 +1,22 @@
+#!/bin/sh
+#
+#ident	"@(#)KillDrvUnitelway	1.0	98/06/23 SICO"
+#
+# Mata hasta 2 instancias existentes del proceso drvunitelway
+#
+
+PATH=/sbin:/usr/bin:/usr/sbin
+export PATH
+
+# Limpiar procesos relacionados
+id=`/usr/bin/ps -efa | grep drvunitelway | awk '{print $2}'`
+if test -n "$id"
+  then
+     kill -9 $id
+fi
+
+id=`/usr/bin/ps -efa | grep drvunitelway | awk '{print $2}'`
+if test -n "$id"
+   then
+      kill -9 $id
+fi

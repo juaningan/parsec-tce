@@ -1,0 +1,7 @@
+open mbt2
+user sico sico
+bin
+prompt
+mdelete datos*.gz
+bye
+

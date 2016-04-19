@@ -1,0 +1,139 @@
+# FICHERO DE CONFIGURACION DE LOS TIPOS DE ALARMAS TECNICAS PARA METTA 2000
+#            HA DE ESTAR ORDENADO POR CODIGO DE MENOR A MAYOR
+#
+ NRO_DE_TIPOS_DE_ALARMA		129
+ PRIORIDAD_MINIMA_PARA_REPORTAR	0
+#
+# SINTAXIS:  ALARMA  <CodHexadecimal> <Prioridad> <Periodo> <FichAudio> <Texto>
+#
+# Codigos (en Hexadecimal) propios del Driver
+ALARMA  4 4 30  FueServMetta	Metta  Fuera de Servicio
+ALARMA  5 3 30  DummyMetta	Numero de Metta Incorrecto
+ALARMA  6 3 30  DummyMetta	Baja Pagoonline Injustificada
+ALARMA 4E 4 30  AmenazaMetta	Entrada Bajo Amenaza
+ALARMA 4F 4 30  SonoraMetta	Alarma Sonora Activada
+ALARMA 61 3 30  DummyMetta	Error Apertura Fichero
+ALARMA 62 3 30  DummyMetta	Error Protocolo SDLC
+ALARMA 63 4 30  DesconecMetta	Metta Sin Comunicacion
+# Codigos propios de las METTA
+ALARMA 101 4 30  DummyMetta  Rollo Papel 1 Terminandose
+ALARMA 102 4 30  DummyMetta  Rollo Papel 2 Terminandose
+ALARMA 103 4 30  DummyMetta  Rollo Papel 3 Terminandose
+ALARMA 104 4 30  DummyMetta  Rollo Papel 4 Terminandose
+ALARMA 201 5 30  RolloMetta  Rollo Papel 1 Agotado
+ALARMA 202 5 30  RolloMetta  Rollo Papel 2 Agotado
+ALARMA 203 5 30  RolloMetta  Rollo Papel 3 Agotado
+ALARMA 204 5 30  RolloMetta  Rollo Papel 4 Agotado
+ALARMA 211 5 30  DummyMetta  Presencia Caja Recarga 1
+ALARMA 212 5 30  DummyMetta  Presencia Caja Recarga 2
+ALARMA 213 5 30  DummyMetta  Presencia Caja Recarga 3
+ALARMA 214 5 30  DummyMetta  Presencia Caja Recarga 4
+ALARMA 221 5 30  DummyMetta  Presencia Devolvedor 1
+ALARMA 222 5 30  DummyMetta  Presencia Devolvedor 2
+ALARMA 223 5 30  DummyMetta  Presencia Devolvedor 3
+ALARMA 224 5 30  DummyMetta  Presencia Devolvedor 4
+ALARMA 231 5 30  DummyMetta  Presencia Caja Recaudacion 1
+ALARMA 232 5 30  DummyMetta  Presencia Caja Recaudacion 2
+ALARMA 405 4 30  DummyMetta  Descuadrado hopper 1
+ALARMA 406 4 30  DummyMetta  Descuadrado hopper 2
+ALARMA 407 4 30  DummyMetta  Descuadrado hopper 3
+ALARMA 408 4 30  DummyMetta  Descuadrado hopper 4
+ALARMA 505 5 30  RecarMetta  Fallo Recargador 1
+ALARMA 506 5 30  RecarMetta  Fallo Recargador 2
+ALARMA 507 5 30  RecarMetta  Fallo Recargador 3
+ALARMA 508 5 30  RecarMetta  Fallo Recargador 4
+ALARMA 601 5 30  DummyMetta  Caja Recaudacion 1 Llena
+ALARMA 602 5 30  DummyMetta  Caja Recaudacion 2 Llena
+ALARMA 604 5 30  DummyMetta  Caja Billetero Llena
+ALARMA 606 5 30  RecBiMetta  Aviso Caja Billetero Llenandose
+ALARMA 610 5 30  DummyMetta  Aviso Caja Recaudacion 1 Llenandose
+ALARMA 611 5 30  DummyMetta  Aviso Caja Recaudacion 2 Llenandose
+ALARMA 613 5 30  DummyMetta  Aviso Peso Caja Recaudacion 1
+ALARMA 614 5 30  DummyMetta  Aviso Peso Caja Recaudacion 2
+ALARMA 616 5 30  DummyMetta  Caja Recaudacion 1 Llena Por Peso
+ALARMA 617 5 30  DummyMetta  Caja Recaudacion 2 Llena Por Peso
+ALARMA A00 4 30  DummyMetta  Fallo Comunicacion Lector OMROM
+ALARMA A01 4 30  DummyMetta  Concentrador Estacion Comunicaciones
+ALARMA A02 4 30  DummyMetta  Fallo Comunicacion Aceptador Billetes
+ALARMA A06 4 30  DummyMetta  Display de leds: Comunicaciones
+ALARMA 120E 5 30  DummyMetta  Caja Billetero no Presente
+ALARMA 1501 5 30  DummyMetta  Fallo Lector Codigos de Barras
+ALARMA 1502 5 30  DummyMetta  Falta Papel en Impresora de Recibos
+ALARMA 5000 4 30  DummyMetta  Emisor: Comunicaciones
+ALARMA 5001 4 30  DummyMetta  Emisor: Atasco
+ALARMA 5002 4 30  DummyMetta  Emisor: Tapa
+ALARMA 5003 4 30  DummyMetta  Emisor: Sin papel
+ALARMA 5004 4 30  DummyMetta  Emisor: No hay rollos cargados
+ALARMA 5010 4 30  DummyMetta  Monedero: Escrow
+ALARMA 5011 4 30  DummyMetta  Monedero: Uves
+ALARMA 5012 4 30  DummyMetta  Monedero: Motor de desatasco
+ALARMA 5013 4 30  DummyMetta  Monedero: Fallo trampilla
+ALARMA 5014 4 30  DummyMetta  Monedero: Atasco
+ALARMA 5020 4 30  DummyMetta  Billetero: Error en caja
+ALARMA 5021 4 30  DummyMetta  Billetero: Caja forzada
+ALARMA 5022 4 30  DummyMetta  Billetero: Atasco
+ALARMA 5023 4 30  DummyMetta  Billetero: Error general
+ALARMA 5030 4 30  DummyMetta  Hoppers: Puerta abierta
+ALARMA 5031 4 30  DummyMetta  Hoppers: Puerta forzada
+ALARMA 5032 4 30  DummyMetta  Hoppers: Fallo emision hopper 1
+ALARMA 5033 4 30  DummyMetta  Hoppers: Fallo emision hopper 2
+ALARMA 5034 4 30  DummyMetta  Hoppers: Fallo emision hopper 3
+ALARMA 5035 4 30  DummyMetta  Hoppers: Fallo emision hopper 4
+ALARMA 5036 4 30  DummyMetta  Hoppers: Fallo sensores hopper 1
+ALARMA 5037 4 30  DummyMetta  Hoppers: Fallo sensores hopper 2
+ALARMA 5038 4 30  DummyMetta  Hoppers: Fallo sensores hopper 3
+ALARMA 5039 4 30  DummyMetta  Hoppers: Fallo sensores hopper 4
+ALARMA 503A 4 30  DummyMetta  Hoppers: Atasco hopper 1
+ALARMA 503B 4 30  DummyMetta  Hoppers: Atasco hopper 2
+ALARMA 503C 4 30  DummyMetta  Hoppers: Atasco hopper 3
+ALARMA 503D 4 30  DummyMetta  Hoppers: Atasco hopper 4
+ALARMA 503E 4 30  DummyMetta  Hoppers: Hopper 1 agotandose
+ALARMA 503F 4 30  DummyMetta  Hoppers: Hopper 2 agotandose
+ALARMA 5040 4 30  DummyMetta  Hoppers: Hopper 3 agotandose
+ALARMA 5041 4 30  DummyMetta  Hoppers: Hopper 4 agotandose
+ALARMA 5050 4 30  DummyMetta  Cajas de recarga: Fallo caja 1
+ALARMA 5051 4 30  DummyMetta  Cajas de recarga: Fallo caja 2
+ALARMA 5052 4 30  DummyMetta  Cajas de recarga: Fallo caja 3
+ALARMA 5053 4 30  DummyMetta  Cajas de recarga: Fallo caja 4
+ALARMA 5054 4 30  DummyMetta  Cajas de recarga: Caja 1 vacia
+ALARMA 5055 4 30  DummyMetta  Cajas de recarga: Caja 2 vacia
+ALARMA 5056 4 30  DummyMetta  Cajas de recarga: Caja 3 vacia
+ALARMA 5057 4 30  DummyMetta  Cajas de recarga: Caja 4 vacia
+ALARMA 5058 4 30  DummyMetta  Cajas de recarga: Caja 1 forzada
+ALARMA 5059 4 30  DummyMetta  Cajas de recarga: Caja 2 forzada
+ALARMA 505A 4 30  DummyMetta  Cajas de recarga: Caja 3 forzada
+ALARMA 505B 4 30  DummyMetta  Cajas de recarga: Caja 4 forzada
+ALARMA 5065 4 30  DummyMetta  Lector tarjetas: Atasco
+ALARMA 5070 4 30  DummyMetta  Validador de titulos: Comunicaciones
+ALARMA 5071 4 30  DummyMetta  Validador de titulos: Atasco
+ALARMA 5080 4 30  DummyMetta  Alarma acustica disparada
+ALARMA 5090 4 30  DummyMetta  Alimentación: Fallo tension
+ALARMA 5091 4 30  DummyMetta  Alimentación: SAI baja
+ALARMA 5095 4 30  DummyMetta  Controlador de monetica: Comunicaciones
+ALARMA 50A0 4 30  DummyMetta  Centro autorizador: Comunicaciones
+ALARMA 50B0 4 30  DummyMetta  Puerta: Abierta
+ALARMA 50B1 4 30  DummyMetta  Puerta cerradura: Abierta
+ALARMA 50B2 4 30  DummyMetta  Puerta cerradura: Fallo
+ALARMA 50C0 4 30  DummyMetta  Caja de recaudacion: Caja 1 forzada
+ALARMA 50C1 4 30  DummyMetta  Caja de recaudacion: Caja 2 forzada
+ALARMA 50C2 4 30  DummyMetta  Caja de recaudación: Cajas llenas
+ALARMA 50C3 4 30  DummyMetta  Caja de recaudación: Sin cajas
+ALARMA 50D0 4 30  DummyMetta  Lector códigos de barras: Comunicaciones
+ALARMA 50E0 4 30  DummyMetta  Impresora de recibos: Comunicaciones
+ALARMA 50F0 4 30  DummyMetta  Pantalla tactil: Fallo
+ALARMA 5100 4 30  DummyMetta  Fuera de servicio forzado
+ALARMA 5101 4 30  DummyMetta  Maquina apagada
+ALARMA 5102 4 30  DummyMetta  Modo mantenimiento
+ALARMA 5103 4 30  DummyMetta  Cola no sincronizada
+ALARMA 5104 4 30  DummyMetta  Cola llena
+ALARMA 5105 4 30  DummyMetta  Instalando programa principal
+ALARMA 5106 4 30  DummyMetta  Instalando automata de venta
+ALARMA 5107 4 30  DummyMetta  Instalando definicion de titulos
+ALARMA 5108 4 30  DummyMetta  Enviando programa controlador de monetica
+ALARMA 5109 4 30  DummyMetta  Enviando firmware del emisor
+ALARMA 510A 4 30  DummyMetta  Reiniciando navegador
+ALARMA 5200 4 30  DummyMetta  Telecargas: Faltan telecargas
+ALARMA 5201 4 30  DummyMetta  Telecargas: Faltan tarifas
+ALARMA 5202 4 30  DummyMetta  Telecargas: Faltan parámetros de la máquina
+ALARMA 5203 4 30  DummyMetta  Telecargas: Faltan parámetros de pago off-line
+ALARMA 5204 4 30  DummyMetta  Telecargas: Falta definición de títulos

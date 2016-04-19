@@ -1,0 +1,18 @@
+#
+# Fichero que guarda los nombres y codigos de las alrmas de las escaleras 
+#
+#
+# Codigo de la alarma	prioridad  periodo  Nombre de la alarma
+#
+
+TOTAL_NOMBRES	10
+1	6	10	dummy	"Parada Local"
+2	6	10	dummy	"Mando Local"
+6	6	10	dummy	"Fallo Electrico"
+7	6	10	dummy	"Defecto Alimentacion"
+8	6	10	dummy	"Defecto Pisadera"
+11	6	10	dummy	"Fallo Seguridades"
+12	6	10	dummy	"Averia Electrica"
+13	6	10	dummy	"Averia Mecanica"
+14	6	10	dummy	"Bloqueo por Temperatura"
+15	6	10	dummy	"Defecto General"

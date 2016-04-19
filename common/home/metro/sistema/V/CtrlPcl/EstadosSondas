@@ -1,0 +1,11 @@
+#
+# Fichero que guarda los nombres y codigos de los estados de las sondas tunel linea 8 
+#
+# Codigo del estado 			Nombre del estado
+#
+
+TOTAL_NOMBRES	3
+
+0	"NORMAL"
+1	"CALIBRACION"
+4	"FUERA DE SERVICIO"

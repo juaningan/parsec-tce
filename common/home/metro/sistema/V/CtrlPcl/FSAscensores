@@ -1,0 +1,10 @@
+#
+# Fichero que guarda los nombres y codigos de los FS de los Ascensores 
+#
+#
+# Codigo del FS		Texto
+#
+
+TOTAL_NOMBRES	1
+
+1	dummy	"Ascensor Fuera de Servicio"

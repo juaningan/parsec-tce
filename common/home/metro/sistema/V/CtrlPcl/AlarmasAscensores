@@ -1,0 +1,13 @@
+#
+# Fichero que guarda los nombres y codigos de las alarmas de los ascensores 
+#
+#
+# Codigo de la alarma	Nombre de la alarma
+#
+
+TOTAL_NOMBRES	4
+
+1	6	10	dummy	"Defecto Tension de Red"
+2	6	10	dummy	"Mando Local"
+3	6	10	dummy	"Con Acuñamiento"
+4	6	10	dummy	"Con Defecto"

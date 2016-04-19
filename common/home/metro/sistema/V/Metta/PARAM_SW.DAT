@@ -1,0 +1,21 @@
+
+27/09/01 13:00
+04                                  ! N£mero Hoppers
+0005 0020 1400 0200 1200 01 0250 2200 ! Hop1 valor min max recarg num_rec recic. S.m¡nimo S.m ximo
+0025 0020 1000 0200 0800 01 0150 1400 ! Hop2 valor min max recarg num_rec recic. S.m¡nimo S.m ximo
+0100 0020 0600 0200 0400 01 0100 0700 ! Hop3 valor min max recarg num_rec recic. S.m¡nimo S.m ximo
+0500 0020 0320 0020 0300 00 0150 0700 ! Hop4 valor min max recarg num_rec recic. S.m¡nimo S.m ximo
+2000 1900 13000 12000               ! Cajas: M x Aviso Peso Peso_aviso
+1000 0900                           ! Billetero: M x Aviso
+02 01 01 02 01 02 01 01 02 01 01    ! Mon_Adm: 5v 5n 10 25v 25n 50v 50n 100 200v 200n 500
+01 00000                            ! Bill  1000: Admitido Valor_M¡nimo
+01 00000                            ! Bill  2000: Admitido Valor_M¡nimo
+02 04500                            ! Bill  5000: Admitido Valor_M¡nimo
+02 09500                            ! Bill 10000: Admitido Valor_M¡nimo
+04 02000 01900                      ! Rollos: N£m M x Aviso
+045 030 005 020 000 000 000 000     ! Temp: Cancel Ident P.Info Es.Venta Rsvds
+05 00                               ! Hora encendido
+03 00                               ! Hora apagado
+01 01 00 00 00                      ! Medios de pago
+01                                  ! Idioma por defecto
+00                                  ! Identificaci¢n Manual: 0:No 1:Si

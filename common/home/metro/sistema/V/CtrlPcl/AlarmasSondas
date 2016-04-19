@@ -1,0 +1,10 @@
+#
+# Fichero que guarda los nombres y codigos de las alrmas de las UR 
+#
+# Codigo de la alarma	prioridad  periodo  Nombre de la alarma
+#
+
+TOTAL_NOMBRES	3
+1	6	10	prealarma	"ALARMA AMARILLA en Sonda"
+2	6	10	alarma		"ALARMA ROJA en Sonda"
+3	6	10	dummy		"Sonda Fuera de Servicio"

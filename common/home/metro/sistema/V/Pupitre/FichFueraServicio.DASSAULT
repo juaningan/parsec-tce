@@ -1,0 +1,71 @@
+ 70 3
+ 90 4 10 Manual Pupitre
+ 92 4 10 Manual Torniquete
+  1 4 10 Fallo en memoria PROM
+  2 4 10 Fallo en memoria RAM
+  3 4 10 Atranco
+  4 4 10 Captadores - se obtura
+  5 4 10 Captadores - no se obtura
+  6 4 10 Relecturas
+  7 4 10 Relecturas
+  8 4 10 Exceso bits - 3 seguidos
+  9 4 10 Exceso bits - 10 en 100
+ 10 4 10 Cabezas con corriente
+ 11 4 10 Reloj en tiempo real
+ 12 4 10 Comunicacion entre micros
+ 13 4 10 Parametros de Situacion Falsos
+ 14 4 10 Alimentacion en tarjeta
+ 15 4 10 Conmutador en modo no especificado
+ 16 4 10 Billete Borrado
+ 17 4 10 Fallo en fotodetectores del lector
+ 18 4 10 Fallo de grabacion
+ 19 4 10 Num. Max de fallos de grabacion
+ 20 4 10 Fallos repetitivos de comunicacion entre micros
+ 21 4 10 Fallo de comunicacion Lector-PC
+ 23 4 10 Fallo de presencia del Lector
+ 24 4 10 Nº maximo de errores de lectura en 100 pasos
+ 25 4 10 Lector Fuera de Servicio
+ 26 4 10 Nº maximo de atrancos
+ 27 4 10 Fallo de tarifa
+ 30 4 10 Fallo en el servo
+ 31 4 10 Fallo en analisis telecarga
+ 32 4 10 Fallo en el tripode
+ 35 4 10 Fuera de Servicio Mantenimiento
+ 36 4 10 Fallo configuracion
+ 37 4 10 Tapa del Lector Abierta
+ 40 4 10 Fallo en fotocelula numero 1
+ 41 4 10 Fallo en fotocelula numero 2
+ 42 4 10 Fallo en fotocelula numero 3
+ 43 4 10 Fallo en fotocelula numero 4
+ 44 4 10 Fallo en fotocelula numero 5
+ 45 4 10 Fallo en fotocelula numero 6
+ 46 4 10 Fallo en fotocelula numero 7
+ 47 4 10 Fallo en fotocelula numero 8
+ 48 4 10 Fallo en fotocelula numero 9
+ 49 4 10 Fallo en fotocelula numero 10
+ 50 4 10 Fallo en fotocelula numero 11
+ 51 4 10 Fallo en fotocelula numero 12
+ 52 4 10 Fallo en fotocelula numero 13
+ 53 4 10 Fallo en fotocelula numero 14
+ 54 4 10 Fallo en fotocelula numero 15
+ 55 4 10 Fallo en puertas del armario de paso
+ 56 4 10 Fallo en variador del armario de paso
+ 57 4 10 Fallo en PLC del armario de paso
+ 58 4 10 Fallo en comunicaciones del armario de paso
+ 59 4 10 Activacion de SAI
+ 60 4 10 Fallo de arrastre en lector
+ 61 4 10 Maximo fallos de arrastre en lector
+ 70 4 10 Fuera de Servicio Tecnico
+ 71 4 10 Fallo en celula de paso
+ 72 4 10 Fallo de reloj
+ 73 4 10 Error de memoria
+ 74 4 10 Fallo de alimentacion
+ 75 4 10 Error interno del procesador
+ 76 4 10 Telecargando
+ 77 4 10 Fallo de configuracion en procesador
+ 492 4 10 Error senal autorizacion entrada
+ 493 4 10 Error senal autorizacion salida
+ 494 4 10 Error senal confirmacion entrada
+ 495 4 10 Error senal confirmacion salida
+ 496 4 10 Error boquilla procesador
+ 497 4 10 Error interfaz radiofrecuencia

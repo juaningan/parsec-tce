@@ -1,0 +1,26 @@
+# @(#)Login 29/01/93 SICO Software
+#################################################################
+#
+#         .login file
+#
+#         Read in after the .cshrc file when you log in.
+#         Not read in for subsequent shells.  For setting up
+#         terminal and global environment characteristics.
+#
+#################################################################
+
+setenv OPENWINHOME /usr/openwin 
+setenv PATH .:/home/metro/sun:/usr/ucb:$OPENWINHOME/bin:/opt/csw/bin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/X11R6/bin
+setenv LD_LIBRARY_PATH $OPENWINHOME/lib:/usr/lib:/usr/ucblib:/usr/dt/lib:/usr/local/lib
+setenv MANPATH /opt/csw/share/man:/usr/share/man:/usr/man
+
+stty erase ''
+
+set history=32
+set prompt = "`hostname` \!% "
+if ( -f /tmp/.autostart_lock ) then
+  /usr/bin/distsh2 "rpcinfo -d 805306368 1"
+  /usr/bin/distsh2 "rpcinfo -d 805306369 1"
+  rm /tmp/.autostart_lock
+  xinit ./.autoarranque
+endif

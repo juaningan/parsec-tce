@@ -1,0 +1,339 @@
+#!/usr/local/bin/expect --
+#
+# ftp.expect
+#
+#  Script en expect que hace un ftp pero comprobando el resultado de los get
+# (y de otros comandos, aunque solo sea para el timeout).
+#
+#  Comandos soportados:
+#	- open
+#	- user
+#	- bin
+#	- prompt
+#	- lcd
+#	- cd
+#       - dele
+#	- get
+#	- mget
+#	- bye
+#
+# Historia:
+#	16/07/04 Creacion.
+#	19/07/04 Hago que si no hay ficheros en un mget, salga con error 1.
+#	20/07/04 Hago que detecte timeouts durante la transmision del fichero.
+#
+# Autor: Dario Rodriguez dario@softhome.net
+# (c) SICO software 2004
+
+#set timeout 120
+set timeout 30
+
+# Comprobamos los parámetros
+if { [string compare [lindex $argv 0] "--help"]==0 || [string compare [lindex $argv 0] "-n"]!=0 } {
+        puts "ftp.expect -- wrapper sobre el ftp que detecta errores de transmision"
+        puts "\nSintaxis:\n  $argv0 -n < fichero_ordenes"
+        exit 1
+}
+
+set codsalida 0
+# Funciones de utilidad
+proc salir { nombreerror } {
+	global codsalida 
+	puts "ftp.expect: error: $nombreerror"
+	set codsalida 2
+	exit 2
+}
+
+# Abrimos un ftp
+spawn ftp -n
+expect "ftp>" { 
+	} "ost connection" {
+		salir "connection lost"
+        } "o control connection" {
+		salir "connection lost"
+	}
+while { [eof stdin]==0 } {
+	set linea [string trim [gets stdin]]
+	if { [string compare $linea ""]==0 } {
+		continue
+	}
+	switch -glob -- "$linea" \
+		"open *" {
+			set ok 0
+			send "$linea\r"
+               		expect "unknown host" { 
+					salir "open: unknown host" 
+				} "ftp>" { 
+					set ok 1 
+	        		} "ost connection" {
+					salir "connection lost"
+			        } "o control connection" {
+					salir "connection lost"
+				}
+			if { $ok==0 } {
+				salir "open: timeout"
+			}
+		} "user *" {
+			set ok 0
+			send "$linea\r"
+			expect "ogin Timeout" {
+					salir "user (login): peer said login timeout"
+				} "ogin incorrect" {
+					salir "user (login): incorrect user/passwd"
+				} "ogin failed" {
+					salir "user (login): unknown error"
+				} "ftp>" {
+					set ok 1
+	        		} "ost connection" {
+					salir "connection lost"
+			        } "o control connection" {
+					salir "connection lost"
+				}
+			if { $ok==0 } {
+				salir "user (login): timeout"
+			}
+		} "bin*" {
+			set ok 0
+			send "$linea\r"
+			expect "ftp>" {
+					set ok 1
+	        		} "ost connection" {
+					salir "connection lost"
+			        } "o control connection" {
+					salir "connection lost"
+				}
+			if { $ok==0 } {
+				salir "bin: timeout"
+			}
+		} "prompt*" {
+			set ok 0
+			send "$linea\r"
+			expect "ftp>" {
+					set ok 1
+	        		} "ost connection" {
+					salir "connection lost"
+			        } "o control connection" {
+					salir "connection lost"
+				}
+			if { $ok==0 } {
+				salir "prompt: timeout"
+			}
+		} "bye*" {
+			send "bye\r"
+			exit 0;
+		} "cd *" {
+			set ok 0
+			send "$linea\r"
+               		expect "o such file or directory" { 
+					salir "cd: no such file or directory" 
+				} "o existe tal archivo o directorio" { 
+					salir "cd: no such file or directory" 
+				} "ftp>" { 
+					set ok 1 
+	        		} "ost connection" {
+					salir "connection lost"
+			        } "o control connection" {
+					salir "connection lost"
+				}
+			if { $ok==0 } {
+				salir "cd: timeout"
+			}
+		} "dele *" {
+			set ok 0
+			send "$linea\r"
+               		expect "o such file or directory" { 
+					salir "dele: no such file or directory" 
+				} "o existe tal archivo o directorio" { 
+					salir "dele: no such file or directory" 
+				} "ftp>" { 
+					set ok 1 
+	        		} "ost connection" {
+					salir "connection lost"
+			        } "o control connection" {
+					salir "connection lost"
+				}
+			if { $ok==0 } {
+				salir "dele: timeout"
+			}
+		} "lcd *" {
+			set ok 0
+			send "$linea\r"
+               		expect "o such file or directory" { 
+					salir "lcd: no such file or directory" 
+				} "o existe tal archivo o directorio" { 
+					salir "lcd: no such file or directory" 
+				} "ftp>" { 
+					set ok 1 
+	        		} "ost connection" {
+					salir "connection lost"
+			        } "o control connection" {
+					salir "connection lost"
+				}
+			if { $ok==0 } {
+				salir "lcd: timeout"
+			}
+		} "get *" {
+			set fichero [string range $linea 4 end]
+			send "hash\r"
+			expect "ftp>" {
+			        } "ost connection" {
+					salir "connection lost"
+			        } "o control connection" {
+					salir "connection lost"
+				}					
+			set okget 0
+			send "$linea\r"
+			set textoerror "timeout"
+                	while { 1 } {
+				set ok 0
+			        expect "226 Transfer complete" {
+				     		set ok 1
+						set okget 1
+				     		break
+					} "bytes received in" {
+						set ok 1
+						set okget 1
+						break 
+					} "#" { set ok 1
+					        continue 
+					} "ftp>" {
+				     		set textoerror "error en recepcion"
+						break
+					} "o such file or directory" {
+						puts "get: fichero no encontrado"
+						set codsalida 1
+						exit 1
+	        			} "ost connection" {
+						salir "connection lost"
+				        } "o control connection" {
+						salir "connection lost"
+					}
+				if { $ok==0 } {
+					send "!rm $fichero\r"
+					salir "mget: timeout recibiendo $fichero"
+		                }
+			}
+			if { $okget==0 } {
+				send "!rm $fichero\r"
+				salir "get: $textoerror"
+	                }
+	                expect "ftp>" {
+	        		} "ost connection" {
+					salir "connection lost"
+			        } "o control connection" {
+					salir "connection lost"
+				}
+			send "hash\r"
+			expect "ftp>" {
+	        		} "ost connection" {
+					salir "connection lost"
+			        } "o control connection" {
+					salir "connection lost"
+				}
+		} "mget *" {
+			send "hash\r"
+			expect "ftp>" {
+	        		} "ost connection" {
+					salir "connection lost"
+			        } "o control connection" {
+					salir "connection lost"
+				}
+			send "$linea\r"
+			set okgral 0
+			set numficheros 0
+                	while { 1 } {
+				set timeoutwhile 1
+				expect "mode data connection for *" {
+					set timeoutwhile 0
+					incr numficheros
+					set lineamodo $expect_out(buffer)
+					set fichero ""
+					regexp "mode data connection for \(.*\).\r" $lineamodo match fichero
+					if { [string first "Transfer complete" $expect_out(buffer)]!=-1 || [string first "bytes received in" $expect_out(buffer)]!=-1} {
+						 # Nos ha venido la respuesta con la pregunta
+						 continue;
+					}
+					set okget 0
+					set textoerror "timeout"
+					while { 1 } {
+						set ok 0
+			                        expect "Transfer complete" {
+							set ok 1
+							set okget 1
+							break 
+						} "bytes received in" {
+							set ok 1
+							set okget 1
+							break 
+						} "#" { 
+							set ok 1
+							continue 
+						} "ftp>" {
+					     		set textoerror "error en recepcion"
+							break
+	        				} "ost connection" {
+							salir "connection lost"
+					        } "o control connection" {
+							salir "connection lost"
+						}
+						if { $ok==0 } {
+							send "!rm $fichero\r"
+							salir "mget: timeout recibiendo $fichero"
+				                }
+					}
+					if { $okget==0 } {
+						send "!rm $fichero\r"
+						salir "mget: $textoerror"
+			                }
+				} "ftp>" {
+					set timeoutwhile 0
+					set okgral 1
+					break;
+	        		} "ost connection" {
+					set timeoutwhile 0
+					salir "connection lost"
+			        } "o control connection" {
+					set timeoutwhile 0
+					salir "connection lost"
+				} "mget *\\?" {
+					set timeoutwhile 0
+					send "n\n"
+				} "t find list of remote files" {
+					set timeoutwhile 0
+					puts "mget: no habia ficheros a coger"
+					set codsalida 1
+					exit 1
+				} "o files found" {
+					set timeoutwhile 0
+					puts "mget: no habia ficheros a coger"
+					set codsalida 1
+					exit 1
+				}
+				if { $timeoutwhile==1 } {
+					salir "mget: timeout"
+				}
+			}
+			if { $numficheros==0 } {
+				puts "mget: no habia ficheros a coger"
+				set codsalida 1
+				exit 1
+			}
+			if { $okgral==0 } {
+				salir "mget: timeout"
+			}
+			send "hash\r"
+			expect "ftp>" {
+	        		} "ost connection" {
+					salir "connection lost"
+			        } "o control connection" {
+					salir "connection lost"
+				}
+		} "!*" {
+			puts "WARNING: igorando comando de shell \"$linea\" por motivos de seguridad"
+		} "*" {
+			puts "WARNING: comando \"$linea\" no soportado. no se hara ninguna comprobación con él (ni se esperará ftp>)"
+			send "$linea"
+		}
+}
+# Hemos llegado al final sin errores; salimos con éxito (o lo que ponga en codsalida)
+exit $codsalida

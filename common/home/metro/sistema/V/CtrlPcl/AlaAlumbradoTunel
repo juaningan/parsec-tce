@@ -1,0 +1,19 @@
+#
+# Fichero que guarda los nombres y codigos de las Alarmas del Alumbrado 
+#
+#
+# Codigo de la Alarma	Prioridad	Periodicidad 		Texto
+#
+
+TOTAL_NOMBRES	10
+
+1	6	10	dummy	"Falta Alimentacion Tunel"
+2	6	10	dummy	"Mando LOCAL"
+3	6	10	dummy	"Falta Alimentacion Alumbrado Tunel Socorro"
+4	6	10	dummy	"Falta Alimentacion Alumbrado Tunel Normal"
+5	6	10	dummy	"Fallo en alguna proteccion Circuito Normal Tunel"
+6	6	10	dummy	"Fallo en alguna proteccion Circuito Emergencia Tunel"
+7	6	10	dummy	"Fallo en alguna proteccion Circuito Socorro Tunel"
+8	6	10	dummy	"Fallo en alguna proteccion Circuito Reserva Tunel"
+9	6	10	dummy	"Sin Comunicacion con Automata Alumbrado Tunel"
+10	6	10	dummy	"Falta Alimentacion Alumbrado Tunel Emergencia"

@@ -1,0 +1,32 @@
+/* XPM */
+static char * OperDisyuntorBien_icon[] = {
+/* width height ncolors cpp [x_hot y_hot] */
+"70 20 6 1 0 0",
+/* colors */
+" 	s iconGray6	m black	c #636363636363",
+".	s iconGray1	m white	c #dededededede",
+"X	s none	m none	c none",
+"o	s iconColor4	m white	c green",
+"O	s iconGray4	m white	c #949494949494",
+"+	s iconGray8	m black	c #212121212121",
+/* pixels */
+"                                 .XX................................. ",
+"                                ..XX................................  ",
+"  oooooooooooooooooooooooooooooo..XX..OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO  ",
+"  oooooooooooooooooooooooooooooo..XX..OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO  ",
+"  oooooooooooooooooooooooooooooo..XX..OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO  ",
+"  oo++++ooo+++++oo++++oo+ooo+ooo..XX..OOOOOO.OOO.OOO...OOO.OOOOOOOOO  ",
+"  ooo+oo+oooo+oooo+ooooo++oo+ooo..XX..OOOOOO..O..OO.OOO.OO.OOOOOOOOO  ",
+"  ooo+oo+oooo+oooo+ooooo++oo+ooo..XX..OOOOOO.O.O.OO.OOO.OO.OOOOOOOOO  ",
+"  ooo+oo+oooo+oooo+ooooo+o+o+ooo..XX..OOOOOO.OOO.OO.OOO.OO.OOOOOOOOO  ",
+"  ooo+++ooooo+oooo+++ooo+o+o+ooo..XX..OOOOOO.OOO.OO.....OO.OOOOOOOOO  ",
+"  ooo+oo+oooo+oooo+ooooo+oo++ooo..XX..OOOOOO.OOO.OO.OOO.OO.OOOOOOOOO  ",
+"  ooo+oo+oooo+oooo+ooooo+oo++ooo..XX..OOOOOO.OOO.OO.OOO.OO.OOOOOOOOO  ",
+"  ooo+oo+oooo+oooo+ooooo+ooo+ooo..XX..OOOOOO.OOO.OO.OOO.OO.OOOOOOOOO  ",
+"  oo++++ooo+++++oo++++oo+ooo+ooo..XX..OOOOOO.OOO.OO.OOO.OO.....OOOOO  ",
+"  oooooooooooooooooooooooooooooo..XX..OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO  ",
+"  oooooooooooooooooooooooooooooo..XX..OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO  ",
+"  oooooooooooooooooooooooooooooo..XX..OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO  ",
+"  oooooooooooooooooooooooooooooo..XX..OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO  ",
+" .................................XX.                                 ",
+"..................................XX                                  "};

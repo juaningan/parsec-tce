@@ -1,0 +1,1100 @@
+01011   "P. CASTILLA"           "Pza. de Castilla"
+01012   "P. CASTILLA"           "Bravo Murillo"
+01013   "P. CASTILLA"           "Castellana"
+01014   "P. CASTILLA"           "Intercambiador"
+010120  "P. CASTILLA"           "Cuarto de PCI"
+
+01021   "VALDEACEDERAS"         "C. Blanco Argibay"
+01022   "VALDEACEDERAS"         "Anibal"
+010220  "VALDEACEDERAS"         "Cuarto de PCI"
+
+01031   "TETUAN"                "Algodonales"
+01032   "TETUAN"                "Gral. Margallo"
+010320  "TETUAN"                "Cuarto de PCI"
+010330  "TETUAN"           	"Subestacion Electrica"
+
+01041   "ESTRECHO"              "Juan de Olias"
+01042   "ESTRECHO"              "Fulgencio de Miguel"
+010420  "ESTRECHO"              "Cuarto de PCI"
+
+01051   "ALVARADO"              "Alvarado"
+010520  "ALVARADO"              "Cuarto de PCI"
+
+01061   "C. CAMINOS"            "Central"
+01062   "C. CAMINOS"            "Maudes"
+010620	"C. CAMINOS"		"Cuarto de PCI"
+010630	"C. CAMINOS"       	"Subestacion Electrica"
+
+01071   "RIOS ROSAS"            "Rios Rosas"
+01072   "RIOS ROSAS"            "B. de los Herreros"
+010720  "RIOS ROSAS"            "Cuarto de PCI"
+
+01081   "IGLESIA"               "Martinez Campos"
+01082   "IGLESIA"               "Sagunto"
+01083   "IGLESIA"               "Eloy Gonzalo"
+010820  "IGLESIA"               "Cuarto de PCI"
+
+01091   "BILBAO"                "Central"
+01092   "BILBAO"                "Luchana"
+
+01101   "TRIBUNAL"              "Barcelo"
+01102   "TRIBUNAL"              "Fuencarral"
+011020	"TRIBUNAL"              "Cuarto de PCI"
+011030	"BARCELO"         	"Subestacion Electrica"
+
+01111   "GRAN VIA"              "Gran Via"
+011120  "GRAN VIA"              "Cuarto de PCI"
+011130	"GRAN VIA"         	"Subestacion Electrica"
+
+01121   "SOL"                   "Puerta del Sol"
+01122   "SOL"                   "Renfe"
+01123   "SOL"                   "Mayor"
+01124   "SOL"                   "Preciados"
+011220  "SOL"                   "Cuarto de PCI"
+
+01131   "T. DE MOLINA"          "C. Romanones"
+01132   "T. DE MOLINA"          "Magdalena"
+011320  "T. DE MOLINA"          "Cuarto de PCI"
+011330  "CENTRO"                "Subestacion electrica"
+
+01141   "ANTON MARTIN"          "Anton Martin"
+01142   "ANTON MARTIN"          "Atocha"
+011420  "ANTON MARTIN"          "Cuarto de PCI"
+
+01151   "ATOCHA"                "Atocha"
+01152   "ATOCHA"                "Ministerio"
+
+01161   "ATOCHA-RENFE"          "Alfonso XII"
+01162   "ATOCHA-RENFE"          "Renfe"
+011620  "ATOCHA-RENFE"          "Cuarto de PCI"
+
+01171   "M. PELAYO"             "Menendez Pelayo"
+01172   "M. PELAYO"             "Gutenberg"
+011720  "M. PELAYO"             "Cuarto de PCI"
+
+01181   "PACIFICO"              "Dr. Esquerdo"
+01182   "PACIFICO"              "S. Barcaiztegui"
+01183   "PACIFICO"              "Ascensor"
+011820	"PACIFICO"		"Cuarto de PCI"
+011830	"PACIFICO"  		"Subestacion Electrica"
+
+01191   "P. VALLECAS"           "Albufera"
+01192   "P. VALLECAS"           "Pena Prieta"
+011920  "P. VALLECAS"           "Cuarto de PCI"
+
+01201   "N. NUMANCIA"           "Norte"
+01202   "N. NUMANCIA"           "Sur"
+012020  "N. NUMANCIA"      	"Cuarto de PCI"
+012030  "N. NUMANCIA"      	"Subestacion Electrica"
+
+01211   "PORTAZGO"              "Albufera"
+01212   "PORTAZGO"              "Palomeras"
+012120  "PORTAZGO"      	"Cuarto de PCI"
+
+01221   "BUENOS AIRES"          "Buenos Aires"
+012220  "BUENOS AIRES"          "Cuarto de PCI"
+
+01231   "ALTO ARENAL"           "Alto del Arenal"
+012320  "ALTO ARENAL"           "Cuarto de PCI"
+
+01241   "M HERNANDEZ"           "Miguel Hernandez"
+012420  "M HERNANDEZ"           "Cuarto de PCI"
+
+01251   "S. GUADALUPE"          "Renfe"
+01252   "S. GUADALUPE"          "Universidad"
+012520  "S. GUADALUPE"          "Cuarto de PCI"
+
+01261   "V. DE VALLECAS"        "Villa de Vallecas"
+012620  "V. DE VALLECAS"        "Cuarto de PCI"
+
+01271   "CONGOSTO"              "Congosto"
+012720  "CONGOSTO"              "Cuarto de PCI"
+
+01281   "LA GAVIA"              "La Gavia"
+012820 	"LA GAVIA"              "Cuarto de PCI"
+012830  "LA GAVIA"              "Subestacion Electrica"
+
+01291   "LAS SUERTES"           "Las Suertes"
+012920 	"LAS SUERTES"		"Cuarto de PCI"
+
+01301   "VALDECARROS"           "Valdecarros"
+013020 	"VALDECARROS"		"Cuarto de PCI"
+013030  "VALDECARROS"           "Subestacion Electrica"
+013060  "VALDECARROS"           "Recinto"
+
+01521   "BAMBU"                 "Bambu"
+015220  "BAMBU"                 "Cuarto de PCI"
+
+01531   "PINAR DE CHAMARTIN"    "Pinar de Chamartin"
+015320  "PINAR DE CHAMARTIN"    "Cuarto de PCI"
+015330  "PINAR DE CHAMARTIN"    "Subestacion Electrica"
+
+02551	"LAS ROSAS"		"Las Rosas"
+025520	"LAS ROSAS"		"Cuarto de PCI"
+025530	"LAS ROSAS"		"Subestacion Electrica"
+
+02541	"GUADALAJARA"		"Guadalajara"
+025420	"GUADALAJARA"		"Cuarto de PCI"
+
+02531	"ALSACIA"		"Alsacia"
+025320	"ALSACIA"		"Cuarto de PCI"
+
+02521	"LA ALMUDENA"		"La Almudena"
+025220	"LA ALMUDENA"		"Cuarto de PCI"
+
+02511	"LA ELIPA"		"La Elipa"
+025120	"LA ELIPA"		"Cuarto de PCI"
+025130  "LA ELIPA"              "Subestacion Electrica"
+
+02011   "VENTAS"                "Ventas"
+
+02021   "M. BECERRA"            "Manuel Becerra"
+020220  "M. BECERRA"            "Cuarto de PCI"
+
+02031   "GOYA"                  "Conde de Penalver"
+02032   "GOYA"                  "Felipe II"
+02033   "GOYA"                  "Gral. Diaz Porlier"
+020320  "GOYA"                  "Cuarto de PCI"
+
+02041   "P. VERGARA"            "Ppe. de Vergara"
+020420  "P. VERGARA"            "Cuarto de PCI"
+020430  "ESCUELAS AGUIRRE"      "Subestacion Electrica"
+
+02051   "RETIRO"                "Lagasca"
+02052   "RETIRO"                "Claudio Coello"
+
+02061   "B. ESPANA"             "Cibeles"
+02062   "B. ESPANA"             "Barquillo"
+
+02071   "SEVILLA"               "Sevilla"
+
+02091   "OPERA"                 "Opera"
+020920  "OPERA"                 "Cuarto de PCI"
+
+02101   "STO. DOMINGO"          "Santo Domingo"
+02102   "STO. DOMINGO"          "Gran Via"
+
+02111   "NOVICIADO"             "M. Justicia"
+02112   "NOVICIADO"             "Noviciado"
+021120  "NOVICIADO"             "Cuarto de PCI"
+
+02121   "SAN BERNARDO"          "Alberto Aguilera"
+02122   "SAN BERNARDO"          "Carranza"
+
+02131   "QUEVEDO"               "Quevedo"
+
+02141   "CANAL"                 "Canal"
+021420  "CANAL"                 "Cuarto de PCI"
+
+
+03011   "LEGAZPI"               "Legazpi"
+03012   "LEGAZPI"               "Beata M. Ana de J."
+030120	"LEGAZPI"        	"Cuarto de PCI"
+
+03021   "DELICIAS"              "Ciudad Real"
+03022   "DELICIAS"              "Caceres"
+030220  "DELICIAS"              "Cuarto de PCI"
+
+03031   "P. FRONTERA"           "Delicias"
+030320  "P. FRONTERA"           "Cuarto de PCI"
+030330  "P. FRONTERA"           "Subestacion electrica"
+
+03041   "EMBAJADORES"           "Acacias"
+03042   "EMBAJADORES"           "Renfe"
+03043   "EMBAJADORES"           "Ronda de Valencia"
+030420  "EMBAJADORES"           "Cuarto de PCI"
+
+03051   "LAVAPIES"              "Lavapies"
+030520  "LAVAPIES"              "Cuarto de PCI"
+
+03071   "CALLAO"                "Jacometrezo"
+03072   "CALLAO"                "Pza. Callao"
+030720  "CALLAO"                "Cuarto de PCI"
+
+03081   "PZA. ESPANA"           "Leganitos"
+03082   "PZA. ESPANA"           "Pza. Espana"
+03083   "PZA. ESPANA"           "Conde de Toreno"
+030820  "PZA. ESPANA"           "Cuarto de PCI"
+
+03091   "V. RODRIGUEZ"          "Ventura Rodriguez"
+030920  "V. RODRIGUEZ"          "Cuarto de PCI"
+
+03101   "ARGUELLES"             "Alberto Aguilera"
+03102   "ARGUELLES"             "Altamirano"
+03103   "ARGUELLES"             "Guzman el Bueno"
+031020  "ARGUELLES"             "Cuarto de PCI"
+
+03111   "MONCLOA"               "Arcipreste de Hita"
+03112   "MONCLOA"               "Ctel. Gral. del Aire"
+031120  "MONCLOA"               "Cuarto de PCI"
+031130  "MONCLOA"               "Subestacion Electrica"
+
+03511   "ALMENDRALES"           "Almendrales"
+035120  "ALMENDRALES"           "Cuarto de PCI"
+035130  "ALMENDRALES"           "Subestacion Electrica"
+
+03521   "HOSP. DOCE OCTUBRE"    "Hosp. Doce Octubre"
+035220  "HOSP. DOCE OCTUBRE"    "Cuarto de PCI"
+
+03531   "SAN FERMIN - ORCASUR"  "San Fermin - Orcasur"
+035320  "SAN FERMIN - ORCASUR"  "Cuarto de PCI"
+
+03541   "CIUDAD ANGELES"        "Ciudad de los Angeles"
+035420  "CIUDAD ANGELES"        "Cuarto de PCI"
+035430  "CIUDAD ANGELES"        "Subestacion Electrica"
+
+03551   "VILLAVERDE BAJO CRUCE" "Villaverde Bajo Cruce"
+035520  "VILLAVERDE BAJO CRUCE" "Cuarto de PCI"
+
+03561   "SAN CRISTOBAL"         "San Cristobal"
+035620  "SAN CRISTOBAL"         "Cuarto de PCI"
+
+03571   "VILLAVERDE ALTO"       "Villaverde Alto"
+035720  "VILLAVERDE ALTO"       "Cuarto de PCI"
+035730  "VILLAVERDE ALTO"       "Subestacion Electrica"
+035760  "VILLAVERDE ALTO"       "Recinto"
+
+
+
+04041   "A. MARTINEZ"           "Sta. Barbara"
+04042   "A. MARTINEZ"           "Hnos. A. Quintero"
+040420  "A. MARTINEZ"           "Cuarto de PCI"
+
+04051   "COLON"                 "Colon"
+
+04061   "SERRANO"               "Serrano"
+04062   "SERRANO"               "Lagasca"
+040620  "SERRANO"               "Cuarto de PCI"
+
+04071   "VELAZQUEZ"             "Velazquez"
+04072   "VELAZQUEZ"             "Castello"
+040720  "VELAZQUEZ"             "Cuarto de PCI"
+
+04091   "LISTA"                 "Ortega y Gasset"
+04092   "LISTA"                 "D. Ramon de la Cruz"
+040920  "LISTA"                 "Cuarto de PCI"
+
+04101   "DIEGO DE LEON 4"       "Diego de Leon"
+
+04111   "AVDA. AMERICA 4"       "Avda. de America"
+07101   "AVDA. AMERICA 7"       "Avda. de America"
+04112   "AVDA. AMERICA"         "Francisco Silvela"
+041120  "AVDA. AMERICA"         "Cuarto de PCI"
+
+04121   "PROSPERIDAD"           "Prosperidad"
+041220  "PROSPERIDAD"           "Cuarto de PCI"
+
+04131   "ALFONSO XIII"          "Alfonso XIII"
+041320  "ALFONSO XIII"          "Cuarto de PCI"
+
+04141   "AVDA. LA PAZ"          "Avda. de la Paz"
+041420  "AVDA. LA PAZ"          "Cuarto de PCI"
+
+04151   "ARTURO SORIA"          "Arturo Soria"
+04152   "ARTURO SORIA"          "Ulises"
+041520  "ARTURO SORIA"          "Cuarto de PCI"
+
+04161   "ESPERANZA"             "Esperanza"
+041620  "ESPERANZA"             "Cuarto de PCI"
+
+04171   "CANILLAS"              "Canillas"
+041720  "CANILLAS"              "Cuarto de PCI"
+
+04181   "MAR DE CRISTAL"        "Mar de Cristal"
+041820  "MAR DE CRISTAL"        "Cuarto de PCI"
+
+04191   "S. LORENZO"            "San Lorenzo"
+041920  "S. LORENZO"            "Cuarto de PCI"
+
+04201   "PARQUE STA. MARIA"     "Parque de Sta. Maria"
+042020  "PARQUE STA. MARIA"     "Cuarto de PCI"
+
+04211   "HORTALEZA"  		"Hortaleza"
+042120  "HORTALEZA"     	"Cuarto de PCI"
+042160  "HORTALEZA"             "Recinto"
+512060  "HORTALEZA"             "Recinto"
+
+04221   "MANOTERAS"     	"Manoteras"
+042220  "MANOTERAS"     	"Cuarto de PCI"
+
+
+
+05011   "CANILLEJAS"            "Canillejas"
+05012   "CANILLEJAS"            "Josefa Valcarcel"
+05551   "CANILLEJAS"            "Josefa Valcarcel"
+050120  "CANILLEJAS"            "Cuarto de PCI"
+050130  "CANILLEJAS"            "Subestacion Electrica"
+050160  "CANILLEJAS"            "Recinto"
+
+05021   "TORRE ARIAS"           "Torre Arias"
+050220  "TORRE ARIAS"           "Cuarto de PCI"
+
+05031   "SUANZES"               "Suanzes"
+050320  "SUANZES"               "Cuarto de PCI"
+050330	"SUANZES"		"Subestacion Electrica"
+
+05041   "CIUDAD LINEAL"         "Arturo Soria"
+05042   "CIUDAD LINEAL"         "Albarracin"
+
+05051   "PUEBLO NUEVO"          "Emilio Ferrari"
+05052   "PUEBLO NUEVO"          "Vicente Espinel"
+050520  "PUEBLO NUEVO"          "Cuarto de PCI"
+
+05061   "QUINTANA"              "Hnos. Machado"
+05062   "QUINTANA"              "Virgen del Sagrario"
+
+05071   "EL CARMEN"             "A. Lopez Casero"
+05072   "EL CARMEN"             "Hnos. Fdez. Lanseros"
+050720  "EL CARMEN"             "Cuarto de PCI"
+
+05091   "DIEGO DE LEON 5"       "Juan Bravo"
+05092   "DIEGO DE LEON 5"       "Alcantara"
+050920  "DIEGO DE LEON 5"       "Cuarto de PCI"
+
+05101   "NUNEZ DE BALBOA"       "Juan Bravo"
+05102   "NUNEZ DE BALBOA"       "Pza. M. de Salamanca"
+051020  "NUNEZ DE BALBOA"       "Cuarto de PCI"
+
+05111   "RUBEN DARIO"           "Ruben Dario"
+05112   "RUBEN DARIO"           "Castellana"
+
+05131   "CHUECA"                "Chueca"
+051320  "CHUECA"                "Cuarto de PCI"
+
+05171   "LA LATINA"             "La Latina"
+051720  "LA LATINA"             "Cuarto de PCI"
+
+05181   "PTA. TOLEDO"           "Puerta de Toledo"
+
+05191   "ACACIAS"               "Acacias"
+
+05201   "PIRAMIDES"             "P. Acacias"
+05202   "PIRAMIDES"             "Renfe"
+052020  "PIRAMIDES"             "Cuarto de PCI"
+
+05211   "M. DE VADILLO"         "Marques de Vadillo"
+
+05221   "URGEL"                 "Toboso"
+05222   "URGEL"                 "Leganes"
+052220  "URGEL"                 "Cuarto de PCI"
+
+05231   "OPORTO"                "Valle de Oro"
+05232   "OPORTO"                "Gral. Ricardos"
+052320	"OPORTO"		"Cuarto de PCI"
+052330	"OPORTO"		"Subestacion Electrica"
+
+05241   "VISTA ALEGRE"          "Pinzon"
+05242   "VISTA ALEGRE"          "Oca"
+
+05251   "CARABANCHEL"           "Carabanchel"
+
+05261   "E. DE MONTIJO"         "Eugenia de Montijo"
+052620  "E. DE MONTIJO"         "Cuarto de PCI"
+
+05271   "ALUCHE"                "Renfe"
+05272   "ALUCHE"                "Avda. Poblados"
+052720  "ALUCHE"                "Cuarto de PCI"
+052730  "ALUCHE"                "Subestacion Electrica"
+
+05281   "EMPALME"               "Empalme"
+
+05291   "CAMPAMENTO"            "Campamento"
+052930  "CAMPAMENTO"            "Subestacion Electrica"
+
+05301   "CASA CAMPO"            "Casa Campo"
+053020  "CASA CAMPO"            "Cuarto de PCI"
+053030	"CASA CAMPO"      	"Subestacion Electrica"
+
+05311   "PILOTO"                "Piloto"
+053120  "PILOTO"                "Cuarto de PCI"
+
+05511   "EL CAPRICHO"           "El Capricho"
+055120	"EL CAPRICHO"		"Cuarto de PCI"
+055130	"EL CAPRICHO"		"Subestacion Electrica"
+
+05521   "ALAMEDA OSUNA"         "Alameda Osuna"
+055220	"ALAMEDA OSUNA"		"Cuarto de PCI"
+
+06011   "LAGUNA"                "Laguna"
+060120  "LAGUNA"                "Cuarto de PCI"
+060160  "LAGUNA"                "Recinto"
+
+06021   "CARPETANA"             "Carpetana"
+06022   "CARPETANA"             "Ntra. Sra. Valvanera"
+060220  "CARPETANA"             "Cuarto de PCI"
+060230  "CARPETANA"             "Subestacion Electrica"
+
+06041   "OPANEL"                "Opanel"
+060420  "OPANEL"                "Cuarto de PCI"
+
+06051   "PZA. ELIPTICA"         "Via Lusitana"
+06052   "PZA. ELIPTICA"         "Marcelo Usera"
+06053   "PZA. ELIPTICA"         "Intercambiador"
+060520	"PZA. ELIPTICA"    	"Cuarto de PCI"
+060530	"PZA. ELIPTICA"    	"Subestacion Electrica"
+
+06061   "USERA"                 "Amparo Usera"
+06062   "USERA"                 "Mirasierra"
+060620  "USERA"                 "Cuarto de PCI"
+
+06081   "ARGANZUELA PLANETARIO" "Arganzuela Planetario"
+060820  "ARGANZUELA PLANETARIO" "Cuarto de PCI"
+060830  "ARGANZUELA PLANETARIO" "Subestacion Electrica"
+
+06091   "MENDEZ ALVARO"         "Mendez Alvaro"
+06092   "MENDEZ ALVARO"         "Renfe"
+060920  "MENDEZ ALVARO"         "Cuarto de PCI"
+
+06111   "CONDE DE CASAL"        "Conde de Casal"
+06112   "CONDE DE CASAL"        "Dr. Esquerdo"
+061120  "CONDE DE CASAL"        "Cuarto de PCI"
+
+06121   "S. BARANDA"            "Sainz de Baranda"
+06122   "S. BARANDA"            "Dr. Esquerdo/Ascensor"
+061220  "S. BARANDA"            "Cuarto de PCI"
+061230  "S. BARANDA"            "Subestacion Electrica"
+
+06131   "O'DONNELL"             "O'Donnell"
+061320  "O'DONNELL"             "Cuarto de PCI"
+
+06171   "REP. ARGENTINA"        "Republica Argentina"
+061720  "REP. ARGENTINA"        "Cuarto de PCI"
+
+06181   "N. MINISTERIOS 6"      "Orense"
+06182   "N. MINISTERIOS 6"      "Renfe"
+06183   "N. MINISTERIOS 6"      "Distribuidor Renfe"
+061820  "N. MINISTERIOS 6"      "Cuarto de PCI"
+
+06201   "GUZMAN EL BUENO"       "Gral. Rodrigo"
+06202   "GUZMAN EL BUENO"       "Reina Victoria"
+062020  "GUZMAN EL BUENO"       "Cuarto de PCI"
+
+06211   "METROPOLITANO"         "Metropolitano"
+062120  "METROPOLITANO"         "Cuarto de PCI"
+
+06221   "C. UNIVERSITARIA"      "Ciudad Universitaria"
+062220  "C. UNIVERSITARIA"      "Cuarto de PCI"
+
+06251   "PRINCIPE PIO"          "P. Florida"
+06252   "PRINCIPE PIO"          "Renfe"
+062520  "PRINCIPE PIO"          "Cuarto de PCI"
+
+06261   "P. DEL ANGEL"          "Puerta del Angel"
+062620  "P. DEL ANGEL"          "Cuarto de PCI"
+
+06271   "A. EXTREMADURA"        "Alto de Extremadura"
+062720  "A. EXTREMADURA"        "Cuarto de PCI"
+
+06281   "LUCERO"                "Lucero"
+062820  "LUCERO"                "Cuarto de PCI"
+
+
+07011   "LAS MUSAS"             "Las Musas"
+070120  "LAS MUSAS"             "Cuarto de PCI"
+
+07021   "SAN BLAS"              "San Blas"
+070220  "SAN BLAS"              "Cuarto de PCI"
+
+07031   "SIMANCAS"              "Amposta"
+07032   "SIMANCAS"              "Ucles"
+070320  "SIMANCAS"              "Cuarto de PCI"
+
+07041   "G. NOBLEJAS"           "Garcia Noblejas"
+07042   "G. NOBLEJAS"           "Jose Arcones Gil"
+070420  "G. NOBLEJAS"           "Cuarto de PCI"
+070430  "G. NOBLEJAS"           "Subestacion Electrica"
+
+07051   "ASCAO"                 "Ascao"
+070520  "ASCAO"                 "Cuarto de PCI"
+
+07071   "B. CONCEPCION"         "B. de la Concepcion"
+070720  "B. CONCEPCION"         "Cuarto de PCI"
+
+07081   "P. AVENIDAS"           "P. de las Avenidas"
+070820  "P. AVENIDAS"           "Cuarto de PCI"
+070830  "P. AVENIDAS"           "Subestacion Electrica"
+
+07091   "CARTAGENA"             "Cartagena"
+070920  "CARTAGENA"             "Cuarto de PCI"
+
+07111   "GREGORIO MARANON"      "Gregorio Maranon"
+071120  "GREGORIO MARANON"      "Cuarto de PCI"
+071130  "GREGORIO MARANON"      "Subestacion Electrica"
+
+07121   "ALONSO CANO"           "Alonso Cano"
+071220  "ALONSO CANO"           "Cuarto de PCI"
+
+07141   "I. FILIPINAS"          "Cristo Rey"
+07142   "I. FILIPINAS"          "Islas Filipinas"
+071420  "I. FILIPINAS"          "Cuarto de PCI"
+071430  "I. FILIPINAS"          "Subestacion Electrica"
+
+07161   "F. RODRIGUEZ"          "Francos Rodriguez"
+071620  "F. RODRIGUEZ"          "Cuarto de PCI"
+071630  "F. RODRIGUEZ"          "Subestacion Electrica"
+
+07171   "VALDEZARZA"            "Virgen de la Paloma"
+07172   "VALDEZARZA"            "Valdezarza"
+071720  "VALDEZARZA"            "Cuarto de PCI"
+
+07181   "A. MACHADO"            "Antonio Machado"
+071820  "A. MACHADO"            "Cuarto de PCI"
+071830  "A. MACHADO"            "Subestacion Electrica"
+
+07191   "PENAGRANDE"            "Penagrande"
+071920  "PENAGRANDE"            "Cuarto de PCI"
+
+07201   "AV. ILUSTRACION"       "Avda de la Ilustracion"
+072020  "AV. ILUSTRACION"       "Cuarto de PCI"
+
+07211   "LACOMA"                "Lacoma"
+072120  "LACOMA"                "Cuarto de PCI"
+072130  "LACOMA"                "Subestacion Electrica"
+
+07221   "A DEL FRESNO"          "Arroyo del Fresno"
+
+07231   "PITIS"                 "Pitis"
+072320  "PITIS"                 "Cuarto de PCI"
+
+07511	"ESTADIO OLIMPICO"	"Estadio Olimpico"
+07512	"ESTADIO OLIMPICO"	"Estadio Olimpico"
+075120	"ESTADIO OLIMPICO"	"Cuarto de PCI"
+075130	"ESTADIO OLIMPICO"	"Subestacion Electrica"
+
+07541	"BARRIO DEL PUERTO"	"Barrio del Puerto"
+075420	"BARRIO DEL PUERTO"	"Cuarto de PCI"
+075430	"BARRIO DEL PUERTO"	"Subestacion Electrica"
+
+07551	"COSLADA CENTRAL"	"Coslada Central"
+075520	"COSLADA CENTRAL"	"Cuarto de PCI"
+
+07561	"LA RAMBLA"		"La Rambla"
+075620	"LA RAMBLA"		"Cuarto de PCI"
+
+07571	"SAN FERNANDO"		"San Fernando"
+075720	"SAN FERNANDO"		"Cuarto de PCI"
+
+07581	"JARAMA"		"Jarama"
+075820	"JARAMA"		"Cuarto de PCI"
+075830	"JARAMA"		"Subestacion Electrica"
+
+07591	"HENARES"		"Henares"
+075920	"HENARES"		"Cuarto de PCI"
+
+07601	"HOSPITAL HENARES"	"Hospital Henares"
+076020	"HOSPITAL HENARES"	"Cuarto de PCI"
+
+
+08011   "N. MINISTERIOS 8"      "Castellana"
+08012   "N. MINISTERIOS 8"      "Intercambiador Linea 8"
+08013   "N. MINISTERIOS 8"      "Intercambiador Linea10"
+080120  "N. MINISTERIOS 8"      "Cuarto de PCI"
+080130  "N. MINISTERIOS 8" 	"Subestacion Electrica"
+
+08021   "COLOMBIA"              "Pza. Rep. Dominicana"
+080220  "COLOMBIA"              "Cuarto de PCI"
+080230  "COLOMBIA"         	"Subestacion Electrica"
+
+08031   "PINAR DEL REY"         "Pinar del Rey"
+080320  "PINAR DEL REY"         "Cuarto de PCI"
+
+08051   "C. DE LAS NACIONES"    "Campo de las Naciones"
+080520  "C. DE LAS NACIONES"    "Cuarto de PCI"
+080530  "C. DE LAS NACIONES"   	"Subestacion Electrica"
+
+08061   "AEROPUERTO T1 T2 T3"   "Aeropuerto T1 T2 T3"
+08062   "AEROPUERTO T1 T2 T3"   "Aeropuerto T1 T2 T3"
+080620  "AEROPUERTO T1 T2 T3"   "Cuarto de PCI"
+080630  "AEROPUERTO T1 T2 T3"   "Subestacion Electrica"
+
+08071   "BARAJAS PUEBLO"        "Barajas Pueblo"
+080720  "BARAJAS PUEBLO"        "Cuarto de PCI"
+
+08081   "AEROPUERTO T4"         "Aeropuerto T4"
+08082   "AEROPUERTO T4"         "Aeropuerto T4"
+080820  "AEROPUERTO T4"         "Cuarto de PCI"
+
+09511	"MIRASIERRA"		"Mirasierra"
+095120	"MIRASIERRA"		"Cuarto de PCI"
+095130	"SACEDAL"		"Subestacion electrica"
+
+09011   "HERRERA ORIA"          "Fermin Caballero"
+09012   "HERRERA ORIA"          "Herrera Oria"
+090120  "HERRERA ORIA"          "Cuarto de PCI"
+
+09021   "B. DEL PILAR"          "Pza. Mondariz"
+09022   "B. DEL PILAR"          "Melchor Fdez. Almagro"
+090220  "B. DEL PILAR"          "Cuarto de PCI"
+
+09031   "VENTILLA"              "Ventilla"
+090320  "VENTILLA"              "Cuarto de PCI"
+
+09051   "D. DE PASTRANA"        "Duque de Pastrana"
+090520  "D. DE PASTRANA"        "Cuarto de PCI"
+
+09061   "PIO XII"               "Pio XII"
+09062   "PIO XII"               "Manuel Montilla"
+090620  "PIO XII"               "Cuarto de PCI"
+
+09081   "CONCHA ESPINA"         "Plaza de Cataluna"
+09082   "CONCHA ESPINA"         "Principe de Vergara"
+090820  "CONCHA ESPINA"         "Cuarto de PCI"
+
+09091   "CRUZ DEL RAYO"         "Sanchez Pacheco"
+09092   "CRUZ DEL RAYO"         "Principe de Vergara"
+090920  "CRUZ DEL RAYO"         "Cuarto de PCI"
+090930  "CRUZ DEL RAYO"    	"Subestacion Electrica"
+
+09131   "IBIZA"                 "Ibiza"
+091320  "IBIZA"            	"Cuarto de PCI"
+
+09151   "ESTRELLA"              "Moratalaz"
+09152   "ESTRELLA"              "Estrella"
+091520  "ESTRELLA"              "Cuarto de PCI"
+
+09161   "VINATEROS"             "Vinateros"
+09162   "VINATEROS"             "Arroyo Belincoso"
+091620  "VINATEROS"             "Cuarto de PCI"
+
+09171   "ARTILLEROS"            "Juan de Bobadilla"
+09172   "ARTILLEROS"            "Pico Artilleros"
+091720  "ARTILLEROS"            "Cuarto de PCI"
+
+09181   "PAVONES"               "Pavones"
+091820  "PAVONES"               "Cuarto de PCI"
+
+09191   "VALDEBERNARDO"         "Norte"
+09192   "VALDEBERNARDO"         "Sur"
+091920  "VALDEBERNARDO"         "Cuarto de PCI"
+
+09201   "VICALVARO"             "Vicalvaro"
+092020  "VICALVARO"             "Cuarto de PCI"
+
+09211   "SAN CIPRIANO"          "San Cipriano"
+092120  "SAN CIPRIANO"          "Cuarto de PCI"
+
+09221   "PTA. DE ARGANDA"       "Puerta de Arganda"
+092220  "PTA. DE ARGANDA"       "Cuarto de PCI"
+099930  "COCHERAS P. ARGANDA" 	"Subestacion Electrica"
+092260  "PUERTA DE ARGANDA" 	"Recinto"
+
+09241   "RIVAS URBANIZACIONES"  "Rivas Urbanizaciones"
+
+09251   "RIVAS FUTURA"          "Rivas Futura"
+092520  "RIVAS FUTURA"          "Cuarto de PCI"
+
+09261   "RIVAS VACIAMADRID"     "Rivas Vaciamadrid"
+
+09271   "LA POVEDA"             "La Poveda"
+
+09281   "ARGANDA DEL REY"       "Arganda del Rey"
+
+
+10011   "FUENCARRAL"            "Fuencarral"
+100120  "FUENCARRAL"            "Cuarto de PCI"
+100130  "FUENCARRAL"            "Subestacion Electrica"
+100160  "FUENCARRAL"            "Recinto"
+
+10021   "BEGONA"                "La Paz"
+10022   "BEGONA"                "Begona"
+100220  "BEGONA"                "Cuarto de PCI"
+100230  "BEGONA"           	"Subestacion Electrica"
+
+10031   "CHAMARTIN"             "Chamartin"
+100320  "CHAMARTIN"             "Cuarto de PCI"
+100330  "CHAMARTIN"             "Subestacion Electrica"
+
+10051   "CUZCO"                 "Cuzco"
+100520  "CUZCO"            	"Cuarto de PCI"
+100530  "CUZCO"            	"Subestacion Electrica"
+
+10061   "S. BERNABEU"           "Lima"
+10062   "S. BERNABEU"           "Estadio S. Bernabeu"
+100620  "S. BERNABEU"           "Cuarto de PCI"
+
+10071   "N. MINISTERIOS 10"     "Distribuidor Renfe"
+
+10131   "LAGO"                  "Lago"
+101330  "LAGO"             	"Subestacion Electrica"
+
+10141   "BATAN"                 "Villamanin"
+10142   "BATAN"                 "Venta del Batan"
+
+10161   "COLONIA JARDIN"        "Colonia Jardin"
+10162   "COLONIA JARDIN"        "Colonia Jardin"
+101620  "COLONIA JARDIN"        "Cuarto de PCI"
+
+10181   "AVIACION ESPANOLA"     "Aviacion Espanola"
+101820  "AVIACION ESPANOLA"     "Cuarto de PCI"
+
+10191   "CUATRO VIENTOS"        "C. Vientos"
+101920  "CUATRO VIENTOS"        "Cuarto de PCI"
+101930  "CUATRO VIENTOS"   	"Subestacion Electrica"
+109930  "COCHERAS C. VIENTOS"  	"Subestacion Electrica"
+101960  "CUATRO VIENTOS"  	"Recinto"
+
+10201	"VILUMBRALES"        	"Vilumbrales"
+102020  "VILUMBRALES"        	"Cuarto de PCI"
+
+10211	"PTA. DEL SUR"        	"Alcalde J. Vilumbrales"
+10212	"PTA. DEL SUR"        	"Olimpico Fco. Fdez. Ochoa"
+102120  "PTA. DEL SUR"        	"Cuarto de PCI"
+102130  "PTA. DEL SUR"     	"Subestacion Electrica"
+
+10511	"TRES OLIVOS"		"Tres Olivos"
+10512	"TRES OLIVOS"		"Tres Olivos"
+105120	"TRES OLIVOS"		"Cuarto de PCI"
+105130	"TRES OLIVOS"		"Subestacion Electrica"
+
+10521	"MONTECARMELO"		"Montercarmelo"
+105220	"MONTECARMELO"		"Cuarto de PCI"
+
+10531	"LAS TABLAS"		"Las Tablas"
+105320	"LAS TABLAS"		"Cuarto de PCI"
+105330	"LAS TABLAS"		"Subestacion Electrica"
+
+10541	"R. COMUNICACION"	"R. Comunicacion"
+105420	"R. COMUNICACION"	"Cuarto de PCI"
+
+10551	"LA GRANJA"		"La Granja"
+105520	"LA GRANJA"		"Cuarto de PCI"
+
+10561	"LA MORALEJA"		"La Moraleja"
+105620	"LA MORALEJA"		"Cuarto de PCI"
+105630	"LA MORALEJA"		"Subestacion Electrica"
+
+10571	"MARQUES VALDAVIA"	"Marques Valdavia"
+10572	"MARQUES VALDAVIA"	"Marques Valdavia"
+105720	"MARQUES VALDAVIA"	"Cuarto de PCI"
+
+10581	"MANUEL FALLA"		"Manuel de Falla"
+105820	"MANUEL FALLA"		"Cuarto de PCI"
+
+10591	"BAUNATAL"		"Baunatal"
+105920	"BAUNATAL"		"Cuarto de PCI"
+105930	"BAUNATAL"		"Subestacion Electrica"
+
+10601	"REYES CATOLICOS"	"Reyes Catolicos"
+106020	"REYES CATOLICOS"	"Cuarto de PCI"
+
+10611	"HOSPITAL INFANTA SOFIA"	"Hospital Infanta Sofia"
+106120	"HOSPITAL INFANTA SOFIA"	"Cuarto de PCI"
+106130	"HOSPITAL INFANTA SOFIA"	"Subestacion Electrica"
+
+
+11021   "ABRANTES"              "Abrantes"
+110220  "ABRANTES"        	"Cuarto de PCI"
+110230  "ABRANTES"        	"Subestacion Electrica"
+
+11031   "PAN BENDITO"           "Pan Bendito"
+110320  "PAN BENDITO"           "Cuarto de PCI"
+
+11041   "SAN FRANCISCO"         "San Francisco"
+110420	"SAN FRANCISCO"		"Cuarto de PCI"
+
+11051   "CARABANCHEL ALTO"      "Carabanchel Alto"
+110520	"CARABANCHEL ALTO"	"Cuarto de PCI"
+
+11061   "LA PESETA"             "La Peseta"
+110620	"LA PESETA"		"Cuarto de PCI"
+110630	"LA PESETA"		"Subestacion Electrica"
+
+11071   "LA FORTUNA"            "La Fortuna"
+110720  "LA FORTUNA"            "Cuarto de PCI"
+110730  "LA FORTUNA"            "Subestacion Electrica"
+
+
+12021	"PARQUE LISBOA"        	"Parque Lisboa"
+120220	"PARQUE LISBOA"	        "Cuarto de PCI"
+
+12031	"ALCORCON CENTRAL"	"Alcorcon Central"
+120320	"ALCORCON CENTRAL"	"Cuarto de PCI"
+120330	"ALCORCON CENTRAL"	"Subestacion Electrica"
+
+12041	"PARQUE OESTE"        	"Parque Oeste"
+120420	"PARQUE OESTE"        	"Cuarto de PCI"
+
+12051	"U. REY JUAN CARLOS"    "Univ. Rey Juan Carlos"
+120520	"U. REY JUAN CARLOS"    "Cuarto de PCI"
+120530	"U. REY JUAN CARLOS"    "Subestacion Electrica"
+
+12061	"MOSTOLES CENTRAL"      "Mostoles Central"
+120620	"MOSTOLES CENTRAL"      "Cuarto de PCI"
+
+12071	"PRADILLO"              "Pradillo"
+120720	"PRADILLO"              "Cuarto de PCI"
+
+12081	"HOSPITAL DE MOSTOLES"  "Hospital de Mostoles"
+120820	"HOSPITAL DE MOSTOLES"  "Cuarto de PCI"
+120830	"H. DE MOSTOLES"   	"Subestacion Electrica"
+
+12091	"MANUELA MALASANA"       "Manuela Malasana"
+120920	"MANUELA MALASANA"       "Cuarto de PCI"
+
+12101	"LORANCA"               "Loranca"
+121020	"LORANCA"               "Cuarto de PCI"
+121030	"LORANCA"          	"Subestacion Electrica"
+129930	"COCHERAS LORANCA" 	"Subestacion Electrica"
+121060	"LORANCA" 		"Recinto"
+
+12121	"HOSPITAL DE FUENLABRADA"       "Hospital de Fuenlabrada"
+121220	"HOSPITAL DE FUENLABRADA"       "Cuarto de PCI"
+
+12131	"PARQUE EUROPA"         "Parque Europa"
+121320	"PARQUE EUROPA"         "Cuarto de PCI"
+121330	"PARQUE EUROPA"    	"Subestacion Electrica"
+
+12141	"FUENLABRADA CENTRAL"   "Fuenlabrada Central"
+121420	"FUENLABRADA CENTRAL"   "Cuarto de PCI"
+
+12151	"PARQUE DE LOS ESTADOS" "Parque de los Estados"
+121520	"PARQUE DE LOS ESTADOS" "Cuarto de PCI"
+
+12171	"ARROYO CULEBRO"        "Arroyo Culebro"
+121720	"ARROYO CULEBRO"        "Cuarto de PCI"
+121730	"ARROYO CULEBRO"   	"Subestacion Electrica"
+
+12181	"CONSERVATORIO"         "Conservatorio"
+121820	"CONSERVATORIO"         "Cuarto de PCI"
+
+12191	"ALONSO DE MENDOZA"     "Alonso de Mendoza"
+121920	"ALONSO DE MENDOZA"     "Cuarto de PCI"
+
+12201	"GETAFE CENTRAL"        "Getafe Central"
+122020	"GETAFE CENTRAL"        "Cuarto de PCI"
+122030	"GETAFE CENTRAL"   	"Subestacion Electrica"
+
+12211	"JUAN DE LA CIERVA"     "Juan de la Cierva"
+122120	"JUAN DE LA CIERVA"     "Cuarto de PCI"
+
+12221	"EL CASAR"              "El Casar"
+122220	"EL CASAR"              "Cuarto de PCI"
+122230	"EL CASAR"         	"Subestacion Electrica"
+
+12231	"LOS ESPARTALES"        "Los Espartales"
+122320	"LOS ESPARTALES"        "Cuarto de PCI"
+
+12241	"EL BERCIAL"            "El Bercial"
+122420	"EL BERCIAL"            "Cuarto de PCI"
+
+12251	"EL CARRASCAL"          "El Carrascal"
+122520	"EL CARRASCAL"          "Cuarto de PCI"
+122530	"EL CARRASCAL"     	"Subestacion Electrica"
+
+12261	"JULIAN BESTEIRO"       "Julian Besteiro"
+122620	"JULIAN BESTEIRO"       "Cuarto de PCI"
+
+12271	"CASA DEL RELOJ"        "Casa del Reloj"
+122720	"CASA DEL RELOJ"        "Cuarto de PCI"
+
+12281	"HOSPITAL SEVERO OCHOA" "Hospital Severo Ochoa"
+122820	"HOSPITAL SEVERO OCHOA" "Cuarto de PCI"
+
+12291	"LEGANES CENTRAL"       "Leganes Central"
+122920	"LEGANES CENTRAL"       "Cuarto de PCI"
+122930	"LEGANES CENTRAL"  	"Subestacion Electrica"
+
+12301	"SAN NICASIO"           "San Nicasio"
+123020	"SAN NICASIO"           "Cuarto de PCI"
+123030	"SAN NICASIO"      	"Subestacion Electrica"
+
+
+51111   "PINAR DE CHAMARTIN"    "Pinar de Chamartin"
+511130  "PINAR DE CHAMARTIN"    "Subestacion Electrica"
+
+51121	"FUENTE DE LA MORA"     "Fuente de la Mora"
+511220	"FUENTE DE LA MORA"     "Cuarto de PCI"
+
+51131	"VIRGEN DEL CORTIJO"    "Virgen del Cortijo"
+511320	"VIRGEN DEL CORTIJO"    "Cuarto de PCI"
+
+51141	"ANTONIO SAURA"         "Antonio Saura"
+
+51151	"ALVAREZ DE VILLAAMIL"  "Alvarez de Villaamil"
+
+51161	"BLASCO IBANEZ"         "Blasco Ibanez"
+511620	"BLASCO IBANEZ"         "Cuarto de PCI"
+511630	"BLASCO IBANEZ"         "Subestacion Electrica"
+
+51171	"MARIA TUDOR"           "Maria Tudor"
+511720	"MARIA TUDOR"           "Cuarto de PCI"
+
+51181	"PALAS DE REY"          "Palas de Rey"
+
+51191	"LAS TABLAS"            "Las Tablas"
+511930	"LAS TABLAS"            "Subestacion Electrica"
+
+
+50111   "COLONIA JARDIN"        "Colonia Jardin"
+501120  "COLONIA JARDIN"        "Cuarto de PCI"
+501130  "COLONIA JARDIN"        "Subestacion Electrica"
+
+52121	"PRADO DE LA VEGA"      "Prado de la Vega"
+
+52131	"COLONIA LOS ANGELES"   "Colonia de los Angeles"
+
+52141	"PRADO DEL REY"         "Prado del Rey"
+
+52151	"SOMOSAGUAS SUR"        "Somosaguas Sur"
+521520	"SOMOSAGUAS SUR"        "Cuarto de PCI"
+521530	"SOMOSAGUAS SUR"        "Subestacion Electrica"
+
+52161	"SOMOSAGUAS CENTRO"     "Somosaguas Centro"
+
+52171	"POZUELO OESTE"         "Pozuelo Oeste"
+
+52181	"PRADO DE LAS BODEGAS"  "Prado de las Bodegas"
+
+52191	"BELGICA"               "Belgica"
+521930	"BELGICA"               "Subestacion Electrica"
+
+52201	"DOS CASTILLAS"         "Dos Castillas"
+
+52211	"CAMPUS DE SOMOSAGUAS"  "Campus de Somosaguas"
+
+52221	"AVENIDA EUROPA"        "Avenida Europa"
+522220	"AVENIDA EUROPA"        "Cuarto de PCI"
+522230	"AVENIDA EUROPA"        "Subestacion Electrica"
+
+52231	"BERNA"                 "Berna"
+
+52241	"ESTACION DE ARAVACA"   "Estacion de Aravaca"
+522430	"ESTACION DE ARAVACA"   "Subestacion Electrica"
+
+
+
+53121	"CIUDAD DE LA IMAGEN"   "Ciudad de la Imagen"
+
+53131	"JOSE ISBERT"           "Jose Isbert"
+
+53141	"CIUDAD DEL CINE"       "Ciudad del Cine"
+531430	"CIUDAD DEL CINE"       "Subestacion Electrica"
+
+53151	"METRO LIGERO"          "Metro Ligero"
+
+53161	"RETAMARES"             "Retamares"
+531630	"RETAMARES"             "Subestacion Electrica"
+
+53181	"MONTEPRINCIPE"         "Monteprincipe"
+
+53191	"VENTORRO DEL CANO"     "Ventorro del Cano"
+531930	"VENTORRO DEL CANO"     "Subestacion Electrica"
+
+53201	"PRADO DEL ESPINO"      "Prado del Espino"
+
+53221	"CANTABRIA"             "Cantabria"
+532230	"CANTABRIA"             "Subestacion Electrica"
+
+53241	"FERIAL DE BOADILLA"    "Ferial de Boadilla"
+
+53251	"BOADILLA CENTRO"       "Boadilla Centro"
+532530	"BOADILLA CENTRO"       "Subestacion Electrica"
+
+53261	"NUEVO MUNDO"           "Nuevo Mundo"
+
+53271	"SIGLO XXI"             "Siglo XXI"
+
+53281	"INFANTE DON LUIS"      "Infante Don Luis"
+
+53291	"PUERTA DE BOADILLA"    "Puerta de Boadilla"
+532930	"PUERTA DE BOADILLA"    "Subestacion Electrica"
+
+
+
+99011   "Linea_1"               "Linea_1"
+99021   "Linea_2"               "Linea_2"
+99031   "Linea_3"               "Linea_3"
+99041   "Linea_4"               "Linea_4"
+99051   "Linea_5"               "Linea_5"
+99061   "Linea_6"               "Linea_6"
+99071   "Linea_7"               "Linea_7"
+99081   "Linea_8"               "Linea_8"
+99091   "Linea_9"               "Linea_9"
+99101   "Linea_10"              "Linea_10"
+99111   "Linea_11"              "Linea_11"
+
+99201   "Extension_4564"        "Extension_4564"
+99211   "Extension_4565"        "Extension_4565"
+
+99301   "Grabador"              "Grabador"
+
+99401   "EVE01"                 "EVE01"
+
+99501   "MegMain"               "MegMain"
+99511   "MegAudio"              "MegAudio"
+99521   "MegCom1"               "MegCom1"
+99531   "MegCom2"               "MegCom2"
+99541   "MegOper1"              "MegOper1"
+
+03000   "metrosun2"             "metrosun2"
+00010   "M1 P. CENTRAL"         "movim1"
+00030   "POI20 P. CENTRAL"      "poi20"
+00060   "OP6 P. CENTRAL"        "op6_mm"
+00120   "M12 CRISTALIA"         "movim12"
+00200   "OP20 P. CENTRAL"       "op20_mm"
+00210   "OP22 P. CENTRAL"       "op22_mm"
+00220   "POI21 P. CENTRAL"      "poi21"
+00230   "POI22 P. CENTRAL"      "poi22"
+00240   "POI23 P. CENTRAL"      "poi23"
+00280   "POI31 P. CENTRAL"      "poi31"
+00300   "OP30 TICS VENTAS"      "op30_mm"
+00310   "OP31 TICS VENTAS"      "op31_mm"
+00320   "OP32 TICS VENTAS"      "op32_mm"
+00330   "OP33 TICS VENTAS"      "op33_mm"
+00340   "OP34 TICS AV. AMERICA" "op34_mm"
+00350   "OP35 TICS AV. AMERICA" "op35_mm"
+00360   "OP36 TICS AV. AMERICA" "op36_mm"
+00370   "OP37 TICS AV. AMERICA" "op37_mm"
+00420   "OP42 C. CAMINOS"       "op42_mm"
+00440   "POI24 P. CENTRAL"      "poi24"
+00450   "POI25 P. CENTRAL"      "poi25"
+00460   "POI27 P. CENTRAL"      "poi27"
+00470   "POI29 P. CENTRAL"      "poi29"
+00480   "POI33 P. CENTRAL"      "poi33"
+00500   "OP50 TICS MINISTERIOS" "op50_mm"
+00510   "OP51 TICS MINISTERIOS" "op51_mm"
+00520   "OP52 TICS MINISTERIOS" "op52_mm"
+00530   "OP53 TICS MINISTERIOS" "op53_mm"
+00540   "OP54 TICS MONCLOA"     "op54_mm"
+00550   "OP55 TICS MONCLOA"     "op55_mm"
+00560   "OP56 TICS MONCLOA"     "op56_mm"
+00570   "OP57 TICS MONCLOA"     "op57_mm"
+00580   "OP58 DR. ESQUERDO"     "op58_mm"
+00590   "OP59 CANILLEJAS"       "op59_mm"
+00710   "OP1 P. CENTRAL"        "op1_mm"
+00600   "OP60 ALUCHE"           "op60_mm" 
+00610   "OP61 P. CENTRAL"       "op61_mm" 
+00620   "OP62 DR. ESQUERDO"     "op62_mm"
+00630   "OP63 P. CENTRAL"       "op63_mm"
+00640   "OP64 DR. ESQUERDO"     "op64_mm"
+00650   "OP65 TICS PACIFICO"    "op65_mm"
+00660   "OP66 TICS PACIFICO"    "op66_mm"
+00670   "OP67 TICS PACIFICO"    "op67_mm"
+00680   "OP68 TICS PACIFICO"    "op68_mm"
+00700   "OP P. CIVIL"           "oper_pci"
+00720   "OP89 TICS P. SUR"      "FrontPCI02"
+00750   "OP75 TICS MLIGERO1"    "op75_ml1"
+00760   "OP76 TICS MLIGERO1"    "op76_ml1"
+00770   "OP77 TICS MLIGERO1"    "op77_ml1"
+00780   "OP78 TICS MLIGERO1"    "op78_ml1"
+00810   "POITICS2 TICS P. SUR"  "poitics2"
+00820   "POITICS3 TICS P. SUR"  "poitics3"
+00830   "POITICS4 TICS P. SUR"  "poitics4"
+00840   "POITICS5 TICS P. SUR"  "poitics5"
+00850   "POITICS8 TICS P. SUR"  "poitics8"
+00860   "POITICS1 TICS P. SUR"  "poitics1"
+00870   "POITICS6 TICS P. SUR"  "poitics6"
+00880   "POITICS7 TICS P. SUR"  "poitics7"
+00890   "OSIRIS CRISTALIA"      "osiris"
+00900   "POIM1 P. CENTRAL"      "poim1"
+00910   "POICAV1 CAVANILLES"    "poicav1"
+00920   "POE29 CRISTALIA"       "poe29"
+00930   "POE21 CRISTALIA"       "poe21"
+00940   "POE16 CRISTALIA"       "poe16"
+00950   "OPTCE1 COMMIT"         "opTCE1"
+00960   "OPTCE2 COMMIT"         "opTCE2"
+00970   "OPTCE3 COMMIT"         "opTCE3"
+00980   "POE25 CRISTALIA"       "poe25"
+00990   "POE99 CRISTALIA"       "poe99"
+
+

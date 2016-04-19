@@ -1,0 +1,15 @@
+#!/bin/csh
+setenv PERIODO_URGENTE  50
+setenv PERIODO_SCHEDULER 50
+setenv INSTALACION_URGENTE 10
+setenv PRIORIDAD_URGENTE PR_MAXIMA
+setenv VERSION_MODBUS SI
+setenv PROTOCOLOMODBUS UM:502
+setenv RODANDO_CON_METROVISION  TRUE
+setenv MOSTRAR_BOTONES_VIDEO    TRUE
+#setenv FICHERO_TRAZAS_ESCANEO   /tmp/tce_trazas.log
+setenv ALARMAS_URGENTES 1
+while ( 'forever' != '' )
+	cd $HOME/sistema/V
+	$HOME/sun/control > /dev/null
+end

@@ -1,0 +1,13 @@
+#
+# Fichero que guarda los nombres y codigos de los FS de los pozos fecales
+#
+#
+# Codigo del FS		Texto
+#
+
+TOTAL_NOMBRES	3
+
+1	dummy	"Fallo Alimentacion"
+2	dummy	"Defecto Bomba A"
+3	dummy	"Defecto Bomba B"
+

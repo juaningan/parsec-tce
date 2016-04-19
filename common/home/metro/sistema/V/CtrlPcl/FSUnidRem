@@ -1,0 +1,12 @@
+#
+# Fichero que guarda los nombres y codigos de los FS de las UR 
+#
+#
+# Codigo del FS		Texto
+#
+
+TOTAL_NOMBRES	3
+
+1	dummy	"Unidad Remota DESCONECTADA"
+2	dummy	"Error Protocolo"
+3	dummy	"SAI desconectado"

@@ -1,0 +1,171 @@
+#!/bin/sh 
+#
+# ActualizaListas.nuevo -- Actualiza los ficheros de Listas y Horarios.
+#
+# Autor : Guillermo Gonzalez Paez
+#
+# 30/11/2009: Corregidos algunos errores. Se buscan nuevas listas cada 60 segundos. 
+# 18/11/2009: Modificado para que el codigo administrativo se pase como parametro
+# 11/10/2009: Modificado para tomar las listas del servidor de BD
+# 04/06/2008: Adaptado para que funcione en Linux o Solaris
+# 25/10/2007: Se preservan la fecha y permisos de las listas originales
+# 30/10/2003: Forzamos la compresion y borrado de logs antiguos con -f
+
+# Anotamos el codigo administrativo de la estacion 
+# En principio sera el primer parametro indicado
+# Si no se indica parametro se asume el codigo del fichero CfgEquipo
+if [ -n $1 ]
+then
+  COD_ADMIN=$1
+#else
+#  COD_ADMIN=`grep CAN /home/metro/sistema/V/CfgEquipo.CFG | sed "s/^[^0-9]*//g" | sed "s/^\(....\).*/\1/g" | head -1`
+fi
+if [ -z $COD_ADMIN ]
+then
+  echo Debe indicar el codigo administrativo de la estacion como parametro 
+  echo El codigo administrativo de la estacion es un numero de 5 digitos
+  echo Ejemplo: $0 90031
+  exit 1
+fi
+
+# Tipo de sistema operativo (Linux o SunOS)
+SIST_OP=`uname -s`
+
+if [ "$SIST_OP" = "SunOS" ]
+then
+   CMD_PING="/usr/sbin/ping"
+   CMD_GUNZIP="/usr/local/bin/gunzip"
+else
+  if [ "$SIST_OP" = "Linux" ]
+  then
+    CMD_PING="ping -c 1"
+    CMD_GUNZIP="gunzip"
+  else
+    CMD_PING="ping"
+    CMD_GUNZIP="gunzip"
+  fi
+fi
+
+# Codigo administrativo de la estacion 
+#COD_ADMIN=`grep CAN /home/metro/sistema/V/CfgEquipo.CFG | sed "s/^[^0-9]*//g" | sed "s/^\(....\).*/\1/g" | head -1`
+
+# PC de Base de Datos al que se mandan los eventos
+SERVIDOR_BD=bd_controlid
+
+# Usuario utilizado para hacer rcp y rsh
+USUARIO=metro
+
+# Directorio del servidor donde estan las listas 
+DIR_LISTAS_BD=/home/metro/ControlId/Listas
+
+# Directorio temporal donde descomprimir los ficheros de Listas nuevos.
+DIR_TEMP=/tmp
+
+# Directorio donde esta el sistema de ControlId
+DIR_CONTROLID=/home/metro/ControlId
+
+# Directorio donde estan los ficheros de Listas a actualizar.
+DIR_LISTAS=$DIR_CONTROLID/Listas
+
+# Archivo comprimido que contendra las listas para la estacion
+FILE_LISTAS=${COD_ADMIN}_ControlId.tar.gz
+
+# Directorio en el que se guardan los logs de este script.
+DIR_LOGS=$DIR_CONTROLID/logs
+
+# Funcion para borrar logs antiguos.
+# Se borran los archivos *.log con 7 dias de antiguedad.
+borrar_log()
+{
+    # Comprimimos los logs con antiguedad mayor a un dia.
+    find $DIR_LOGS -name \*.actualizalistas.nuevo.log -mtime +0 -exec gzip -f {} \;
+    # Borramos los logs comprimidos de hace una semana.
+    find $DIR_LOGS -name \*.actualizalistas.nuevo.log.gz -mtime +7 -exec rm -f {} \;
+}
+
+# Funcion para ver si hay algun archivo de listas en la BD para actualizar.
+# Si se encuentra, se destarea en el directorio DIR_TEMP
+hay_listas () {
+  HAY_FICH=1
+  
+  # Si hay ping con el servidor de BD
+  if $CMD_PING $SERVIDOR_BD > /dev/null 2>&1
+  then
+    # Si existe archivo de listas en servidor, se copia a local y se destarea
+    if rcp ${USUARIO}@${SERVIDOR_BD}:${DIR_LISTAS_BD}/${FILE_LISTAS} ${DIR_TEMP} > /dev/null 2>&1 
+    then
+      echo $fecha "INFO: Existe nuevo archivo de listas $FILE_LISTAS en $SERVIDOR_BD"
+      # Si el archivo existe en DIR_TEMP es que el rcp se ha hecho bien
+      if [ -r ${DIR_TEMP}/${FILE_LISTAS} ]
+      then
+        echo $fecha "INFO: $FILE_LISTAS copiado al equipo"
+        cd $DIR_TEMP
+        if cat $DIR_TEMP/$FILE_LISTAS | $CMD_GUNZIP | tar xvf - > /dev/null 2>&1
+        then
+           rm -f $DIR_TEMP/$FILE_LISTAS
+           echo $fecha "OK: Se ha descomprimido $FILE_LISTAS"
+           # Borramos el archivo del servidor
+           rsh ${SERVIDOR_BD} rm -f ${DIR_LISTAS_BD}/${FILE_LISTAS}
+           HAY_FICH=0 
+        else
+           echo $fecha "ERROR: Error al descomprimir $FILE_LISTAS"
+        fi
+      else
+        echo $fecha "ERROR: Error al copiar $FILE_LISTAS desde $SERVIDOR_BD" 
+      fi 
+#   else
+#     echo $fecha "INFO: No existe $FILE_LISTAS en  $SERVIDOR_BD"
+    fi
+  else
+   echo $fecha "ERROR: No hay ping con $SERVIDOR_BD"
+  fi
+
+  return $HAY_FICH
+}
+
+# Funcion para actualizar los ficheros del directorio Listas 
+actualizar_listas() {
+   for i in $DIR_TEMP/Listas/* 
+   do
+      if [ -f $i ]
+      then
+         NOMBRE=`basename $i`
+         if [ -f $DIR_LISTAS/$NOMBRE ]
+         then
+            # Renombramos el archivo existente.
+            mv $DIR_LISTAS/$NOMBRE $DIR_LISTAS/$NOMBRE.bak
+         fi
+         # Copiamos el archivo nuevo (preservando la fecha y permisos)
+         cp -p $i $DIR_LISTAS
+         # Borramos el archivo del temporal.
+         rm -f $i
+         echo $fecha "OK: Se ha actualizado $NOMBRE"
+      fi
+   done
+   # Borramos el directorio Listas del temporal.
+   rm -rf $DIR_TEMP/Listas
+}
+
+# Funcion principal para actualizar las listas.
+actualiza ()
+{
+  if hay_listas 
+  then
+     actualizar_listas
+     # Borramos los archivos de log antiguos.
+     borrar_log  
+#  else
+#     echo $fecha "INFO: No existen listas para actualizar en $SERVIDOR_BD"
+  fi
+}
+
+while true
+do
+    ARCHIVO_LOG=`date +%j`.actualizalistas.nuevo.log
+    fecha=`date '+%d/%m/%y %H:%M:%S'`
+    actualiza >> $DIR_LOGS/$ARCHIVO_LOG 2>&1
+    sleep 60
+done
+
+exit 0
+

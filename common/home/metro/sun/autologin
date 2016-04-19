@@ -1,0 +1,5 @@
+#!/bin/sh
+stty sane
+echo >/tmp/.autostart_lock
+chown metro /tmp/.autostart_lock
+exec su - metro

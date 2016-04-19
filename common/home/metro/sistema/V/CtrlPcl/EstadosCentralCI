@@ -1,0 +1,13 @@
+#
+# Fichero que guarda los nombres y codigos de los estados de la central CI
+#
+#
+# Codigo del estado 			Nombre del estado
+# 		
+#
+
+TOTAL_NOMBRES	3
+
+0	"NORMAL"
+4	"FUERA_DE_SERVICIO"
+99      "SIN_COMUNICACION"

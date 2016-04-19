@@ -1,0 +1,32 @@
+/* XPM */
+static char * OperDisyuntorAbierto_icon[] = {
+/* width height ncolors cpp [x_hot y_hot] */
+"111 20 6 1 0 0",
+/* colors */
+" 	s iconGray1	m white	c #dededededede",
+".	s iconGray6	m black	c #636363636363",
+"X	s none	m none	c none",
+"o	s iconGray4	m white	c #949494949494",
+"O	s iconColor3	m black	c red",
+"+	s iconGray8	m black	c #212121212121",
+/* pixels */
+"                                                      .X...................................................... ",
+"                                                     ..X.....................................................  ",
+"  ooooooooooooooooooooooooooooooooooooooooooooooooooo..X..OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO  ",
+"  ooooooooooooooooooooooooooooooooooooooooooooooooooo..X..OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO  ",
+"  ooooooooooooooooooooooooooooooooooooooooooooooooooo..X..OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO  ",
+"  ooo   ooo     oo    ooo    oooo   ooo   ooooo   ooo..X..OOO+++OOO++++OOO+++++OO+++++OO++++OOO+++++OOO+++OOO  ",
+"  oo ooo oo oooooo ooo oo ooo oo ooo oo oo ooo ooo oo..X..OO+OOO+OOO+OO+OOOO+OOOO+OOOOOO+OOO+OOOO+OOOO+OOO+OO  ",
+"  oo oooooo oooooo ooo oo ooo oo ooo oo ooo oo ooo oo..X..OO+OOO+OOO+OO+OOOO+OOOO+OOOOOO+OOO+OOOO+OOOO+OOO+OO  ",
+"  oo oooooo oooooo ooo oo ooo oo ooo oo ooo oo ooo oo..X..OO+OOO+OOO+OO+OOOO+OOOO+OOOOOO+OOO+OOOO+OOOO+OOO+OO  ",
+"  oo oooooo   oooo    ooo    ooo ooo oo ooo oo ooo oo..X..OO+OOO+OOO+++OOOOO+OOOO+++OOOO++++OOOOO+OOOO+OOO+OO  ",
+"  oo oooooo oooooo  ooooo  ooooo     oo ooo oo ooo oo..X..OO+++++OOO+OO+OOOO+OOOO+OOOOOO++OOOOOOO+OOOO+OOO+OO  ",
+"  oo oooooo oooooo o oooo o oooo ooo oo ooo oo ooo oo..X..OO+OOO+OOO+OO+OOOO+OOOO+OOOOOO+O+OOOOOO+OOOO+OOO+OO  ",
+"  oo ooo oo oooooo oo ooo oo ooo ooo oo oo ooo ooo oo..X..OO+OOO+OOO+OO+OOOO+OOOO+OOOOOO+OO+OOOOO+OOOO+OOO+OO  ",
+"  ooo   ooo     oo ooo oo ooo oo ooo oo   ooooo   ooo..X..OO+OOO+OO++++OOO+++++OO+++++OO+OOO+OOOO+OOOOO+++OOO  ",
+"  ooooooooooooooooooooooooooooooooooooooooooooooooooo..X..OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO  ",
+"  ooooooooooooooooooooooooooooooooooooooooooooooooooo..X..OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO  ",
+"  ooooooooooooooooooooooooooooooooooooooooooooooooooo..X..OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO  ",
+"  ooooooooooooooooooooooooooooooooooooooooooooooooooo..X..OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO  ",
+" ......................................................X.                                                      ",
+" ......................................................X                                                       "};

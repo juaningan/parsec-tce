@@ -1,0 +1,143 @@
+# FICHERO DE CONFIGURACION DE LOS TIPOS DE ALARMAS TECNICAS PARA METTA 2000
+#            HA DE ESTAR ORDENADO POR CODIGO DE MENOR A MAYOR
+#
+ NRO_DE_TIPOS_DE_ALARMA		133
+ PRIORIDAD_MINIMA_PARA_REPORTAR	0
+#
+# SINTAXIS:  ALARMA  <CodHexadecimal> <Prioridad> <Periodo> <FichAudio> <Texto>
+#
+# Codigos (en Hexadecimal) propios del Driver
+ALARMA   4 4 30  FueServMetta	Metta Fuera de Servicio
+ALARMA  4E 4 30  AmenazaMetta	Entrada Bajo Amenaza
+ALARMA  4F 4 30  SonoraMetta	Alarma Sonora Activada
+ALARMA  60 3 30  DummyMetta	Numero de Metta Incorrecto
+ALARMA  61 3 30  DummyMetta	Error Apertura Fichero
+ALARMA  62 3 30  DummyMetta	Error Protocolo SDLC
+ALARMA  63 4 30  DesconecMetta	Metta Sin Comunicacion
+# Codigos propios de las METTA
+ALARMA 101 4 30  DummyMetta  Rollo Papel 1 Terminandose
+ALARMA 102 4 30  DummyMetta  Rollo Papel 2 Terminandose
+ALARMA 103 4 30  DummyMetta  Rollo Papel 3 Terminandose
+ALARMA 104 4 30  DummyMetta  Rollo Papel 4 Terminandose
+ALARMA 105 4 30  DummyMetta  Rollo Papel 5 Terminandose
+ALARMA 106 4 30  DummyMetta  Rollo Papel 6 Terminandose
+ALARMA 201 5 30  RolloMetta  Rollo Papel 1 Agotado
+ALARMA 202 5 30  RolloMetta  Rollo Papel 2 Agotado
+ALARMA 203 5 30  RolloMetta  Rollo Papel 3 Agotado
+ALARMA 204 5 30  RolloMetta  Rollo Papel 4 Agotado
+ALARMA 205 5 30  RolloMetta  Rollo Papel 5 Agotado
+ALARMA 206 5 30  RolloMetta  Rollo Papel 6 Agotado
+ALARMA 301 4 30  DummyMetta  Devolvedor 1 Terminandose
+ALARMA 302 4 30  DummyMetta  Devolvedor 2 Terminandose
+ALARMA 303 4 30  DummyMetta  Devolvedor 3 Terminandose
+ALARMA 304 4 30  DummyMetta  Devolvedor 4 Terminandose
+ALARMA 401 5 30  DevolMetta  Devolvedor 1 Agotado
+ALARMA 402 5 30  DevolMetta  Devolvedor 2 Agotado
+ALARMA 403 5 30  DevolMetta  Devolvedor 3 Agotado
+ALARMA 404 5 30  DevolMetta  Devolvedor 4 Agotado
+ALARMA 405 4 30  DummyMetta  Discrepancia Nivel Llenado Hopper 1
+ALARMA 406 4 30  DummyMetta  Discrepancia Nivel Llenado Hopper 2
+ALARMA 407 4 30  DummyMetta  Discrepancia Nivel Llenado Hopper 3
+ALARMA 408 4 30  DummyMetta  Discrepancia Nivel Llenado Hopper 4
+ALARMA 501 5 30  RecarMetta  Recargador 1 Vacio
+ALARMA 502 5 30  RecarMetta  Recargador 2 Vacio
+ALARMA 503 5 30  RecarMetta  Recargador 3 Vacio
+ALARMA 504 5 30  RecarMetta  Recargador 4 Vacio
+ALARMA 505 4 30  DummyMetta  Imposible Abrir Recargador 1
+ALARMA 506 4 30  DummyMetta  Imposible Abrir Recargador 2
+ALARMA 507 4 30  DummyMetta  Imposible Abrir Recargador 3
+ALARMA 508 4 30  DummyMetta  Imposible Abrir Recargador 4
+ALARMA 601 5 30  DummyMetta  Caja Recaudación 1 Llena
+ALARMA 602 5 30  DummyMetta  Caja Recaudación 2 Llena
+ALARMA 603 5 30  DummyMetta  Caja Recaudación 3 Llena
+ALARMA 604 5 30  DummyMetta  Caja Recaudación Billetero Llena
+ALARMA 605 5 30  RecMoMetta  Cajas Recaud. Mon. Llenándose
+ALARMA 606 5 30  RecBiMetta  Caja Recaud. Bill. Llenándose
+ALARMA 700 4 30  DummyMetta  Fallo Billetero (Generico)
+ALARMA 701 4 30  DummyMetta  Fallo Billetero (Validador)
+ALARMA 702 4 30  DummyMetta  Fallo Billetero (Validador)
+ALARMA 703 4 30  DummyMetta  Fallo Billetero (+5V)
+ALARMA 704 4 30  DummyMetta  Fallo Billetero (+15V)
+ALARMA 705 4 30  DummyMetta  Fallo Billetero (-15V)
+ALARMA 706 4 30  DummyMetta  Fallo Billetero (+18.6V)
+ALARMA 707 4 30  DummyMetta  Fallo Billetero (Batería)
+ALARMA 708 4 30  DummyMetta  Fallo Billetero (Validador)
+ALARMA 70A 4 30  DummyMetta  Fallo Billetero (Validador)
+ALARMA 70B 4 30  DummyMetta  Fallo Billetero (Validador)
+ALARMA 70C 4 30  DummyMetta  Fallo Billetero (Validador)
+ALARMA 750 4 30  DummyMetta  Fallo Billetero (Validador)
+ALARMA 751 4 30  DummyMetta  Fallo Billetero (Validador)
+ALARMA 752 4 30  DummyMetta  Fallo Billetero (Validador)
+ALARMA 753 4 30  DummyMetta  Fallo Billetero (Validador)
+ALARMA 754 4 30  DummyMetta  Fallo Billetero (Validador)
+ALARMA 761 4 30  DummyMetta  Fallo Billetero (Escrow)
+ALARMA 762 4 30  DummyMetta  Fallo Billetero (Escrow)
+ALARMA 763 4 30  DummyMetta  Fallo Billetero (Escrow)
+ALARMA 764 4 30  DummyMetta  Fallo Billetero (Escrow)
+ALARMA 765 4 30  DummyMetta  Fallo Billetero (Escrow)
+ALARMA 766 4 30  DummyMetta  Fallo Billetero (Escrow)
+ALARMA 767 4 30  DummyMetta  Fallo Billetero (Escrow)
+ALARMA 768 4 30  DummyMetta  Fallo Billetero (Escrow)
+ALARMA 769 4 30  DummyMetta  Fallo Billetero (Escrow)
+ALARMA 76A 4 30  DummyMetta  Fallo Billetero (Escrow)
+ALARMA 76B 4 30  DummyMetta  Fallo Billetero (Escrow)
+ALARMA 76C 4 30  DummyMetta  Fallo Billetero (Escrow)
+ALARMA 76D 4 30  DummyMetta  Fallo Billetero (Escrow)
+ALARMA 76E 4 30  DummyMetta  Fallo Billetero (Escrow)
+ALARMA 76F 4 30  DummyMetta  Fallo Billetero (Escrow)
+ALARMA 770 4 30  DummyMetta  Fallo Billetero (Caja)
+ALARMA 771 4 30  DummyMetta  Fallo Billetero (Caja)
+ALARMA 772 4 30  DummyMetta  Fallo Billetero (Escrow)
+ALARMA 773 4 30  DummyMetta  Fallo Billetero (Escrow)
+ALARMA 781 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 782 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 783 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 784 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 785 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 786 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 791 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 792 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 793 4 30  DummyMetta  Fallo Billetero (LEDs)
+ALARMA 7B1 4 30  DummyMetta  Fallo Billetero (Validador)
+ALARMA 7B2 4 30  DummyMetta  Fallo Billetero (Validador)
+ALARMA 7B3 4 30  DummyMetta  Fallo Billetero (Validador)
+ALARMA 7F0 4 30  DummyMetta  Fallo Billetero (Con Papel)
+ALARMA 801 4 30  DummyMetta  Fallos Reiterados Expendedor Billetes
+ALARMA 901 4 30  DummyMetta  Mant. Preven. Billetero Requerido
+ALARMA 902 4 30  DummyMetta  Mant. Preven. Monedero Requerido
+ALARMA 903 4 30  DummyMetta  Mant. Preven. Hopper 1 Requerido
+ALARMA 904 4 30  DummyMetta  Mant. Preven. Hopper 2 Requerido
+ALARMA 905 4 30  DummyMetta  Mant. Preven. Hopper 3 Requerido
+ALARMA 906 4 30  DummyMetta  Mant. Preven. Hopper 4 Requerido
+ALARMA 907 4 30  DummyMetta  Mant. Preven. Cab. Grab. Requerido
+ALARMA 908 4 30  DummyMetta  Mant. Preven. Cab. Lect. Requerido
+ALARMA 909 4 30  DummyMetta  Mant. Preven. Impresora Requerido
+ALARMA 90A 4 30  DummyMetta  Mant. Preven. Cinta Imp. Requerido
+ALARMA 90B 4 30  DummyMetta  Mant. Preven. Procesador Requerido
+ALARMA 90C 4 30  DummyMetta  Mant. Preven. Limpieza Requerido
+ALARMA 90D 4 30  DummyMetta  Mant. Preven. Bat.Alarma Requerido
+ALARMA 90E 4 30  DummyMetta  Mant. Preven. Bat.Fuente Requerido
+ALARMA 90F 4 30  DummyMetta  Mant. Preven. Tecl.Usua. Requerido
+ALARMA 910 4 30  DummyMetta  Mant. Preven. Tecl.Mant Requerido
+ALARMA 911 4 30  DummyMetta  Mant. Preven. Monitor Requerido
+ALARMA 912 4 30  DummyMetta  Mant. Preven. Disco Duro Requerido
+ALARMA A00 4 30  DummyMetta  Fallo Comunicacion Lector OMROM
+ALARMA A01 4 30  DummyMetta  Fallo Comunicacion Concentrador
+ALARMA A02 4 30  DummyMetta  Fallo Comunicacion Aceptador Billetes
+ALARMA A06 4 30  DummyMetta  Fallo Comunicacion Display Rotante
+ALARMA B01 4 30  DummyMetta  Fallo Lector Magnetico Mantenimiento
+ALARMA B02 4 30  DummyMetta  Fallo Alarma Sonora
+ALARMA B03 4 30  DummyMetta  Fallo Alarma Tecnica
+ALARMA C01 4 30  DummyMetta  Fallo Mensajes Display Rotante
+ALARMA C02 4 30  DummyMetta  Fallo Teclado Mantenimiento
+ALARMA D01 4 30  DummyMetta  Fallo Aceptacion Billetes
+ALARMA D02 4 30  DummyMetta  Fallo Rechazo Billetes
+ALARMA D03 4 30  DummyMetta  Fallo Devolucion Billetes
+ALARMA D04 4 30  DummyMetta  Fallo Insercion Caja Billetes
+ALARMA E01 4 30  DummyMetta  Fallo Desviador Billetes
+ALARMA E02 4 30  DummyMetta  Fallo Destructor Banda Magnetica
+ALARMA F01 4 30  DummyMetta  A.T.M. Limpieza General
+ALARMA F02 4 30  DummyMetta  A.T.M. Metacrilatos
+ALARMA F03 4 30  DummyMetta  A.T.M. Alumbrado
+ALARMA F04 4 30  DummyMetta  A.T.M. Seguridad
+ALARMA F05 4 30  DummyMetta  A.T.M. Vandalismo

@@ -1,0 +1,23 @@
+#
+# Fichero que guarda los nombres y codigos de los estados de ventilacion 
+#
+#
+# Codigo del estado 			Nombre del estado
+# 		
+#
+
+TOTAL_NOMBRES	13
+
+900	"ON"
+901	"OFF"
+902	"DEFECTO"
+903     "SIN_DEFECTO"
+904	"CONECTADO"
+905	"DESCONECTADO"
+906	"BIEN"
+907	"MAL"
+908	"CERRADO"
+909	"ABIERTO"
+910	"SI"
+911	"NO"
+0       "NORMAL"
