@@ -1,0 +1,4 @@
+#!/usr/bin/ksh
+./autostart-mvi &
+/usr/bin/mwm
+

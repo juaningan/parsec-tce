@@ -1,0 +1,4 @@
+#!/usr/bin/ksh
+rpcinfo -d 805306368 1
+rpcinfo -d 805306369 1
+xinit ./autoarranque-mvi
