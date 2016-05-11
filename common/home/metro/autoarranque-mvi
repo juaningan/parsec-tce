@@ -1,4 +1,3 @@
 #!/usr/bin/ksh
 ./autostart-mvi &
-/usr/bin/mwm
-
+/usr/bin/fvwm

@@ -9,5 +9,6 @@ export RODANDO_CON_METROVISION=TRUE
 export MOSTRAR_BOTONES_VIDEO=TRUE
 export ALARMAS_URGENTES=1
 export HOME=/home/metro
+export PATH=/home/metro/sun:$PATH
 cd $HOME/sistema/V
 $HOME/sun/control > /dev/null 2>&1
